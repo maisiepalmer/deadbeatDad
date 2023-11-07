@@ -16,13 +16,13 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerController = GetComponent<Rigidbody>();
-        playerController.useGravity = true;
     }
 
     private void Update()
     {
+        // move 360 direction relative to mouse
         rotation.y += Input.GetAxis("Mouse X");
-        rotation.x += -Input.GetAxis("Mouse Y");
+        rotation.x -= Input.GetAxis("Mouse Y");
         transform.eulerAngles = (Vector2)rotation * lookSpeed;
     }
 
