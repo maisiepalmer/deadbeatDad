@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Road
+  - Intersection
+  - EndOfRoad
+  - Vehicle
   layers:
   - Default
   - TransparentFX
