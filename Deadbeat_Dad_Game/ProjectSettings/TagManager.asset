@@ -8,6 +8,8 @@ TagManager:
   - Intersection
   - EndOfRoad
   - Vehicle
+  - FastFood
+  - Building
   layers:
   - Default
   - TransparentFX

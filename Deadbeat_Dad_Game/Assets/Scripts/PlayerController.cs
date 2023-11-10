@@ -2,65 +2,87 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
+/* ADAPTED FROM: https://www.sharpcoderblog.com/blog/unity-3d-fps-controller 
+    With alterations:
+    - Own script to control mousemovement relative to the camera
+    - Unneded code blocks removed
+    - Neatened and tidied up
+*/
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    private Rigidbody playerController;
+    public float walkingSpeed = 7.5f;
+    public float runningSpeed = 11.5f;
+    public float jumpSpeed = 8.0f;
+    private float gravity = 20.0f;
 
-    Vector3 rotation = Vector3.zero;
-    public float lookSpeed = 10f;
+    CharacterController characterController;
+    Vector3 moveDirection = Vector3.zero;
 
-    private Vector3 lastValue;
+    [HideInInspector]
+    public bool canMove = true;
 
     void Start()
     {
-        playerController = GetComponent<Rigidbody>();
+        characterController = GetComponent<CharacterController>();
     }
 
-    private void Update()
+    void Update()
     {
-        // move 360 direction relative to mouse
-        rotation.y += Input.GetAxis("Mouse X");
-        rotation.x -= Input.GetAxis("Mouse Y");
-        transform.eulerAngles = (Vector2)rotation * lookSpeed;
-    }
+        // We are grounded, so recalculate move direction based on axes
+        Vector3 forward = transform.TransformDirection(Vector3.forward);
+        Vector3 right = transform.TransformDirection(Vector3.right);
 
-    private void FixedUpdate()
-    {
-        if (Keyboard.KeyCount > 0)
-            MovePlayerRelativeToCamera();
+        // Press Left Shift to run
+        bool isRunning = Input.GetKey(KeyCode.LeftShift);
+
+        float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
+        float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
+
+        float movementDirectionY = moveDirection.y;
+        moveDirection = (forward * curSpeedX) + (right * curSpeedY);
+        moveDirection.y = (Input.GetButton("Jump") && canMove && characterController.isGrounded) ? jumpSpeed : movementDirectionY;
+
+        // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
+        // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
+        // as an acceleration (ms^-2)
+        if (!characterController.isGrounded)
+        {
+            moveDirection.y -= gravity * Time.deltaTime;
+        }
+
+        // Move the controller
+        characterController.Move(moveDirection * Time.deltaTime);
+
+        /* ADDED: My own code to allow player to enter necessary buildings */
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 10))
+            {
+                if (hit.collider.CompareTag("FastFood"))
+                {
+                    Debug.Log("Enter this building");
+                    SceneManager.LoadScene("FastFood", LoadSceneMode.Single);
+                    
+                }
+                else if (hit.collider.CompareTag("Building"))
+                {
+                    Debug.Log("Don't get off task! You have ... minutes remaining!");
+                }
+            }
+        }
+
+
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Collided");
-    }
-
-    // ADAPTED FROM: https://youtu.be/7kGCrq1cJew?si=hDGWI_3S8jt2mnoo
-    private void MovePlayerRelativeToCamera()
-    {
-        // get player input
-        float playerVerticalInput = Input.GetAxis("Vertical");
-        float playerHorizontalInput = Input.GetAxis("Horizontal");
-
-        // get camera-normalised directional vectors
-        Vector3 forward = Camera.main.transform.forward;
-        Vector3 right = Camera.main.transform.right;
-        forward.y = 0;
-        right.y = 0;
-        forward = forward.normalized;
-        right = right.normalized;
-
-        // create direction-relative input vectors
-        Vector3 forwardVerticalInput = playerVerticalInput * forward;
-        Vector3 rightVerticalInput = playerHorizontalInput * right;
-
-        // create camera-relative movement
-        Vector3 cameraRelativeMovement = (forwardVerticalInput + rightVerticalInput) * moveSpeed;
-
-        // apply to player with smoothing
-        playerController.velocity = (cameraRelativeMovement * 0.9f) + (lastValue * 0.1f);
-        lastValue = cameraRelativeMovement;
+        if (collision.collider.CompareTag("Vehicle"))
+        {
+            // GameOver()
+        }
     }
 }

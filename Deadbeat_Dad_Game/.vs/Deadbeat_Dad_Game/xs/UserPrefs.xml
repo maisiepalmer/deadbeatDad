@@ -1,16 +1,29 @@
 ﻿<Properties StartupConfiguration="{6EE7DE22-3F88-8143-82D6-4BB8786B96E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VehicleController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="14" Column="31" />
-      <File FileName="Assets/Scripts/VehicleController.cs" Line="15" Column="33" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="26" Column="17" />
+      <File FileName="Assets/Scripts/VehicleController.cs" Line="57" Column="33" />
+      <File FileName="Assets/Scripts/MouseController.cs" Line="15" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Deadbeat_Dad_Game" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Brick Project Studio" expanded="True">
+                <Node name="_BPS Basic Assets" expanded="True">
+                  <Node name="Common" expanded="True">
+                    <Node name="Scripts and Animations" expanded="True">
+                      <Node name="First Person Player" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Fast Food Restaurant Kit" expanded="True">
+                  <Node name="Scene" expanded="True" />
+                </Node>
+              </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="VehicleController.cs" selected="True" />
+                <Node name="PlayerController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0cb8883-e7d4-4d8b-89c2-1651e472a7c6" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="001f8bb0-2b0d-427b-aa35-f90eb6e73b5a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
