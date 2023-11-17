@@ -5,7 +5,7 @@ using UnityEngine;
 /* My own code to make movement and camera follow the mouse */
 public class MouseController : MonoBehaviour
 { 
-    public float lookSpeed = 2.0f;
+    public float lookSpeed = 10.0f;
     private Vector3 rotation;
 
     public Transform playerBody;
