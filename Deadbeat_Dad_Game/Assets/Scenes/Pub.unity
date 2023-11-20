@@ -6590,6 +6590,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Int_BA_Door_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255673126108304427, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
     - target: {fileID: 3813802598777334903, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -6638,6 +6646,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8788053114788306297, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1178380730}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6929,6 +6941,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1933042457673796869, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1178380730}
+    - target: {fileID: 1933042457673796869, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: exitDoor
+      value: 
+      objectReference: {fileID: 1663492031}
     - target: {fileID: 2341601490115551455, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: m_Name
       value: BA_First Person Player
@@ -7553,6 +7573,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ef1a26308bc0c6e4791116453af2a5d9, type: 3}
+--- !u!4 &1178380730 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8190220565440037261, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+  m_PrefabInstance: {fileID: 1092559768}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1185396192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11024,6 +11049,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: af00f1e815da45c4c8c0f6083b0a1bcc, type: 3}
+--- !u!1 &1663492031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
+  m_PrefabInstance: {fileID: 1036004700}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1667029930 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1643383897835900, guid: f3daa28def9246d4db4ffae8dfc6efd1, type: 3}
@@ -15303,10 +15333,10 @@ SceneRoots:
   - {fileID: 1923892489}
   - {fileID: 1316296473}
   - {fileID: 1534905474}
-  - {fileID: 1971863823}
   - {fileID: 1627379519}
   - {fileID: 397877200}
   - {fileID: 393743121}
+  - {fileID: 1971863823}
   - {fileID: 1957127658}
   - {fileID: 1421254888}
   - {fileID: 1768285663}

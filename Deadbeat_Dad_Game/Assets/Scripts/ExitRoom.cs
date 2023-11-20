@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Unity.InputSystem;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class ExitRoom : MonoBehaviour
 {
-
     public GameObject exitDoor;
     
     void Start()
@@ -15,11 +15,16 @@ public class ExitRoom : MonoBehaviour
 
     void Update()
     {
-        
-    }
-    
-    void OnMouseDown()
-    {
-        
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 5))
+            {
+                if (hit.collider.CompareTag("Door"))
+                {
+                    SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+                }
+            }
+        }
     }
 }
