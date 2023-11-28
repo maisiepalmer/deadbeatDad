@@ -20,9 +20,17 @@ public class ExitRoom : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 5))
             {
-                if (hit.collider.CompareTag("Door"))
+                if (hit.collider == exitDoor)
                 {
-                    SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+                    if (SceneManager.GetActiveScene().name == "Pub")
+                    {
+                        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+                    }
+
+                    if (SceneManager.GetActiveScene().name == "Pub")
+                    {
+                        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+                    }
                 }
             }
         }

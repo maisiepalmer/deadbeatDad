@@ -59,22 +59,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/VehicleController.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs" />
     <Compile Include="Assets/Scripts/MouseController.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs" />
+    <Compile Include="Assets/Scripts/EnterBuilding.cs" />
     <Compile Include="Assets/Scripts/ExitRoom.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs" />
+    <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/BPS Fast Food Restaurant Kit.txt" />
+    <None Include="Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/Scene/BPS Fast Food Restaurant Kit.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

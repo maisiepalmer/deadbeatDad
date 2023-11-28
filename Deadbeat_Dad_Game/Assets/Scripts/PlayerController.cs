@@ -55,27 +55,6 @@ public class PlayerController : MonoBehaviour
 
         // Move the controller
         characterController.Move(moveDirection * Time.deltaTime);
-
-        /* ADDED: My own code to allow player to enter necessary buildings */
-        if (Input.GetKey(KeyCode.Mouse0))
-        {
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 10))
-            {
-                if (hit.collider.CompareTag("FastFood"))
-                {
-                    Debug.Log("Enter this building");
-                    SceneManager.LoadScene("FastFood", LoadSceneMode.Single);
-                    
-                }
-                else if (hit.collider.CompareTag("Building"))
-                {
-                    Debug.Log("Don't get off task! You have ... minutes remaining!");
-                }
-            }
-        }
-
-
     }
 
     private void OnCollisionEnter(Collision collision)
