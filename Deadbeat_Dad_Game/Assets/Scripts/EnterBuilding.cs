@@ -22,6 +22,7 @@ public class EnterBuilding : MonoBehaviour
                 {
                     Debug.Log("Enter this building");
                     SceneManager.LoadScene("FastFood", LoadSceneMode.Single);
+                    gameObject.transform.position = new Vector3(-1.7f, 1, 2.1f);
                 }
                 else if (hit.collider.CompareTag("Pub"))
                 {

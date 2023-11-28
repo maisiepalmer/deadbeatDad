@@ -61,6 +61,7 @@
     <Compile Include="Assets/Scripts/VehicleController.cs" />
     <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs" />
     <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs" />
+    <Compile Include="Assets/Scripts/CursorController.cs" />
     <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs" />
     <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs" />
     <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs" />

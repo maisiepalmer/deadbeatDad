@@ -4,12 +4,6 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-/* ADAPTED FROM: https://www.sharpcoderblog.com/blog/unity-3d-fps-controller 
-    With alterations:
-    - Own script to control mousemovement relative to the camera
-    - Unneded code blocks removed
-    - Neatened and tidied up
-*/
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerController : MonoBehaviour
 {
@@ -26,9 +20,18 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         characterController = GetComponent<CharacterController>();
+
+        transform.position.Set(20.724f, 1.03f, 1.7792f);
     }
 
+    /* ADAPTED FROM: https://www.sharpcoderblog.com/blog/unity-3d-fps-controller 
+    With alterations:
+    - Unneded code blocks removed
+    - Neatened and tidied up
+    - Extra parameters added where needed
+    */
     void Update()
     {
         // We are grounded, so recalculate move direction based on axes

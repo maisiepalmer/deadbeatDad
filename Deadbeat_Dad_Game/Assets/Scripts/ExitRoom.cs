@@ -7,7 +7,13 @@ using UnityEngine.SceneManagement;
 public class ExitRoom : MonoBehaviour
 {
     public GameObject exitDoor;
-    
+
+    void OnEnable()
+    {
+        Debug.Log("OnEnable called");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
     void Start()
     {
         
@@ -20,19 +26,24 @@ public class ExitRoom : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 5))
             {
-                if (hit.collider == exitDoor)
+                if (hit.collider.name == exitDoor.name)
                 {
-                    if (SceneManager.GetActiveScene().name == "Pub")
-                    {
-                        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
-                    }
+                    Debug.Log(hit.collider.name);
 
                     if (SceneManager.GetActiveScene().name == "Pub")
                     {
-                        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+                        SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Single);
                     }
                 }
             }
+        }
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "MainScene")
+        {
+            Debug.Log("hello");
         }
     }
 }
