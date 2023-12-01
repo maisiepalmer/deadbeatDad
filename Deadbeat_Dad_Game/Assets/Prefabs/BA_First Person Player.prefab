@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 8360436087604868591}
   - component: {fileID: 5538007867344272004}
   - component: {fileID: 589234388828837203}
-  - component: {fileID: 1933042457673796869}
-  - component: {fileID: 7570354153213048107}
+  - component: {fileID: -6755315721568852723}
   m_Layer: 0
   m_Name: BA_First Person Player
   m_TagString: Player
@@ -109,7 +108,7 @@ MonoBehaviour:
   runningSpeed: 11.5
   jumpSpeed: 8
   canMove: 1
---- !u!114 &1933042457673796869
+--- !u!114 &-6755315721568852723
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,20 +117,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2341601490115551455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 669090f60246a41eba12298300a2a392, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  exitDoor: {fileID: 0}
---- !u!114 &7570354153213048107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2341601490115551455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cb2af859057c48d78c39665c2239ba9, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f6f2a7617de444a692e7ea60fc81f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4762729779569612745
