@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
-    public DialogueTrigger dialogueTrigger;
 
     [HideInInspector]
     public bool canMove = true;
@@ -25,8 +24,6 @@ public class PlayerController : MonoBehaviour
         characterController = GetComponent<CharacterController>();
 
         transform.position.Set(20.724f, 1.03f, 1.7792f);
-
-        dialogueTrigger.TriggerDialogue();
     }
 
     /* ADAPTED FROM: https://www.sharpcoderblog.com/blog/unity-3d-fps-controller 

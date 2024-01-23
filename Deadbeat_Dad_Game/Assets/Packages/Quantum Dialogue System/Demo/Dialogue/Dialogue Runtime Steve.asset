@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Dialogue Runtime Steve
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 0
+    Name: Steve is upset
+    FirstMessage: 14
+  - ID: 6
+    Name: Steve is calm
+    FirstMessage: 9
+  - ID: 18
+    Name: Steve is bored
+    FirstMessage: 19
+  Speakers:
+  - ID: 4
+    Name: Steve
+    color: {r: 0, g: 0.5372549, b: 0, a: 1}
+  Messages:
+  - ID: 5
+    Speaker: 4
+    SpeakerName: Steve
+    PreviousMessage: 2
+    NextMessage: 9
+    MessageText: Wow, thanks
+    AudioPhrase: 5
+  - ID: 7
+    Speaker: 4
+    SpeakerName: Steve
+    PreviousMessage: -1
+    NextMessage: 14
+    MessageText: This is rubbish, you're upset... and...
+    AudioPhrase: 7
+  - ID: 9
+    Speaker: 4
+    SpeakerName: Steve
+    PreviousMessage: 5
+    NextMessage: -1
+    MessageText: I'm feeling really calm right now...
+    AudioPhrase: 9
+  - ID: 14
+    Speaker: 4
+    SpeakerName: Steve
+    PreviousMessage: 7
+    NextMessage: 2
+    MessageText: I'm very upset
+    AudioPhrase: 3
+  - ID: 19
+    Speaker: 4
+    SpeakerName: Steve
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: Boring around here, huh?
+    AudioPhrase: 19
+  Choices:
+  - ID: 2
+    Choices:
+    - Me too!
+    - It's okay, try to calm down!
+    NextMessages: 0700000005000000

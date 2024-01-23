@@ -23436,7 +23436,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1612199,
-      "PayloadLength": 30696,
+      "PayloadLength": 31598,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -23448,7 +23448,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1642981,
+      "PayloadOffset": 1643883,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -23712,6 +23712,19 @@
         "Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs",
         "Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs",
         "Assets/Packages/Mini Simple Characters Demo/Readme/Scripts/Readme.cs",
+        "Assets/Packages/Quantum Dialogue System/Demo/Dialogue/Scripts/QD_ChoiceButton.cs",
+        "Assets/Packages/Quantum Dialogue System/Demo/Dialogue/Scripts/QD_DialogueWithFMOD.cs",
+        "Assets/Packages/Quantum Dialogue System/Demo/Scripts/ColliderEvent.cs",
+        "Assets/Packages/Quantum Dialogue System/Demo/Scripts/Rotator.cs",
+        "Assets/Packages/Quantum Dialogue System/Scripts/QD_Choice.cs",
+        "Assets/Packages/Quantum Dialogue System/Scripts/QD_Conversation.cs",
+        "Assets/Packages/Quantum Dialogue System/Scripts/QD_Dialogue.cs",
+        "Assets/Packages/Quantum Dialogue System/Scripts/QD_DialogueHandler.cs",
+        "Assets/Packages/Quantum Dialogue System/Scripts/QD_Dictionary.cs",
+        "Assets/Packages/Quantum Dialogue System/Scripts/QD_KnobType.cs",
+        "Assets/Packages/Quantum Dialogue System/Scripts/QD_Message.cs",
+        "Assets/Packages/Quantum Dialogue System/Scripts/QD_NodeType.cs",
+        "Assets/Packages/Quantum Dialogue System/Scripts/QD_Speaker.cs",
         "Assets/Scripts/CursorController.cs",
         "Assets/Scripts/Dialogue.cs",
         "Assets/Scripts/DialogueManager.cs",
@@ -23998,7 +24011,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1643076,
+      "PayloadOffset": 1643978,
       "PayloadLength": 10015,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -24261,7 +24274,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp-Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1653203,
+      "PayloadOffset": 1654105,
       "PayloadLength": 70,
       "PayloadDebugContentSnippet": "/Volumes/DataDrive/Shared/Mais",
       "Inputs": [],
@@ -24274,8 +24287,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.rsp",
       "DisplayName": "Writing Assembly-CSharp-Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1653365,
-      "PayloadLength": 31946,
+      "PayloadOffset": 1654267,
+      "PayloadLength": 32534,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -24287,7 +24300,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.rsp2",
       "DisplayName": "Writing Assembly-CSharp-Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1685404,
+      "PayloadOffset": 1686894,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -24562,6 +24575,14 @@
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.ref.dll",
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll",
         "Assets/Packages/Mini Simple Characters Demo/Readme/Scripts/Editor/ReadmeEditor.cs",
+        "Assets/Packages/Quantum Dialogue System/Editor/Scripts/QD_ChoiceNode.cs",
+        "Assets/Packages/Quantum Dialogue System/Editor/Scripts/QD_ConversationNode.cs",
+        "Assets/Packages/Quantum Dialogue System/Editor/Scripts/QD_DialogueEditor.cs",
+        "Assets/Packages/Quantum Dialogue System/Editor/Scripts/QD_Knob.cs",
+        "Assets/Packages/Quantum Dialogue System/Editor/Scripts/QD_MessageNode.cs",
+        "Assets/Packages/Quantum Dialogue System/Editor/Scripts/QD_Node.cs",
+        "Assets/Packages/Quantum Dialogue System/Editor/Scripts/QD_NodeDB.cs",
+        "Assets/Packages/Quantum Dialogue System/Editor/Scripts/QD_SpeakerNode.cs",
         "/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.rsp"
@@ -24627,7 +24648,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp-Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1685506,
+      "PayloadOffset": 1686996,
       "PayloadLength": 11221,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -25937,7 +25958,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies\" -s=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator\" -s=\"/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies\" -s=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator\" -s=\"/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun",
         "/Applications/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -26097,7 +26118,7 @@
   ],
   "StatSignatures": [
     {
-      "File": "/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/getconf"
+      "File": "/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/getconf"
     },
     {
       "File": "Assets/csc.rsp"
@@ -26246,6 +26267,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/200b0aE.dag.json",
-  "PayloadsFile": "/Volumes/DataDrive/Shared/Maisie Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/Bee/200b0aE.dag.payloads",
+  "PayloadsFile": "/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/Bee/200b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }

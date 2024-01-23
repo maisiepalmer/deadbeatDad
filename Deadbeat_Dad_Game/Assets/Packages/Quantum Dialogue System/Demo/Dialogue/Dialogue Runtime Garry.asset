@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Dialogue Runtime Garry
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 1
+    Name: Garry is a pirate
+    FirstMessage: 2
+  Speakers:
+  - ID: 0
+    Name: Garry
+    color: {r: 0.85882354, g: 0.36862746, b: 0, a: 1}
+  Messages:
+  - ID: 2
+    Speaker: 0
+    SpeakerName: Garry
+    PreviousMessage: -1
+    NextMessage: 3
+    MessageText: Why are Pirates better than Ninjas?
+    AudioPhrase: 2
+  - ID: 4
+    Speaker: 0
+    SpeakerName: Garry
+    PreviousMessage: 5
+    NextMessage: -1
+    MessageText: i'll tell you - because they ARRRrrr!
+    AudioPhrase: 4
+  - ID: 5
+    Speaker: 0
+    SpeakerName: Garry
+    PreviousMessage: 3
+    NextMessage: 4
+    MessageText: (well don't spoil it now)
+    AudioPhrase: 5
+  Choices:
+  - ID: 3
+    Choices:
+    - Um... I dunno
+    - Ooo, i know this one!
+    NextMessages: 0400000005000000
