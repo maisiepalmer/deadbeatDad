@@ -41,39 +41,97 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets/Packages/Quantum Dialogue System/Scripts/QD_DialogueHandler.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
      <Compile Include="Assets/Packages/Mini Simple Characters Demo/Readme/Scripts/Readme.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
      <Compile Include="Assets/Scripts/VehicleController.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
      <Compile Include="Assets/Scripts/Dialogue.cs" />
      <Compile Include="Assets/Scripts/CursorController.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
      <Compile Include="Assets/Scripts/DialogueTrigger.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Scripts/QD_KnobType.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Scripts/QD_Message.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
      <Compile Include="Assets/Scripts/DialogueManager.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
      <Compile Include="Assets/Scripts/DoorSystem.cs" />
      <Compile Include="Assets/Scripts/MouseController.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Scripts/QD_Dictionary.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Scripts/QD_Choice.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Scripts/QD_NodeType.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Demo/Scripts/ColliderEvent.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Scripts/QD_Speaker.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Scripts/QD_Dialogue.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs" />
      <Compile Include="Assets/Scripts/PlayerController.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Demo/Dialogue/Scripts/QD_ChoiceButton.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Demo/Scripts/Rotator.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Scripts/QD_Conversation.cs" />
+     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Demo/Dialogue/Scripts/QD_DialogueWithFMOD.cs" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <None Include="Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/Scene/BPS Fast Food Restaurant Kit.txt" />
+     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
+     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
      <None Include="Assets/Packages/Quantum Dialogue System/Font/NANUM_LICENSE.txt" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -793,6 +851,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{bc2a944f-7253-3e63-e712-66810d9509c5}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{2a5252e6-b620-1c23-e6d6-13709162b14f}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{e01b89e7-82e6-5a2b-bc0b-2579e5819ab6}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{05fdff84-a39b-8ca8-c59d-288d8c1d14a4}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

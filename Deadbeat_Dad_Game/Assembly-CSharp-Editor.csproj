@@ -833,6 +833,22 @@
       <Project>{22dee76e-883f-4381-82d6-4bb8786b96e6}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{bc2a944f-7253-3e63-e712-66810d9509c5}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{2a5252e6-b620-1c23-e6d6-13709162b14f}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{e01b89e7-82e6-5a2b-bc0b-2579e5819ab6}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{05fdff84-a39b-8ca8-c59d-288d8c1d14a4}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

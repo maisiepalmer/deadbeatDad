@@ -31,11 +31,8 @@ MonoBehaviour:
       Y: 40
       AllowMultipleConnections: 1
       Connections:
-        keys: 020000000400000005000000
-        values:
-        - Array: 00000000
-        - Array: 00000000
-        - Array: 00000000
+        keys: 
+        values: []
     AllowedInputs: []
     AllowedOutputs:
     - InputType: 3
@@ -58,9 +55,8 @@ MonoBehaviour:
       Y: 40
       AllowMultipleConnections: 0
       Connections:
-        keys: 02000000
-        values:
-        - Array: 01000000
+        keys: 
+        values: []
     AllowedInputs: []
     AllowedOutputs:
     - InputType: 3
@@ -71,8 +67,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 309
-      y: 94
+      x: 373
+      y: 52
       width: 200
       height: 175
     Inputs:
@@ -82,18 +78,16 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 00000000
-        values:
-        - Array: 00000000
+        keys: 
+        values: []
     - ID: 1
       Name: Previous
       Type: 0
       Y: 35
       AllowMultipleConnections: 1
       Connections:
-        keys: 01000000
-        values:
-        - Array: 00000000
+        keys: 
+        values: []
     Outputs:
     - ID: 0
       Name: Speaker
@@ -177,9 +171,8 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 02000000
-        values:
-        - Array: 01000000
+        keys: 
+        values: []
     Outputs:
     - ID: 0
       Name: Choice 1
@@ -187,18 +180,16 @@ MonoBehaviour:
       Y: 45
       AllowMultipleConnections: 0
       Connections:
-        keys: 04000000
-        values:
-        - Array: 01000000
+        keys: 
+        values: []
     - ID: 1
       Name: Choice 2
       Type: 1
       Y: 75
       AllowMultipleConnections: 0
       Connections:
-        keys: 05000000
-        values:
-        - Array: 01000000
+        keys: 
+        values: []
     AllowedInputs:
     - InputType: 3
       InputID: 1
@@ -232,9 +223,8 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 00000000
-        values:
-        - Array: 00000000
+        keys: 
+        values: []
     - ID: 1
       Name: Previous
       Type: 0
@@ -326,9 +316,8 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 00000000
-        values:
-        - Array: 00000000
+        keys: 
+        values: []
     - ID: 1
       Name: Previous
       Type: 0
@@ -432,8 +421,8 @@ MonoBehaviour:
       OutputID: 0
     Data:
       ID: 0
-      Name: Bob
-      color: {r: 0.5882353, g: 0.5529412, b: 0.18039216, a: 1}
+      Name: Bartender
+      color: {r: 1, g: 0.44337493, b: 0.18039216, a: 0.5019608}
   MessageNodes:
   - ID: 2
     Type: 3
@@ -529,8 +518,8 @@ MonoBehaviour:
       OutputID: 1
     Data:
       ID: 2
-      Speaker: 0
-      SpeakerName: Bob
+      Speaker: -1
+      SpeakerName: 
       PreviousMessage: -1
       NextMessage: 3
       MessageText: Hi, I'm spongebob!
@@ -629,8 +618,8 @@ MonoBehaviour:
       OutputID: 1
     Data:
       ID: 4
-      Speaker: 0
-      SpeakerName: Bob
+      Speaker: -1
+      SpeakerName: 
       PreviousMessage: -1
       NextMessage: -1
       MessageText: No I'm not... I'm definitely a sponge.
@@ -729,8 +718,8 @@ MonoBehaviour:
       OutputID: 1
     Data:
       ID: 5
-      Speaker: 0
-      SpeakerName: Bob
+      Speaker: -1
+      SpeakerName: 
       PreviousMessage: 3
       NextMessage: -1
       MessageText: Hi, yourself!
@@ -847,7 +836,7 @@ MonoBehaviour:
     Data:
       ID: 1
       Name: Bob is a confused
-      FirstMessage: 2
+      FirstMessage: -1
   ChoiceNodes:
   - ID: 3
     Type: 2
@@ -890,4 +879,4 @@ MonoBehaviour:
       Choices:
       - But bob mate, you're a cube!
       - Hi spongebob!
-      NextMessages: 0400000005000000
+      NextMessages: ffffffffffffffff
