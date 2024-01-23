@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{6EE7DE22-3F88-8143-82D6-4BB8786B96E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Dialogue/QD_ChoiceButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="73" Column="26" />
-      <File FileName="Assets/Scripts/MouseController.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="26" Column="57" />
+      <File FileName="Assets/Scripts/MouseController.cs" Line="32" Column="28" />
       <File FileName="Assets/Plugins/FMOD/src/EventHandler.cs" />
       <File FileName="Assets/Plugins/FMOD/src/EventReference.cs" />
       <File FileName="Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" />
       <File FileName="Assets/Plugins/FMOD/src/FMODEventPlayable.cs" />
-      <File FileName="Assets/Scripts/Dialogue/QD_DialogueWithFMOD.cs" Line="61" Column="34" />
-      <File FileName="Assets/Scripts/Dialogue/QD_DialogueHandler.cs" Line="156" Column="14" />
-      <File FileName="Assets/Scripts/Dialogue/QD_ChoiceButton.cs" Line="14" Column="45" />
+      <File FileName="Assets/Scripts/Dialogue/QD_DialogueWithFMOD.cs" Line="261" Column="42" />
+      <File FileName="Assets/Scripts/Dialogue/QD_DialogueHandler.cs" Line="73" Column="10" />
+      <File FileName="Assets/Scripts/Dialogue/QD_ChoiceButton.cs" Line="14" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,9 +17,8 @@
           <Node name="Deadbeat_Dad_Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Dialogue" expanded="True">
-                  <Node name="QD_ChoiceButton.cs" selected="True" />
-                </Node>
+                <Node name="Dialogue" expanded="True" />
+                <Node name="PlayerController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
