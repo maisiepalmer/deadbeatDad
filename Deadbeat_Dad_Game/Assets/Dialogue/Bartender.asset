@@ -12,7 +12,91 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
   m_Name: Bartender
   m_EditorClassIdentifier: 
-  Conversations: []
-  Speakers: []
-  Messages: []
-  Choices: []
+  Conversations:
+  - ID: 0
+    Name: Wake up
+    FirstMessage: 4
+  Speakers:
+  - ID: 1
+    Name: Bartender
+    color: {r: 0.742, g: 0.503, b: 0, a: 0.54901963}
+  - ID: 3
+    Name: Wife
+    color: {r: 0.723, g: 0, b: 0.897, a: 0.43137255}
+  Messages:
+  - ID: 4
+    Speaker: 1
+    SpeakerName: Bartender
+    PreviousMessage: -1
+    NextMessage: 6
+    MessageText: Long night?
+    AudioPhrase: 4
+  - ID: 7
+    Speaker: 3
+    SpeakerName: Wife
+    PreviousMessage: 6
+    NextMessage: 8
+    MessageText: '*Phone rings* Jesus, where are you?'
+    AudioPhrase: 7
+  - ID: 9
+    Speaker: 3
+    SpeakerName: Wife
+    PreviousMessage: 8
+    NextMessage: 10
+    MessageText: It's Johnny's game tonight and you promised you would bring dinner.
+      And you still haven't bought Samantha a birthday present!
+    AudioPhrase: 9
+  - ID: 11
+    Speaker: 3
+    SpeakerName: Wife
+    PreviousMessage: 10
+    NextMessage: 12
+    MessageText: God, you're pathetic. What a loser.
+    AudioPhrase: 11
+  - ID: 12
+    Speaker: 3
+    SpeakerName: Wife
+    PreviousMessage: 11
+    NextMessage: 13
+    MessageText: Be here in 30 minutes.
+    AudioPhrase: 12
+  - ID: 14
+    Speaker: 1
+    SpeakerName: Bartender
+    PreviousMessage: 13
+    NextMessage: 15
+    MessageText: Need a drink?
+    AudioPhrase: 14
+  - ID: 16
+    Speaker: 1
+    SpeakerName: Bartender
+    PreviousMessage: 15
+    NextMessage: -1
+    MessageText: Alrighty!
+    AudioPhrase: 16
+  Choices:
+  - ID: 6
+    Choices:
+    - Where am I?
+    - Uhhh...
+    NextMessages: 0700000007000000
+  - ID: 8
+    Choices:
+    - Just out, what do you need my love?
+    - Uhhhh...
+    NextMessages: 0900000009000000
+  - ID: 10
+    Choices:
+    - Of course, I still will!
+    - Oh ****, how am I gonna do all that?!
+    NextMessages: 0c0000000b000000
+  - ID: 13
+    Choices:
+    - Of course, my love.
+    - '*Hang up*'
+    NextMessages: 0e0000000e000000
+  - ID: 15
+    Choices:
+    - No thanks, mate. I'd better be off without.
+    - Go on, then.
+    NextMessages: 1000000010000000
