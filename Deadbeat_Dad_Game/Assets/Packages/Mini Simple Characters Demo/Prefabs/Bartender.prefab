@@ -1740,7 +1740,7 @@ GameObject:
   - component: {fileID: 1012455034573569801}
   - component: {fileID: 1869931341193207968}
   m_Layer: 0
-  m_Name: mini simple demo_05
+  m_Name: Bartender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,10 +1,15 @@
 ﻿<Properties StartupConfiguration="{6EE7DE22-3F88-8143-82D6-4BB8786B96E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ExitRoom.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Dialogue/QD_ChoiceButton.cs">
     <Files>
-      <File FileName="Assets/Scripts/ExitRoom.cs" Line="46" Column="32" />
-      <File FileName="Assets/Scripts/EnterBuilding.cs" Line="25" Column="24" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="34" Column="5" />
-      <File FileName="Assets/Scripts/MouseController.cs" Line="16" Column="32" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="73" Column="26" />
+      <File FileName="Assets/Scripts/MouseController.cs" />
+      <File FileName="Assets/Plugins/FMOD/src/EventHandler.cs" />
+      <File FileName="Assets/Plugins/FMOD/src/EventReference.cs" />
+      <File FileName="Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" />
+      <File FileName="Assets/Plugins/FMOD/src/FMODEventPlayable.cs" />
+      <File FileName="Assets/Scripts/Dialogue/QD_DialogueWithFMOD.cs" Line="61" Column="34" />
+      <File FileName="Assets/Scripts/Dialogue/QD_DialogueHandler.cs" Line="156" Column="14" />
+      <File FileName="Assets/Scripts/Dialogue/QD_ChoiceButton.cs" Line="14" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +17,9 @@
           <Node name="Deadbeat_Dad_Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="ExitRoom.cs" selected="True" />
+                <Node name="Dialogue" expanded="True">
+                  <Node name="QD_ChoiceButton.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -22,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c3f42ffb-bee9-4cb4-bfcd-56b38e57091f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eec37512-dd1b-4329-863d-b700cff3bf8f" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

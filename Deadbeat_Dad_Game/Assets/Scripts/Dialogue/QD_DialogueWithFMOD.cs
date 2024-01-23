@@ -28,8 +28,9 @@ namespace QuantumTek.QuantumDialogue.Demo
 
         private bool conversationEnded; // conversations without loops can 'end'
 
-        [FMODUnity.EventRef]
-        public string eventPath = "Event:/Dialogue";
+        public FMODUnity.EventReference eventPath;
+
+        public MouseController mouse;
 
         // dialogue FMOD event should trigger "programmer instrument" callback
         private FMOD.Studio.EVENT_CALLBACK callbackDelegate;
@@ -91,6 +92,8 @@ namespace QuantumTek.QuantumDialogue.Demo
                 Debug.LogError(conversationName + " conversation not found");
                 return;
             }
+
+            mouse.SetMouseLock(false);
 
             // tell dialogue handler the current character is speaking
             handler.currentController = this;
@@ -254,6 +257,8 @@ namespace QuantumTek.QuantumDialogue.Demo
 
                 // Hide canvas when conversation is over
                 handler.ShowDialogueCanvas(false);
+
+                mouse.SetMouseLock(true);
             }
         }
 

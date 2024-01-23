@@ -67,4 +67,9 @@ public class PlayerController : MonoBehaviour
             // GameOver()
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
 }
