@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Worker
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 0
+    Name: Buy dinner
+    FirstMessage: 2
+  Speakers:
+  - ID: 1
+    Name: Worker
+    color: {r: 0.8784314, g: 0.7411765, b: 0, a: 0.5372549}
+  Messages:
+  - ID: 2
+    Speaker: 1
+    SpeakerName: Worker
+    PreviousMessage: -1
+    NextMessage: 3
+    MessageText: Welcome to the generic fast food restaurant. What can I get for
+      you?
+    AudioPhrase: 2
+  - ID: 4
+    Speaker: 1
+    SpeakerName: Worker
+    PreviousMessage: 10
+    NextMessage: -1
+    MessageText: We don't tolerate verbal abuse in this store. Try again.
+    AudioPhrase: 4
+  - ID: 5
+    Speaker: 1
+    SpeakerName: Worker
+    PreviousMessage: 3
+    NextMessage: 6
+    MessageText: Do you want ketchup with that?
+    AudioPhrase: 5
+  - ID: 7
+    Speaker: 1
+    SpeakerName: Worker
+    PreviousMessage: 6
+    NextMessage: 8
+    MessageText: Ok, let me go get that for you.
+    AudioPhrase: 7
+  - ID: 9
+    Speaker: 1
+    SpeakerName: Worker
+    PreviousMessage: 8
+    NextMessage: 10
+    MessageText: I have it here, anything else?
+    AudioPhrase: 9
+  - ID: 11
+    Speaker: 1
+    SpeakerName: Worker
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: Thank you, sir
+    AudioPhrase: 11
+  Choices:
+  - ID: 3
+    Choices:
+    - Hi, could I get a mcBurger with fries, 3 kids meals and a diet coke please?
+    - Uhhhh.... this place is so confusing. I dunno, a burger?
+    - I haven't got time for this, just give me 5 burgers.
+    NextMessages: 050000000500000004000000
+  - ID: 6
+    Choices:
+    - Yes please.
+    - Yuck! Obviously not.
+    NextMessages: 0700000007000000
+  - ID: 8
+    Choices:
+    - Thanks.
+    - I don't have too much time so be quick.
+    - Hurry up, then.
+    NextMessages: 090000000900000004000000
+  - ID: 10
+    Choices:
+    - That'll be all thank you, may I pay?
+    - If I wanted more than one thing, I would have asked, idiot.
+    NextMessages: 0b00000004000000

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
+using UnityEditor;
 
 namespace QuantumTek.QuantumDialogue.Demo
 {
@@ -29,8 +30,6 @@ namespace QuantumTek.QuantumDialogue.Demo
         private bool conversationEnded; // conversations without loops can 'end'
 
         public FMODUnity.EventReference eventPath;
-
-        public MouseController mouse;
 
         // dialogue FMOD event should trigger "programmer instrument" callback
         private FMOD.Studio.EVENT_CALLBACK callbackDelegate;
@@ -92,8 +91,6 @@ namespace QuantumTek.QuantumDialogue.Demo
                 Debug.LogError(conversationName + " conversation not found");
                 return;
             }
-
-            mouse.SetMouseLock(false);
 
             // tell dialogue handler the current character is speaking
             handler.currentController = this;
@@ -257,8 +254,6 @@ namespace QuantumTek.QuantumDialogue.Demo
 
                 // Hide canvas when conversation is over
                 handler.ShowDialogueCanvas(false);
-
-                mouse.SetMouseLock(true);
             }
         }
 
@@ -281,7 +276,6 @@ namespace QuantumTek.QuantumDialogue.Demo
             {
                 // override mouse cursor state
                 handler.SetMouseLockAndHide(false);
-
                 handler.speakerName.text = "Player";
                 handler.GenerateChoices();
             }

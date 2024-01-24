@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEditor;
 
 public class DoorSystem : MonoBehaviour
 {
@@ -11,10 +12,11 @@ public class DoorSystem : MonoBehaviour
 
     public GameObject loadPlaces;
     public Transform[] loadVector;
+
+    private string prevScene = "Pub";
     
     void OnEnable()
     {
-        Debug.Log("OnEnable called");
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -26,28 +28,23 @@ public class DoorSystem : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().name != "MainScene")
+        if (Input.GetKey(KeyCode.Mouse0))
         {
-            if (Input.GetKey(KeyCode.Mouse0))
+            RaycastHit hit;
+             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 5))
             {
-                RaycastHit hit;
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 5))
+                if (SceneManager.GetActiveScene().name != "MainScene")
                 {
                     if (hit.collider.name == exitDoor.name)
                     {
-                        Debug.Log(hit.collider.name);
-
-                        if (SceneManager.GetActiveScene().name == "Pub")
-                        {
-                            SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Single);
-                        }
+                        SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Single);
                     }
-
+                }
+                else
+                {
                     if (hit.collider.CompareTag("FastFood"))
                     {
-                        Debug.Log("Enter this building");
-                        SceneManager.LoadScene("FastFood", LoadSceneMode.Single);
-                        gameObject.transform.position = new Vector3(-1.7f, 1, 2.1f);
+                        SceneManager.LoadSceneAsync("FastFood", LoadSceneMode.Single);
                     }
                     else if (hit.collider.CompareTag("Pub"))
                     {
@@ -68,9 +65,25 @@ public class DoorSystem : MonoBehaviour
     {
         if (scene.name == "MainScene")
         {
-            Debug.Log("hello");
-            playerTransform.transform.SetPositionAndRotation(loadVector[1].transform.position, loadVector[1].transform.rotation);
-            Debug.Log(playerTransform.eulerAngles);
+            if (prevScene == "Pub")
+            {
+                Debug.Log("out of pub");
+                playerTransform.transform.SetPositionAndRotation(loadVector[1].transform.position, loadVector[1].transform.rotation);
+                prevScene = "MainScene";
+            }    
+            else if (prevScene == "FastFood")
+            {
+                Debug.Log("out of fast food");
+                playerTransform.transform.SetPositionAndRotation(loadVector[3].transform.position, loadVector[3].transform.rotation);
+                prevScene = "MainScene";
+            }   
+        }
+        else if (scene.name == "FastFood")
+        {
+            Debug.Log("in fast food");
+            playerTransform.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
+            prevScene = "FastFood";
+            exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext/ExtInt_FFK_Entrance_02_01.prefab");
         }
     }
 }

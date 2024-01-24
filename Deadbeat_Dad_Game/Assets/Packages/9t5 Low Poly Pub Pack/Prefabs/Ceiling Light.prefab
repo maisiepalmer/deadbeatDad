@@ -359,10 +359,10 @@ Light:
   m_GameObject: {fileID: 1773853362051690}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 0
+  m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.2
   m_Range: 10
   m_SpotAngle: 152.4
   m_InnerSpotAngle: 142.2656
@@ -371,7 +371,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.792
     m_Bias: 0.51
     m_NormalBias: 3
     m_NearPlane: 2.78
