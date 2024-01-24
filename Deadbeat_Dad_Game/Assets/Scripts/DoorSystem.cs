@@ -35,8 +35,6 @@ public class DoorSystem : MonoBehaviour
             {
                 if (SceneManager.GetActiveScene().name != "MainScene")
                 {
-Debug.Log(hit.collider.name);
-
                     if (hit.collider.name == exitDoor.name)
                     {
                         SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Single);
