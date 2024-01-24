@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FastFood.unity
     guid: b55c07ecf8f2b4486976df3f8f12b917
+  - enabled: 1
+    path: Assets/Scenes/Pub.unity
+    guid: f365d3397be1c7b4d89342b499edabd7
+  - enabled: 1
+    path: Assets/Scenes/Jewellery.unity
+    guid: 6f08b06d4ab3def46ab2933c1f4deb53
   m_configObjects: {}

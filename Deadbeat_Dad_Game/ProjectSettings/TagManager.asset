@@ -12,6 +12,7 @@ TagManager:
   - Building
   - Door
   - Pub
+  - Jewellery
   layers:
   - Default
   - TransparentFX

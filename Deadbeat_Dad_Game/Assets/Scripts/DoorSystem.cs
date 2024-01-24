@@ -35,6 +35,8 @@ public class DoorSystem : MonoBehaviour
             {
                 if (SceneManager.GetActiveScene().name != "MainScene")
                 {
+Debug.Log(hit.collider.name);
+
                     if (hit.collider.name == exitDoor.name)
                     {
                         SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Single);
@@ -45,6 +47,10 @@ public class DoorSystem : MonoBehaviour
                     if (hit.collider.CompareTag("FastFood"))
                     {
                         SceneManager.LoadSceneAsync("FastFood", LoadSceneMode.Single);
+                    }
+                    else if (hit.collider.CompareTag("Jewellery"))
+                    {
+                        SceneManager.LoadSceneAsync("Jewellery", LoadSceneMode.Single);
                     }
                     else if (hit.collider.CompareTag("Pub"))
                     {
@@ -77,6 +83,12 @@ public class DoorSystem : MonoBehaviour
                 playerTransform.transform.SetPositionAndRotation(loadVector[3].transform.position, loadVector[3].transform.rotation);
                 prevScene = "MainScene";
             }   
+            else if (prevScene == "Jewellery")
+            {
+                Debug.Log("out of jewellery");
+                playerTransform.transform.SetPositionAndRotation(loadVector[5].transform.position, loadVector[5].transform.rotation);
+                prevScene = "MainScene";
+            } 
         }
         else if (scene.name == "FastFood")
         {
@@ -84,6 +96,13 @@ public class DoorSystem : MonoBehaviour
             playerTransform.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
             prevScene = "FastFood";
             exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext/ExtInt_FFK_Entrance_02_01.prefab");
+        }
+        else if (scene.name == "Jewellery")
+        {
+            Debug.Log("in jewellery");
+            playerTransform.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
+            prevScene = "Jewellery";
+            exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/jewelry_shop/Prefabs/shop/door.prefab");
         }
     }
 }

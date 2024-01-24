@@ -4793,3 +4793,2784 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 477.461226 seconds.
+  path: Assets/Packages/jewelry_shop/DemoScene/000.unity
+  artifactKey: Guid(3dea9148303c12f4fb2aa01f9ed3995a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/DemoScene/000.unity using Guid(3dea9148303c12f4fb2aa01f9ed3995a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3542adb932b45e093c11b5c9dc5fc521') in 0.001457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.060464 seconds.
+  path: Assets/Packages/jewelry_shop/DemoScene/demo.unity
+  artifactKey: Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/DemoScene/demo.unity using Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1caec1e1cf8ccf23ae990843e3e0f9') in 0.000578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 61.292963 seconds.
+  path: Assets/Scenes/Jewellery.unity
+  artifactKey: Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jewellery.unity using Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b107a836cf836b8805158a6a6fb87078') in 0.000252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29e747000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.750 seconds
+Refreshing native plugins compatible for Editor in 35.07 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.098 seconds
+Domain Reload Profiling: 1848ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (225ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1098ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 30.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4398.
+Memory consumption went from 463.6 MB to 462.3 MB.
+Total: 2.603792 ms (FindLiveObjects: 0.142750 ms CreateObjectMapping: 0.049042 ms MarkObjects: 2.243417 ms  DeleteObjects: 0.167834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 204.568952 seconds.
+  path: Assets/Scenes/Pub.unity
+  artifactKey: Guid(f365d3397be1c7b4d89342b499edabd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pub.unity using Guid(f365d3397be1c7b4d89342b499edabd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf105f918ead869664f3cc5b26ca679') in 0.000916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29e747000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.754 seconds
+Refreshing native plugins compatible for Editor in 43.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.196 seconds
+Domain Reload Profiling: 1950ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (373ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1196ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 28.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4401.
+Memory consumption went from 468.6 MB to 467.3 MB.
+Total: 2.531916 ms (FindLiveObjects: 0.124833 ms CreateObjectMapping: 0.046375 ms MarkObjects: 2.170542 ms  DeleteObjects: 0.189875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 125.769365 seconds.
+  path: Assets/Scenes/Jewellery.unity
+  artifactKey: Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jewellery.unity using Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b7c005d9e85af93dda8fb25451e111') in 0.000997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 101.539246 seconds.
+  path: Assets/Materials/PlayerMaterial.physicMaterial
+  artifactKey: Guid(bcb137571cacd4d97987ad904c21aab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PlayerMaterial.physicMaterial using Guid(bcb137571cacd4d97987ad904c21aab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae08fb5349ac9859cef26f218e171d0') in 0.006634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Materials/VehicleMaterial.physicMaterial
+  artifactKey: Guid(184cacc7356e24529a2db11972670cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VehicleMaterial.physicMaterial using Guid(184cacc7356e24529a2db11972670cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c36a525fb465619e12f7c3b39f9a03') in 0.000657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.944034 seconds.
+  path: Assets/Materials/GlassExit.mat
+  artifactKey: Guid(382d80a2ed58b49e9bea562fae3c67b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GlassExit.mat using Guid(382d80a2ed58b49e9bea562fae3c67b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99793e96270aec77a40fe0550d573a2f') in 0.073947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.923241 seconds.
+  path: Assets/Packages/jewelry_shop/Materials/00024.mat
+  artifactKey: Guid(8dac32eb542932245bbeb324fc26d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Materials/00024.mat using Guid(8dac32eb542932245bbeb324fc26d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9358058814747eb49823a7eeabe7e58c') in 0.013514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Packages/jewelry_shop/Materials/floor_color.mat
+  artifactKey: Guid(d6e12bbc8921e0e49b2a2378c1d04876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Materials/floor_color.mat using Guid(d6e12bbc8921e0e49b2a2378c1d04876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27aa71d67ee7cbfe8c66b76c4db1fbe') in 0.196603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.832866 seconds.
+  path: Assets/Materials/GlassExit.mat
+  artifactKey: Guid(382d80a2ed58b49e9bea562fae3c67b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GlassExit.mat using Guid(382d80a2ed58b49e9bea562fae3c67b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7743842b91ccc6f3f71257dbae4eaf3') in 0.009216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.063247 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/shop/SM_shop Variant.prefab
+  artifactKey: Guid(cd87cb73bef3f03439a9449bd63718e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/shop/SM_shop Variant.prefab using Guid(cd87cb73bef3f03439a9449bd63718e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e61f1d8a8deba72a803a29e2f36886a') in 0.288304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 46.983144 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props
+  artifactKey: Guid(a3566b73eb44ba74da3b791db9a32d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props using Guid(a3566b73eb44ba74da3b791db9a32d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb63bd1b90c4dfcf5970f77896687c4f') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058327 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_backlight Variant.prefab
+  artifactKey: Guid(4ec552aa7df629c41a8eb5c05fa8cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_backlight Variant.prefab using Guid(4ec552aa7df629c41a8eb5c05fa8cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd5c4689b572c9b252649a3d341b11e') in 0.022705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_bracelet_1 Variant.prefab
+  artifactKey: Guid(1d9293c532eeed741a2f9efb2d90d4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_bracelet_1 Variant.prefab using Guid(1d9293c532eeed741a2f9efb2d90d4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04dbad03ba3eec0782f0c3c850678b8') in 0.015933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_bundle_of_money_4 Variant.prefab
+  artifactKey: Guid(714ca0d87fdc2be40a084ed55f1124a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_bundle_of_money_4 Variant.prefab using Guid(714ca0d87fdc2be40a084ed55f1124a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c87f730ffbcfeb1a5612a4d485ca47d') in 0.011297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_diamond_1 Variant.prefab
+  artifactKey: Guid(f5d9715d532fe4e4089357a718c39955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_diamond_1 Variant.prefab using Guid(f5d9715d532fe4e4089357a718c39955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afeb1f18ad0d223ee775b0b7f654142') in 0.013327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_banknote_3 Variant.prefab
+  artifactKey: Guid(4dcd39d242fe4ac40bb8bde0fe8f52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_banknote_3 Variant.prefab using Guid(4dcd39d242fe4ac40bb8bde0fe8f52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337f2f1164507fa3c0dbb941b23c3318') in 0.012549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_earring Variant.prefab
+  artifactKey: Guid(19d7c5964643289478530ecf7708b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_earring Variant.prefab using Guid(19d7c5964643289478530ecf7708b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1cab99d74a823ffee6a257e030838c') in 0.012646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_building_5 Variant.prefab
+  artifactKey: Guid(b6b8d9982576d8244ae226337c580feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_building_5 Variant.prefab using Guid(b6b8d9982576d8244ae226337c580feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281e221791f37412f9248fa3106a9700') in 0.013542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_coin Variant.prefab
+  artifactKey: Guid(964ac7923482a5a43bb1117f8374124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_coin Variant.prefab using Guid(964ac7923482a5a43bb1117f8374124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97addf49f287b5c982afc301ff86fcaf') in 0.011840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_chain Variant.prefab
+  artifactKey: Guid(3bf86f9fba59b4945859d4df5ce4cd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_chain Variant.prefab using Guid(3bf86f9fba59b4945859d4df5ce4cd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f2ceaa20b4ef0a0a4424773c67a992') in 0.017350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_bundle_of_money_2 Variant.prefab
+  artifactKey: Guid(c801bad37db35804d86227f96cdf7b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_bundle_of_money_2 Variant.prefab using Guid(c801bad37db35804d86227f96cdf7b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df86dbce71a1ee0a7376fd6ee0c8a89d') in 0.018128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_earring_2 Variant.prefab
+  artifactKey: Guid(80cb9735d357ec54db5cf1829fe3bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_earring_2 Variant.prefab using Guid(80cb9735d357ec54db5cf1829fe3bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966f241ae3f93e0baac99aeeffbaee11') in 0.057974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_building_2 Variant.prefab
+  artifactKey: Guid(b2d249e548a81424f817aeac6ac65813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_building_2 Variant.prefab using Guid(b2d249e548a81424f817aeac6ac65813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3743419b4596c5860c4201c89337ce34') in 0.013521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_chain_1 Variant.prefab
+  artifactKey: Guid(b9d6455490046b04a9d241724130018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_chain_1 Variant.prefab using Guid(b9d6455490046b04a9d241724130018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06d67a1681675588a42f5d143176fec') in 0.022375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_banknote_1 Variant.prefab
+  artifactKey: Guid(f32415fb0a6301c40881cc0d440bfc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_banknote_1 Variant.prefab using Guid(f32415fb0a6301c40881cc0d440bfc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944969c03fb7cdb679cb603cccb1138f') in 0.017819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_box_2 Variant.prefab
+  artifactKey: Guid(a10496a27d773ff4ebe93d63d5587dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_box_2 Variant.prefab using Guid(a10496a27d773ff4ebe93d63d5587dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7958b4d18981ee51608a0fa915904703') in 0.054474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_building_1 Variant.prefab
+  artifactKey: Guid(078e0abdbde4da04ab9855d98aff2a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_building_1 Variant.prefab using Guid(078e0abdbde4da04ab9855d98aff2a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5976ce708f38f4963e3677a32e96eae3') in 0.014516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_building_4 Variant.prefab
+  artifactKey: Guid(2fdd47b9818e23448a43d29095cef061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_building_4 Variant.prefab using Guid(2fdd47b9818e23448a43d29095cef061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b79bda1d3dad3dc26986959a0f0bef1') in 0.021241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_bracelet_5 Variant.prefab
+  artifactKey: Guid(c7ec97be967245d43a74b2c71f5e827a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_bracelet_5 Variant.prefab using Guid(c7ec97be967245d43a74b2c71f5e827a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a165d1ded136bbc575a7693e68891d1') in 0.035201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_earring_4 Variant.prefab
+  artifactKey: Guid(e02cbe75779a91d48bf2e2d0fd6e45ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_earring_4 Variant.prefab using Guid(e02cbe75779a91d48bf2e2d0fd6e45ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f0b3b3491eab968cacbd1a80b112b4') in 0.022169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_jar Variant.prefab
+  artifactKey: Guid(4b49f459b2d61ee4ba8398b84c6ebc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_jar Variant.prefab using Guid(4b49f459b2d61ee4ba8398b84c6ebc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f293bf25fa3d3b20c9b1ef8f0cec1d3c') in 0.016332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_inscription Variant.prefab
+  artifactKey: Guid(fb003f248a48c80478053eb1f9acf57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_inscription Variant.prefab using Guid(fb003f248a48c80478053eb1f9acf57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e733bbf38623eaf481a23e1ed903b5e5') in 0.013362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_building_3 Variant.prefab
+  artifactKey: Guid(74bc206c367cab5448b71df7903b6d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_building_3 Variant.prefab using Guid(74bc206c367cab5448b71df7903b6d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f00327094b688833fbfa5e847785771') in 0.016101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_box_1 Variant.prefab
+  artifactKey: Guid(0a0c63444a284124a8e1eba44f33a162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_box_1 Variant.prefab using Guid(0a0c63444a284124a8e1eba44f33a162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ade2055edd077f391e54267abaeb97') in 0.013741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_lamp_1 Variant.prefab
+  artifactKey: Guid(ba466ae256004384186d74d8c0109abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_lamp_1 Variant.prefab using Guid(ba466ae256004384186d74d8c0109abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d2246afc483e6fcc5efe0c1e374d2d') in 0.013354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.095293 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_logo Variant.prefab
+  artifactKey: Guid(5f85ac368adbeb24d9c6507eb6ca02ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_logo Variant.prefab using Guid(5f85ac368adbeb24d9c6507eb6ca02ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66ca46b8d99124c0c4b59e6c0751815') in 0.033659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_orb Variant.prefab
+  artifactKey: Guid(3eaa6bcaaaff3ee4ab8653ca984b4ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_orb Variant.prefab using Guid(3eaa6bcaaaff3ee4ab8653ca984b4ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed072ae28b506df78d85c15f665a8df8') in 0.014412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_ring_9 Variant.prefab
+  artifactKey: Guid(25a307cfcb4cafd46bbc948c147816a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_ring_9 Variant.prefab using Guid(25a307cfcb4cafd46bbc948c147816a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf86434549a8c3ee6212bb4d9bfb9cd') in 0.016038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_mirror_1 Variant.prefab
+  artifactKey: Guid(be93ab3418dc1cf45b1bbf6a4a4be0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_mirror_1 Variant.prefab using Guid(be93ab3418dc1cf45b1bbf6a4a4be0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaf3882d844ee9de70249cde75ce876') in 0.018552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_pendant_2 Variant.prefab
+  artifactKey: Guid(a0d42be6bf4ac0e4baacaf3b82906c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_pendant_2 Variant.prefab using Guid(a0d42be6bf4ac0e4baacaf3b82906c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a7e84e29bdb7b0f111a9afacd1bf66') in 0.011495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_mirror Variant.prefab
+  artifactKey: Guid(e32e7615ec509fd4b9861544aaf7185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_mirror Variant.prefab using Guid(e32e7615ec509fd4b9861544aaf7185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5c9422f1e78713161c96b9eb4f8c14') in 0.010868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_1 Variant.prefab
+  artifactKey: Guid(f4c535672e7e3d44a87f7136c7223731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_1 Variant.prefab using Guid(f4c535672e7e3d44a87f7136c7223731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351199e451256323727fca9d560e69a7') in 0.020877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_4 Variant.prefab
+  artifactKey: Guid(6943de2243fb8694497a3f39c52e8c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_4 Variant.prefab using Guid(6943de2243fb8694497a3f39c52e8c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635efe22a3800bcefbbeaeac12323e35') in 0.014084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace Variant.prefab
+  artifactKey: Guid(c83c2af7d459d5e44a3dd7e476b0f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace Variant.prefab using Guid(c83c2af7d459d5e44a3dd7e476b0f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ae75e47d1acc9401b1d54440014bd0') in 0.016077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_3 Variant.prefab
+  artifactKey: Guid(3202e4329fede6d4683b65f995f05d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_3 Variant.prefab using Guid(3202e4329fede6d4683b65f995f05d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2e61dd8a936e6b7c1989f25b596133') in 0.018871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_metal_detector Variant.prefab
+  artifactKey: Guid(64b72f98a87520149813121e7b5b2105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_metal_detector Variant.prefab using Guid(64b72f98a87520149813121e7b5b2105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baf18d7cdf058893a2f04959644ba45') in 0.023243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_pendant_1 Variant.prefab
+  artifactKey: Guid(c265c8a5a2f2c55489c85fc10c169545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_pendant_1 Variant.prefab using Guid(c265c8a5a2f2c55489c85fc10c169545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2123de46be5005adb963008626089e8') in 0.019593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_ring_4 Variant.prefab
+  artifactKey: Guid(07bdf778376ee6843a661979ac9e7f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_ring_4 Variant.prefab using Guid(07bdf778376ee6843a661979ac9e7f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab1543a3b2ee0e345acfa08ef2a0c52') in 0.026525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_3 Variant.prefab
+  artifactKey: Guid(49e11bb93e841dc40bc1246b2427c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_3 Variant.prefab using Guid(49e11bb93e841dc40bc1246b2427c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebbca4f6e44ff4f32dd993590b5c553') in 0.020580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_safe Variant.prefab
+  artifactKey: Guid(c8ab20d5b7985d546b55d37d9a5b596d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_safe Variant.prefab using Guid(c8ab20d5b7985d546b55d37d9a5b596d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a961967b76c84823e42d15fdac272a8') in 0.018562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_6 Variant.prefab
+  artifactKey: Guid(a664fe5447d6ea841878bebba37c6b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_6 Variant.prefab using Guid(a664fe5447d6ea841878bebba37c6b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4313239effc0ddd2d00bad0a4b441cf') in 0.020198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_ring_1 Variant.prefab
+  artifactKey: Guid(5810d88539603e44eba339258e928127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_ring_1 Variant.prefab using Guid(5810d88539603e44eba339258e928127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c68e9bbe29e11d203f802538a344b11') in 0.025066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_5 Variant.prefab
+  artifactKey: Guid(7ac9538772da685448900a546947fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_5 Variant.prefab using Guid(7ac9538772da685448900a546947fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3af488864cf108046071f04cb744889') in 0.019688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_9 Variant.prefab
+  artifactKey: Guid(dc788e44dbbf1c542b2eb3609b5b2da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_9 Variant.prefab using Guid(dc788e44dbbf1c542b2eb3609b5b2da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b01ec88a6c2632617d7876d493c8dd') in 0.021259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_stand Variant.prefab
+  artifactKey: Guid(104a1a4deb36ff9428a92b9d05059b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_stand Variant.prefab using Guid(104a1a4deb36ff9428a92b9d05059b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c6a7c3373bfc650aff2802f1285744') in 0.014320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_2 Variant.prefab
+  artifactKey: Guid(11f4986a67fc4a949bc7ba5fde79d59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_stand_2 Variant.prefab using Guid(11f4986a67fc4a949bc7ba5fde79d59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09213fc74dab9a0fc8c1b36c757cb2a4') in 0.015412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_scepter Variant.prefab
+  artifactKey: Guid(f6c20a7c9aa3d77408aa88a2242871d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_scepter Variant.prefab using Guid(f6c20a7c9aa3d77408aa88a2242871d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4deb23c50ee650e3f66818ad8a229aea') in 0.012507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_ring Variant.prefab
+  artifactKey: Guid(56e984a741ffe3b49b4abf4bfdc7a772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_ring Variant.prefab using Guid(56e984a741ffe3b49b4abf4bfdc7a772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b32e533c7e8a0b091e17247405f5a89') in 0.027048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_pillow Variant.prefab
+  artifactKey: Guid(860b8e35ab1d2c5488098a23c8acbf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_pillow Variant.prefab using Guid(860b8e35ab1d2c5488098a23c8acbf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87b17a439775fe6d91f7367ca19576a') in 0.016570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_twisted_money_1 Variant.prefab
+  artifactKey: Guid(91faa9270e910634a89b240aecbcbabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_twisted_money_1 Variant.prefab using Guid(91faa9270e910634a89b240aecbcbabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b0f93a3abcae89c762724e5d12e57b') in 0.017303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_7 Variant.prefab
+  artifactKey: Guid(240771cde08f44443b75342f5a2c75d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_7 Variant.prefab using Guid(240771cde08f44443b75342f5a2c75d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4a519f33e83b2b2839cfbcd8ebf65a') in 0.017853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_4 Variant.prefab
+  artifactKey: Guid(554a3374e1acf0b4eac73c1478d46e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_necklace_4 Variant.prefab using Guid(554a3374e1acf0b4eac73c1478d46e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad8842849c3f8d23c726afad4bb9af6') in 0.017891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/props/SM_watch Variant.prefab
+  artifactKey: Guid(c47ae56acf886f04d81d68bce7cf45e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/props/SM_watch Variant.prefab using Guid(c47ae56acf886f04d81d68bce7cf45e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094293e07d581e31f52e8bacecc46c7f') in 0.016985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 30.767199 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/shop
+  artifactKey: Guid(ac04471453785d6468533d935a1d1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/shop using Guid(ac04471453785d6468533d935a1d1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef531243652a6cff4e19a092e600b08') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.742628 seconds.
+  path: Assets/Packages/jewelry_shop/textures
+  artifactKey: Guid(96a58acb9897177459bc8740938f9b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/textures using Guid(96a58acb9897177459bc8740938f9b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802dc57b3dac61fc9acd05bd52026cf1') in 0.000250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.087368 seconds.
+  path: Assets/Packages/jewelry_shop/textures/T_.png
+  artifactKey: Guid(d2412f5000c76514aa3a1961ebd65ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/textures/T_.png using Guid(d2412f5000c76514aa3a1961ebd65ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c2f3609ec63f355bd8e9aa6abfd636') in 0.017659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.978656 seconds.
+  path: Assets/Packages/jewelry_shop/models
+  artifactKey: Guid(ae9806e9c77acee4a8a8eb71dfcc003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models using Guid(ae9806e9c77acee4a8a8eb71dfcc003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a9ede65ec79783c0ab668284daea64') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.836681 seconds.
+  path: Assets/Packages/jewelry_shop/models/shop/SM_shop.fbx
+  artifactKey: Guid(1c5f18f307339de45a87f2b000936bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/shop/SM_shop.fbx using Guid(1c5f18f307339de45a87f2b000936bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607e90e67342da38453844f381250c5f') in 0.286714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 17.256385 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs
+  artifactKey: Guid(01bb0203f10902b48aba6a630c716726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs using Guid(01bb0203f10902b48aba6a630c716726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6183eb81e4e13fd9e069a12df174751') in 0.000620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.803037 seconds.
+  path: Assets/Packages/jewelry_shop/models/shop
+  artifactKey: Guid(95613515ca1706b4885d6bd91b846123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/shop using Guid(95613515ca1706b4885d6bd91b846123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd660d963ccbb2b9ee1b436f3996e10ea') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.589510 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/showcase
+  artifactKey: Guid(95a43e7798b7b9347885979eeac6491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/showcase using Guid(95a43e7798b7b9347885979eeac6491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aa151bd37ceb032eb6929da63b05de') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053319 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/showcase/SM_showcase Variant.prefab
+  artifactKey: Guid(b4d59ac7451345b4f8f3e915f33c0a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/showcase/SM_showcase Variant.prefab using Guid(b4d59ac7451345b4f8f3e915f33c0a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf4ed201278bfe7e037cf365465ffd0') in 0.028189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/showcase/SM_showcase_2 Variant.prefab
+  artifactKey: Guid(d04de8606bcd360429e6130432482c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/showcase/SM_showcase_2 Variant.prefab using Guid(d04de8606bcd360429e6130432482c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5ba94583325383ddb07e28fd3d1e28') in 0.021808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/showcase/SM_showcase_4 Variant.prefab
+  artifactKey: Guid(fe3b24d478f68cc4aab4ab32268e3e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/showcase/SM_showcase_4 Variant.prefab using Guid(fe3b24d478f68cc4aab4ab32268e3e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f5aa4aad7101686ea547bb63b80dc9') in 0.011129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/showcase/SM_showcase_5 Variant.prefab
+  artifactKey: Guid(248f19995024ab84bb7a33d33a1b0a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/showcase/SM_showcase_5 Variant.prefab using Guid(248f19995024ab84bb7a33d33a1b0a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e961939ed575653aa042cc7a24c278e5') in 0.013066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 32.332443 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/shop/door.prefab
+  artifactKey: Guid(05fbd0f8d42274cffae8e34d19d271ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/shop/door.prefab using Guid(05fbd0f8d42274cffae8e34d19d271ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f42970964cb3e03a7f4d72bbc7a5f8') in 0.013659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29e747000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.738 seconds
+Refreshing native plugins compatible for Editor in 36.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.116 seconds
+Domain Reload Profiling: 1855ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (229ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1117ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 25.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4439.
+Memory consumption went from 475.6 MB to 474.3 MB.
+Total: 2.631458 ms (FindLiveObjects: 0.124375 ms CreateObjectMapping: 0.046750 ms MarkObjects: 2.286917 ms  DeleteObjects: 0.172041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.243207 seconds.
+  path: Assets/Scenes/Pub.unity
+  artifactKey: Guid(f365d3397be1c7b4d89342b499edabd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pub.unity using Guid(f365d3397be1c7b4d89342b499edabd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c7c0b417f2e3dfafc667acdd540bec') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f79b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.701 seconds
+Refreshing native plugins compatible for Editor in 33.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.171 seconds
+Domain Reload Profiling: 1872ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (229ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1171ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 31.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4442.
+Memory consumption went from 480.6 MB to 479.3 MB.
+Total: 2.564458 ms (FindLiveObjects: 0.136125 ms CreateObjectMapping: 0.048750 ms MarkObjects: 2.176792 ms  DeleteObjects: 0.202291 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 304.595661 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Ashtray.fbx
+  artifactKey: Guid(268497ec93c4aaa429937e1de7520bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Ashtray.fbx using Guid(268497ec93c4aaa429937e1de7520bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf79b6da25fb06d0a792edb4131ea32') in 0.089254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Base Scene/BA_Concrete Plane.prefab
+  artifactKey: Guid(0a39e6bc93e859145a2f868ff0277c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Base Scene/BA_Concrete Plane.prefab using Guid(0a39e6bc93e859145a2f868ff0277c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac1fa49290d0d2705832713d3d36374') in 0.361456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BA_Ceiling Light_01.prefab
+  artifactKey: Guid(4f5fea46d0c567446b768005952642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BA_Ceiling Light_01.prefab using Guid(4f5fea46d0c567446b768005952642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcec87429dae79114b170ea47b9b013') in 0.014749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.795341 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Corner.fbx
+  artifactKey: Guid(d6a95c7301936c546a37fdc231b3dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Corner.fbx using Guid(d6a95c7301936c546a37fdc231b3dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc30b7216506181c73a55bf8d25fd140') in 0.038954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Mat.prefab
+  artifactKey: Guid(abdfdb51929654843bef31098a507ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Mat.prefab using Guid(abdfdb51929654843bef31098a507ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4358522b43d7e12e2efa3397bb0c459') in 0.014020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Fridge.fbx
+  artifactKey: Guid(4ed83132c365dd3439f89faf1d23fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Fridge.fbx using Guid(4ed83132c365dd3439f89faf1d23fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6193badfaefad42cbfbcd4957684ede4') in 0.032910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Round Table.fbx
+  artifactKey: Guid(a83e566c1314134499a68eae84b03d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Round Table.fbx using Guid(a83e566c1314134499a68eae84b03d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995e064859346bfdf9251645decd4c0f') in 0.019087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Round Table.prefab
+  artifactKey: Guid(469f3f1ec52c7634facab13d467f7985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Round Table.prefab using Guid(469f3f1ec52c7634facab13d467f7985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72ba156b758666e3c7a57fe8618e630') in 0.021912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Sink.fbx
+  artifactKey: Guid(bdf624ae2044bd54082b42014719aa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Sink.fbx using Guid(bdf624ae2044bd54082b42014719aa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba0eb8c4344d483b514385c9ffa88c5') in 0.025540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Mat.fbx
+  artifactKey: Guid(c61d3b73e4bcd1348a9ae265ba97fbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Mat.fbx using Guid(c61d3b73e4bcd1348a9ae265ba97fbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05692656171fabce7d32a7c121801f7b') in 0.026966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Rug.fbx
+  artifactKey: Guid(71999f6dd0320c444a952f2fe443dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Rug.fbx using Guid(71999f6dd0320c444a952f2fe443dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f85fa00fcd8da220bde92438465230') in 0.021516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Rug.prefab
+  artifactKey: Guid(2b750a9fec2fa3246be2c7471122cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Rug.prefab using Guid(2b750a9fec2fa3246be2c7471122cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f15babdb61a3cbb47af2c6cb12fe4e') in 0.019443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Sink.prefab
+  artifactKey: Guid(23e7519b7a6845f49998ffe9e3a0fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Sink.prefab using Guid(23e7519b7a6845f49998ffe9e3a0fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fe2a74fc1253d7e6b7a95eef2f3e84') in 0.020204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.237105 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Square Table.prefab
+  artifactKey: Guid(bb3ec41c80566144b9f5cd60ae074233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Square Table.prefab using Guid(bb3ec41c80566144b9f5cd60ae074233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997ba64f215af14c450ca522e1c193f2') in 0.017923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Stool.prefab
+  artifactKey: Guid(d1f7dae51c185be4c95fe1b16de0fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Stool.prefab using Guid(d1f7dae51c185be4c95fe1b16de0fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3401db28ec581fa1894efc4334275372') in 0.022618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Straight.fbx
+  artifactKey: Guid(7206118f73602fc4bac40c2e9f1fa9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Bar Straight.fbx using Guid(7206118f73602fc4bac40c2e9f1fa9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0960440254c201781c77d3f2196754b4') in 0.045292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Packages/Mini Simple Characters Demo/Prefabs/Bartender.prefab
+  artifactKey: Guid(950f64c9c1d51e14b84b4e4d4a7b775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mini Simple Characters Demo/Prefabs/Bartender.prefab using Guid(950f64c9c1d51e14b84b4e4d4a7b775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20726b94eb51c6f33ab355ff51cae638') in 0.039254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Beer Bottle 1.fbx
+  artifactKey: Guid(75671cea3f54ecb4fb272256cb9f0ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Beer Bottle 1.fbx using Guid(75671cea3f54ecb4fb272256cb9f0ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdae62aceffef51194535e1995ebff5') in 0.049026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Beer Bottle 2.prefab
+  artifactKey: Guid(bcc674b7303c065499752bc47117a6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Beer Bottle 2.prefab using Guid(bcc674b7303c065499752bc47117a6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82286d6ba10fc56f0abf32830784c96') in 0.018231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Beer Bottle 1.prefab
+  artifactKey: Guid(48de8ecdbf1d13b41b5e72cc56cfd113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Beer Bottle 1.prefab using Guid(48de8ecdbf1d13b41b5e72cc56cfd113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ecf32bfddf64aba2172137ea979e7b') in 0.019022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/Base Room Scene.prefab
+  artifactKey: Guid(42ded4a9b41e76d46bb90a3e35072cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/Base Room Scene.prefab using Guid(42ded4a9b41e76d46bb90a3e35072cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb5bc9be1576de3cfcec8e5cad2f422') in 0.032713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Straight.prefab
+  artifactKey: Guid(f3daa28def9246d4db4ffae8dfc6efd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Bar Straight.prefab using Guid(f3daa28def9246d4db4ffae8dfc6efd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7edce83779f9df91de5b46bdf78f5a') in 0.016819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.147946 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Beer Bottle 2.fbx
+  artifactKey: Guid(02ba3bdcc2f502b409c69c82970f4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Beer Bottle 2.fbx using Guid(02ba3bdcc2f502b409c69c82970f4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea05685d979b0520114e71c5b5e108c') in 0.022600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Beer Mug.fbx
+  artifactKey: Guid(d7e560534fc5ec24e9a0b03de240da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Beer Mug.fbx using Guid(d7e560534fc5ec24e9a0b03de240da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520fd8a63670b99c4f0b0910857861de') in 0.023392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Nuggets_01.prefab
+  artifactKey: Guid(bef0b6331b6ddcc4e80368fbb8f8fade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Nuggets_01.prefab using Guid(bef0b6331b6ddcc4e80368fbb8f8fade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c492b94902c3547153e331e15a893ee5') in 0.017873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Booth Corner.fbx
+  artifactKey: Guid(af00f1e815da45c4c8c0f6083b0a1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Booth Corner.fbx using Guid(af00f1e815da45c4c8c0f6083b0a1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4415d372a27198306c2645f299466e9e') in 0.018443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Models/Booth Straight.fbx
+  artifactKey: Guid(d0c48fe185fce1c45a4a945558205918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Models/Booth Straight.fbx using Guid(d0c48fe185fce1c45a4a945558205918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c9e0842341d918b42b64806067b043') in 0.025533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Chair_01.prefab
+  artifactKey: Guid(cd8fcc5431d7f7e46be3c7c12ed32513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Chair_01.prefab using Guid(cd8fcc5431d7f7e46be3c7c12ed32513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ae0c60b40762420ef26ff2fddd8334') in 0.030868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Burger_01_Empty.prefab
+  artifactKey: Guid(440b75fd42ecb5f41b94162dfa6b7593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Burger_01_Empty.prefab using Guid(440b75fd42ecb5f41b94162dfa6b7593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbb5351280a448f0c898fe543e758ff') in 0.020558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Beer Mug.prefab
+  artifactKey: Guid(d99276e410ddb394cbdfc803dfd87adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Beer Mug.prefab using Guid(d99276e410ddb394cbdfc803dfd87adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fa1e78c05d7cb7bddd1baefe8299c3') in 0.021381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Nuggets_01_Empty.prefab
+  artifactKey: Guid(385bf342703bbee4c8f32c938156e8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Nuggets_01_Empty.prefab using Guid(385bf342703bbee4c8f32c938156e8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d3decd245fa69f6c262fc7576b73e1') in 0.013327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_Chair_01.fbx
+  artifactKey: Guid(b06a7002771176e48b2aaba873e28341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_Chair_01.fbx using Guid(b06a7002771176e48b2aaba873e28341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5a6a667b97362f4cc4a364fac41e77') in 0.067040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Booth Straight.prefab
+  artifactKey: Guid(57a772f86a969b344859f3ecb173b92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Booth Straight.prefab using Guid(57a772f86a969b344859f3ecb173b92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd587a557ca3e79b26f0067c6ad5dbf69') in 0.017583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Burger_01.prefab
+  artifactKey: Guid(ce8fe15fe218b10459d08e5bd9dbc628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Burger_01.prefab using Guid(ce8fe15fe218b10459d08e5bd9dbc628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8215918159934f170fe2b4be0c5592f0') in 0.031018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx
+  artifactKey: Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx using Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bd0de55f99e439165c9b710b212f58') in 0.216433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 244
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Table_01.prefab
+  artifactKey: Guid(3a3c0bbe58beeff4a8d63acd5a770137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Table_01.prefab using Guid(3a3c0bbe58beeff4a8d63acd5a770137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135453735f1c111d4f6323d63bf3a11d') in 0.011472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Packages/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building Sky_big_color02.prefab
+  artifactKey: Guid(694e1313d3f12e84aaf959ff6960ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building Sky_big_color02.prefab using Guid(694e1313d3f12e84aaf959ff6960ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb26309f48c1f782f1227b8ea52fa68') in 0.256319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx
+  artifactKey: Guid(39d59b6b89252814494c963f97ed892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx using Guid(39d59b6b89252814494c963f97ed892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a55198d80dfc94f18d0a67723f3feb3') in 0.027402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_01.fbx
+  artifactKey: Guid(013043932069e224e90b516d38cdab48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_01.fbx using Guid(013043932069e224e90b516d38cdab48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5932bef884b2d903b8b03236dd8d4de') in 0.066317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_02.fbx
+  artifactKey: Guid(7308b87287964d64b9769b7e0d6d7314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_02.fbx using Guid(7308b87287964d64b9769b7e0d6d7314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed4fa5112c1d15b480538c373e082f4') in 0.022308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Booth Corner.prefab
+  artifactKey: Guid(d5c5f7171cbc31244aaa7365ce795e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/9t5 Low Poly Pub Pack/Prefabs/Booth Corner.prefab using Guid(d5c5f7171cbc31244aaa7365ce795e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7003d9da116fb82141e49f0f19ec2d4') in 0.016169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Doors_01.fbx
+  artifactKey: Guid(cb07ca870cf1d5444b85ea4e3ee49a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Doors_01.fbx using Guid(cb07ca870cf1d5444b85ea4e3ee49a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5703509a22dc99da01eeaf992b760bb') in 0.038042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 12.333445 seconds.
+  path: Assets/Packages/SimplePoly City - Low Poly Assets/Textures/Building_Pizza.png
+  artifactKey: Guid(0cf2b5e2d8e8aba41b18787cd9399b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/SimplePoly City - Low Poly Assets/Textures/Building_Pizza.png using Guid(0cf2b5e2d8e8aba41b18787cd9399b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a4cde9499bc5cd2011a9d995d2fd32') in 0.010376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 48.990524 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bbfc1944636691f85ec5cfc56de85e') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29e747000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 38.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.318 seconds
+Domain Reload Profiling: 2064ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 31.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4448.
+Memory consumption went from 486.6 MB to 485.3 MB.
+Total: 2.534666 ms (FindLiveObjects: 0.125667 ms CreateObjectMapping: 0.047000 ms MarkObjects: 2.187625 ms  DeleteObjects: 0.173917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f79b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.736 seconds
+Refreshing native plugins compatible for Editor in 33.90 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.118 seconds
+Domain Reload Profiling: 1854ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (229ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1118ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 31.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4451.
+Memory consumption went from 491.4 MB to 490.1 MB.
+Total: 2.639125 ms (FindLiveObjects: 0.132250 ms CreateObjectMapping: 0.048750 ms MarkObjects: 2.273209 ms  DeleteObjects: 0.184208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.720 seconds
+Refreshing native plugins compatible for Editor in 38.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.218 seconds
+Domain Reload Profiling: 1938ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 35.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4454.
+Memory consumption went from 496.2 MB to 495.0 MB.
+Total: 2.702667 ms (FindLiveObjects: 0.128208 ms CreateObjectMapping: 0.046667 ms MarkObjects: 2.341833 ms  DeleteObjects: 0.185500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86.630313 seconds.
+  path: Assets/Scenes/Pub.unity
+  artifactKey: Guid(f365d3397be1c7b4d89342b499edabd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pub.unity using Guid(f365d3397be1c7b4d89342b499edabd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66582f3a02801b315c46f9b2587789a8') in 0.001386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.733 seconds
+Refreshing native plugins compatible for Editor in 31.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.193 seconds
+Domain Reload Profiling: 1926ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (241ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (288ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 31.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4457.
+Memory consumption went from 501.2 MB to 499.9 MB.
+Total: 2.533000 ms (FindLiveObjects: 0.130458 ms CreateObjectMapping: 0.049875 ms MarkObjects: 2.159375 ms  DeleteObjects: 0.192666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.122310 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(7e6d3f4e5d896154ab4438845532ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(7e6d3f4e5d896154ab4438845532ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8032eea0ad0e37f4d942aacd433302b') in 0.001334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.697 seconds
+Refreshing native plugins compatible for Editor in 50.56 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.170 seconds
+Domain Reload Profiling: 1868ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1170ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 31.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4460.
+Memory consumption went from 506.2 MB to 504.9 MB.
+Total: 2.570292 ms (FindLiveObjects: 0.133042 ms CreateObjectMapping: 0.049542 ms MarkObjects: 2.199292 ms  DeleteObjects: 0.187875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.740779 seconds.
+  path: Assets/Scenes/Jewellery.unity
+  artifactKey: Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jewellery.unity using Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13aa60810065780cd3022ce783757802') in 0.001310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.742908 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(7e6d3f4e5d896154ab4438845532ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(7e6d3f4e5d896154ab4438845532ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f52629c0db9eccb5c029a99489b298') in 0.003655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.723 seconds
+Refreshing native plugins compatible for Editor in 40.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.140 seconds
+Domain Reload Profiling: 1863ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1140ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (272ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 30.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4463.
+Memory consumption went from 511.1 MB to 509.8 MB.
+Total: 2.501750 ms (FindLiveObjects: 0.122000 ms CreateObjectMapping: 0.045125 ms MarkObjects: 2.147291 ms  DeleteObjects: 0.186875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.763 seconds
+Refreshing native plugins compatible for Editor in 29.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.258 seconds
+Domain Reload Profiling: 2021ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (517ms)
+		LoadAssemblies (364ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (237ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 30.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4466.
+Memory consumption went from 0.50 GB to 0.50 GB.
+Total: 2.412708 ms (FindLiveObjects: 0.124166 ms CreateObjectMapping: 0.048000 ms MarkObjects: 2.054750 ms  DeleteObjects: 0.185166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 421.847510 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/shop/SM_shop Variant.prefab
+  artifactKey: Guid(cd87cb73bef3f03439a9449bd63718e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/shop/SM_shop Variant.prefab using Guid(cd87cb73bef3f03439a9449bd63718e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0840120b64bda5237fed1250f6ba1b') in 0.063544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.731 seconds
+Refreshing native plugins compatible for Editor in 41.99 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.183 seconds
+Domain Reload Profiling: 1914ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (362ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1183ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 32.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4469.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.664333 ms (FindLiveObjects: 0.149709 ms CreateObjectMapping: 0.050208 ms MarkObjects: 2.272166 ms  DeleteObjects: 0.191417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.802705 seconds.
+  path: Assets/Scenes/Jewellery.unity
+  artifactKey: Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jewellery.unity using Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5509800673254c99d654e856be01cfe0') in 0.003686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f79b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.719 seconds
+Refreshing native plugins compatible for Editor in 46.52 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.166 seconds
+Domain Reload Profiling: 1885ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (229ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1166ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 35.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4472.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.659791 ms (FindLiveObjects: 0.140916 ms CreateObjectMapping: 0.047875 ms MarkObjects: 2.288834 ms  DeleteObjects: 0.181500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.500851 seconds.
+  path: Assets/Scenes/Jewellery.unity
+  artifactKey: Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jewellery.unity using Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6c3b011fe8c80c167701f6ba13da75') in 0.001210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.726 seconds
+Refreshing native plugins compatible for Editor in 39.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.302 seconds
+Domain Reload Profiling: 2028ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (492ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1302ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 40.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4475.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 2.669875 ms (FindLiveObjects: 0.141833 ms CreateObjectMapping: 0.049667 ms MarkObjects: 2.295333 ms  DeleteObjects: 0.182292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101.698709 seconds.
+  path: Assets/Packages/jewelry_shop/Prefabs/shop/door.prefab
+  artifactKey: Guid(05fbd0f8d42274cffae8e34d19d271ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Prefabs/shop/door.prefab using Guid(05fbd0f8d42274cffae8e34d19d271ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad8c9589ccd2484d38b8912231b5672') in 0.080389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 44.993341 seconds.
+  path: Assets/Scenes/Jewellery.unity
+  artifactKey: Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jewellery.unity using Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200fcf1c6c38348026aa754c5a789c26') in 0.001342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.720 seconds
+Refreshing native plugins compatible for Editor in 30.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.221 seconds
+Domain Reload Profiling: 1941ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1221ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 34.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4478.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 2.515125 ms (FindLiveObjects: 0.138083 ms CreateObjectMapping: 0.049084 ms MarkObjects: 2.145791 ms  DeleteObjects: 0.180958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.744 seconds
+Refreshing native plugins compatible for Editor in 41.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.242 seconds
+Domain Reload Profiling: 1986ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (506ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (231ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1242ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 30.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4481.
+Memory consumption went from 0.53 GB to 0.53 GB.
+Total: 2.493458 ms (FindLiveObjects: 0.131375 ms CreateObjectMapping: 0.045917 ms MarkObjects: 2.116667 ms  DeleteObjects: 0.199125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 257.799413 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Man.prefab
+  artifactKey: Guid(229639aed4129534fa69a11f5305b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Man.prefab using Guid(229639aed4129534fa69a11f5305b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44d299f2d8037d8650869dcf018fbbf') in 0.075230 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Woman.prefab
+  artifactKey: Guid(f0043371e2fd88747891ddb3064283ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Woman.prefab using Guid(f0043371e2fd88747891ddb3064283ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e7b434435c0173d2cf9a2b405f01cf') in 0.069123 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 2.394667 seconds.
+  path: Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/FFK_DoorFrame_01_02.prefab
+  artifactKey: Guid(2d48a5ba5e9c424489a39d7577e631b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/FFK_DoorFrame_01_02.prefab using Guid(2d48a5ba5e9c424489a39d7577e631b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58077ef15e6f1437c735827c45dfe42c') in 0.054478 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Door Frame_01.prefab
+  artifactKey: Guid(680503713abcfb149bae4f505b6c449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Door Frame_01.prefab using Guid(680503713abcfb149bae4f505b6c449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cbe0f9e935215aecaf42d9b92e84dc') in 0.374622 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 10.903800 seconds.
+  path: Assets/Scenes/Jewellery.unity
+  artifactKey: Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jewellery.unity using Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53519a0525deb76e444ff051b3696e0') in 0.000469 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Thread 0x29f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.739 seconds
+Refreshing native plugins compatible for Editor in 41.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.168 seconds
+Domain Reload Profiling: 1907ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (243ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1168ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 33.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4485.
+Memory consumption went from 0.53 GB to 0.53 GB.
+Total: 2.607959 ms (FindLiveObjects: 0.126000 ms CreateObjectMapping: 0.045792 ms MarkObjects: 2.251833 ms  DeleteObjects: 0.184000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a8e87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.736 seconds
+Refreshing native plugins compatible for Editor in 47.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.072 seconds
+Domain Reload Profiling: 1809ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1072ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 29.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4488.
+Memory consumption went from 0.54 GB to 0.54 GB.
+Total: 2.487625 ms (FindLiveObjects: 0.147500 ms CreateObjectMapping: 0.051625 ms MarkObjects: 2.110000 ms  DeleteObjects: 0.177833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a8f87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.733 seconds
+Refreshing native plugins compatible for Editor in 39.04 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.152 seconds
+Domain Reload Profiling: 1885ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1152ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (268ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 29.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4491.
+Memory consumption went from 0.54 GB to 0.54 GB.
+Total: 2.544250 ms (FindLiveObjects: 0.134666 ms CreateObjectMapping: 0.047542 ms MarkObjects: 2.198875 ms  DeleteObjects: 0.162750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a8f87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.729 seconds
+Refreshing native plugins compatible for Editor in 45.30 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.211 seconds
+Domain Reload Profiling: 1940ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (235ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 31.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4494.
+Memory consumption went from 0.55 GB to 0.55 GB.
+Total: 2.604750 ms (FindLiveObjects: 0.138959 ms CreateObjectMapping: 0.050000 ms MarkObjects: 2.218916 ms  DeleteObjects: 0.196417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 278.314547 seconds.
+  path: Assets/Scenes/Jewellery.unity
+  artifactKey: Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jewellery.unity using Guid(6f08b06d4ab3def46ab2933c1f4deb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879d844ad2b06afb78995f75818c5c26') in 0.002717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 232.740739 seconds.
+  path: Assets/Packages/jewelry_shop/Materials/glass.mat
+  artifactKey: Guid(58a43b414d5f83a4fbb9d237baf7ac48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/Materials/glass.mat using Guid(58a43b414d5f83a4fbb9d237baf7ac48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26920657a1dd96c039dc19ddce24b77') in 0.062397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.248362 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_backlight.fbx
+  artifactKey: Guid(41b44bd8a7b4e084187d0a21153b1a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_backlight.fbx using Guid(41b44bd8a7b4e084187d0a21153b1a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f073d16dd46179a16cd99206bf4010') in 0.036175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_coin.fbx
+  artifactKey: Guid(930ce49332068a8429647bfdd5d3d8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_coin.fbx using Guid(930ce49332068a8429647bfdd5d3d8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a689976e2287e838a94245602c2861') in 0.017537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_building_1.fbx
+  artifactKey: Guid(27de1d4150d7fe347b08ad5004af1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_building_1.fbx using Guid(27de1d4150d7fe347b08ad5004af1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a860e40270ef6058830b5a8708c79c1') in 0.019539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_banknote_2.fbx
+  artifactKey: Guid(d3b82d8d75e9eed44b6a353ccb578c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_banknote_2.fbx using Guid(d3b82d8d75e9eed44b6a353ccb578c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c57eb1372af60ae351a0ae6263a50') in 0.021849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_lamp_1.fbx
+  artifactKey: Guid(986326356fe641b4f8ced3fbb96108f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_lamp_1.fbx using Guid(986326356fe641b4f8ced3fbb96108f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b5057e231506809887cf544059972c') in 0.024447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_earring_3.fbx
+  artifactKey: Guid(9afb413e5c024d74db5407ec8d807279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_earring_3.fbx using Guid(9afb413e5c024d74db5407ec8d807279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df902f9d9f77e1a6750ca2cff1a8c4c0') in 0.022188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_jar.fbx
+  artifactKey: Guid(990852ba2ca93ec4ea2492cddc6950e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_jar.fbx using Guid(990852ba2ca93ec4ea2492cddc6950e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156a693a479d1306c442d09ae6a8025b') in 0.021765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_inscription.fbx
+  artifactKey: Guid(5f230ce0cbfb9154e95dee254eba5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_inscription.fbx using Guid(5f230ce0cbfb9154e95dee254eba5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2d81cc5db100def6674dfbde6a0535') in 0.016821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_bundle_of_money_2.fbx
+  artifactKey: Guid(72b3d57621f702a4497757d83489d980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_bundle_of_money_2.fbx using Guid(72b3d57621f702a4497757d83489d980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a6692abc1abaa308b6c5e64c9532fa') in 0.009523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_chain.fbx
+  artifactKey: Guid(a68746b9e826057428af719051bdb8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_chain.fbx using Guid(a68746b9e826057428af719051bdb8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b417a2ead07edff0ea8ac3b22af40b') in 0.017401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_case.fbx
+  artifactKey: Guid(0c8639ab1760cd049b232cefaf7f1fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_case.fbx using Guid(0c8639ab1760cd049b232cefaf7f1fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f3ab656ad6b69dfc885cfab4c330e1') in 0.022030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_folded_money.fbx
+  artifactKey: Guid(fb9b47148455fab4db015dc90c382121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_folded_money.fbx using Guid(fb9b47148455fab4db015dc90c382121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211c9bc3c427594ee3c369cb6849aca1') in 0.017202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_bundle_of_money_3.fbx
+  artifactKey: Guid(12ee1d6e923424e4c99acbfb5b88359c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_bundle_of_money_3.fbx using Guid(12ee1d6e923424e4c99acbfb5b88359c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1705993a1d9d716e7032507d14f0fb01') in 0.011471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_banknote_1.fbx
+  artifactKey: Guid(5b9928bdf97b41c449611d80a898a8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_banknote_1.fbx using Guid(5b9928bdf97b41c449611d80a898a8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5506796ddb8d7be97a0ad5f620b87663') in 0.013863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_folded_money_1.fbx
+  artifactKey: Guid(419b051ec19bb1044a39dada274df530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_folded_money_1.fbx using Guid(419b051ec19bb1044a39dada274df530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720ab710538e05ea86ad90783adbe993') in 0.009329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_ingot.fbx
+  artifactKey: Guid(4a39d8107f6c51d43bf68fd282f50abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_ingot.fbx using Guid(4a39d8107f6c51d43bf68fd282f50abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a5f348682dc241396283c74502e197') in 0.008689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_earring_1.fbx
+  artifactKey: Guid(98d8acef0da673c4ba3edfc697bea12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_earring_1.fbx using Guid(98d8acef0da673c4ba3edfc697bea12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3675940b9afb810efee6e0b68e1023b4') in 0.021728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_bracelet_1.fbx
+  artifactKey: Guid(178c9a5545c13754aba7b991cc362155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_bracelet_1.fbx using Guid(178c9a5545c13754aba7b991cc362155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea4d5b5a5d8d4f966207a9f4685ecd4') in 0.014476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_bracelet_2.fbx
+  artifactKey: Guid(4e05f2db6eba2cb4a93d4b9708f6f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_bracelet_2.fbx using Guid(4e05f2db6eba2cb4a93d4b9708f6f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5bfe4ad3a07084ef8c19a7198f9562') in 0.016975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_inscription_1.fbx
+  artifactKey: Guid(cb143a177405cc54e875728d927c94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_inscription_1.fbx using Guid(cb143a177405cc54e875728d927c94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6e70a709cfdfdecd060f9cc385d5da') in 0.008298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_chain_1.fbx
+  artifactKey: Guid(da7b5c333b6211949909f8040e12b326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_chain_1.fbx using Guid(da7b5c333b6211949909f8040e12b326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f56f1288bda4af4c3d3a5efb682530') in 0.015261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_building_5.fbx
+  artifactKey: Guid(2d85bfbcd90d0834f80171272d0429f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_building_5.fbx using Guid(2d85bfbcd90d0834f80171272d0429f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e901f955e11477a60ba63d12f5fe1e4a') in 0.010505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_box_2.fbx
+  artifactKey: Guid(b2bb2d754a456914494eba8897780019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_box_2.fbx using Guid(b2bb2d754a456914494eba8897780019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e533c06609abb15d746891cdd3c6086') in 0.016152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_diamond.fbx
+  artifactKey: Guid(4edb2680be9fbfd418712f2421aa4391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_diamond.fbx using Guid(4edb2680be9fbfd418712f2421aa4391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2d8a1bbbe65d744cb19dd5c8abeb50') in 0.011567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_banknote_3.fbx
+  artifactKey: Guid(bceec608791258542be0f690f5a48e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_banknote_3.fbx using Guid(bceec608791258542be0f690f5a48e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c9078108325de99595389d5297860c') in 0.010607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Packages/jewelry_shop/models/props/SM_earring_4.fbx
+  artifactKey: Guid(26bd9e7fbb2b28146955e493a0ee6f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/jewelry_shop/models/props/SM_earring_4.fbx using Guid(26bd9e7fbb2b28146955e493a0ee6f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3617c52f81d742eeebcc568f710dc928') in 0.041468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a8f87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.711 seconds
+Refreshing native plugins compatible for Editor in 48.15 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.154 seconds
+Domain Reload Profiling: 1865ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (473ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (227ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1154ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 32.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.3 MB). Loaded Objects now: 4497.
+Memory consumption went from 0.55 GB to 0.55 GB.
+Total: 2.531958 ms (FindLiveObjects: 0.139375 ms CreateObjectMapping: 0.048292 ms MarkObjects: 2.162916 ms  DeleteObjects: 0.180667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
