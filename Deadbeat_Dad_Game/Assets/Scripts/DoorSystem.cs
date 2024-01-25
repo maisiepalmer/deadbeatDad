@@ -12,6 +12,7 @@ public class DoorSystem : MonoBehaviour
 
     public GameObject loadPlaces;
     public Transform[] loadVector;
+    public StateHandler stateHandler;
 
     private string prevScene = "Pub";
     
@@ -53,12 +54,12 @@ public class DoorSystem : MonoBehaviour
                     else if (hit.collider.CompareTag("Pub"))
                     {
                         Debug.Log("I really shouldn't... I've got to stay on task!");
-                        // TimePenalty();
+                        stateHandler.TimePenalty();
                     }
                     else if (hit.collider.CompareTag("Building"))
                     {
                         Debug.Log("I don't have time for this...");
-                        // TimePenalty();
+                        stateHandler.TimePenalty();
                     }
                 }
             }
@@ -74,6 +75,8 @@ public class DoorSystem : MonoBehaviour
                 Debug.Log("out of pub");
                 playerTransform.transform.SetPositionAndRotation(loadVector[1].transform.position, loadVector[1].transform.rotation);
                 prevScene = "MainScene";
+                
+                stateHandler.StartTimer();
             }    
             else if (prevScene == "FastFood")
             {
@@ -87,20 +90,43 @@ public class DoorSystem : MonoBehaviour
                 playerTransform.transform.SetPositionAndRotation(loadVector[5].transform.position, loadVector[5].transform.rotation);
                 prevScene = "MainScene";
             } 
+
+            stateHandler.SetTasksVisible(true);
         }
         else if (scene.name == "FastFood")
         {
-            Debug.Log("in fast food");
-            playerTransform.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
-            prevScene = "FastFood";
-            exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext/ExtInt_FFK_Entrance_02_01.prefab");
+            if (!stateHandler.GetHasFood())
+            {
+                Debug.Log("in fast food");
+                playerTransform.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
+                prevScene = "FastFood";
+
+                stateHandler.SetTasksVisible(false);
+                exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext/ExtInt_FFK_Entrance_02_01.prefab");
+            }
+            else
+            {
+                Debug.Log("I've been here already... I should go somewhere else");
+                stateHandler.TimePenalty();
+            }
+           
         }
         else if (scene.name == "Jewellery")
         {
-            Debug.Log("in jewellery");
-            playerTransform.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
-            prevScene = "Jewellery";
-            exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/jewelry_shop/Prefabs/shop/door.prefab");
+            if (!stateHandler.GetHasPresent())
+            {
+                Debug.Log("in jewellery");
+                playerTransform.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
+                prevScene = "Jewellery";
+
+                stateHandler.SetTasksVisible(false);
+                exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/jewelry_shop/Prefabs/shop/door.prefab");
+            }
+            else
+            {
+                Debug.Log("I've been here already... I should go somewhere else");
+                stateHandler.TimePenalty();
+            }
         }
     }
 }

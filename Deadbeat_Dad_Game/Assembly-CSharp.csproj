@@ -66,6 +66,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets/Scripts/WifeDialogue.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs" />
      <Compile Include="Assets/Scripts/Dialogue/QD_Speaker.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
@@ -100,6 +101,7 @@
      <Compile Include="Assets/Scripts/Dialogue/QD_Message.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs" />
      <Compile Include="Assets/Packages/Quantum Dialogue System/Demo/Scripts/Rotator.cs" />
+     <Compile Include="Assets/Scripts/StateHandler.cs" />
      <Compile Include="Assets/Scripts/Dialogue/QD_NodeType.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets/Packages/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs" />
