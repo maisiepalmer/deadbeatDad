@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jewellery.unity
     guid: 6f08b06d4ab3def46ab2933c1f4deb53
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 6fe0331efc1854506acc544534ca07de
   m_configObjects: {}
