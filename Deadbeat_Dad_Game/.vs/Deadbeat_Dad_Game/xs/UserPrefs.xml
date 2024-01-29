@@ -1,34 +1,39 @@
 ﻿<Properties StartupConfiguration="{6EE7DE22-3F88-8143-82D6-4BB8786B96E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MainMenu.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerController.cs" Line="26" Column="57" />
-      <File FileName="Assets/Scripts/MouseController.cs" Line="32" Column="28" />
+      <File FileName="Assets/Scripts/MouseController.cs" />
       <File FileName="Assets/Plugins/FMOD/src/EventHandler.cs" />
       <File FileName="Assets/Plugins/FMOD/src/EventReference.cs" />
       <File FileName="Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" />
       <File FileName="Assets/Plugins/FMOD/src/FMODEventPlayable.cs" />
-      <File FileName="Assets/Scripts/Dialogue/QD_DialogueWithFMOD.cs" Line="261" Column="42" />
-      <File FileName="Assets/Scripts/Dialogue/QD_DialogueHandler.cs" Line="73" Column="10" />
-      <File FileName="Assets/Scripts/Dialogue/QD_ChoiceButton.cs" Line="14" Column="36" />
+      <File FileName="Assets/Scripts/Dialogue/QD_DialogueWithFMOD.cs" />
+      <File FileName="Assets/Scripts/Dialogue/QD_DialogueHandler.cs" />
+      <File FileName="Assets/Scripts/Dialogue/QD_ChoiceButton.cs" />
+      <File FileName="Assets/MainMenu.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Deadbeat_Dad_Game" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Dialogue" expanded="True" />
-                <Node name="PlayerController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eec37512-dd1b-4329-863d-b700cff3bf8f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d03c4510-1c5d-4557-b53e-6c69f582c0e3" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

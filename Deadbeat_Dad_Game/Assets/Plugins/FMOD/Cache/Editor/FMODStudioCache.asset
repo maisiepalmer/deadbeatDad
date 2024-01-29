@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638417873812407266
+  lastModified: 638421492510489273
   FileSizes:
   - Name: Desktop
     Value: 1574
@@ -62,7 +62,7 @@ MonoBehaviour:
   Path: FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638417873812409659
+  lastModified: 638421492510490560
   FileSizes:
   - Name: Desktop
     Value: 758
@@ -89,5 +89,5 @@ MonoBehaviour:
   - {fileID: -7105783231320959048}
   StringsBanks:
   - {fileID: -1915163621517846066}
-  cacheTime: 638417873812409659
+  cacheTime: 638421492510490560
   cacheVersion: 131616
