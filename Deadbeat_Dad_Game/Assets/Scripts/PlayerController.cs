@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.collider.CompareTag("Vehicle"))
         {
-            // GameOver()
+            SceneManager.LoadScene("GameOver");
         }
     }
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEditor;
 using TMPro;
 
@@ -96,6 +97,7 @@ public class StateHandler : MonoBehaviour
         {
             crossOut[2].SetActive(true);
             // win (run dialogue wife win)
+            YouWin();
         }
         else
         {
@@ -119,11 +121,11 @@ public class StateHandler : MonoBehaviour
 //---------------------------------------------------------------------------------
     public void GameOver()
     {
-        // load game over scene
+        SceneManager.LoadScene("GameOver");
     }
 
     public void YouWin()
     {
-        // load win scene
+        SceneManager.LoadScene("Win");
     }
 }
