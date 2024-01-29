@@ -257,6 +257,7 @@ namespace QuantumTek.QuantumDialogue.Demo
 
                 // Hide canvas when conversation is over
                 handler.ShowDialogueCanvas(false);
+                
             }
         }
 

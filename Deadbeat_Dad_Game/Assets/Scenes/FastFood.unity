@@ -16320,7 +16320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8353890382526765941, guid: e4d5294e3a00548bb837e58eda873cad, type: 3}
       propertyPath: defaultMouseLock
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8353890382917384171, guid: e4d5294e3a00548bb837e58eda873cad, type: 3}
       propertyPath: m_textAlignment

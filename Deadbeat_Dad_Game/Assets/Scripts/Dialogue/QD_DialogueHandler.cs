@@ -94,6 +94,8 @@ namespace QuantumTek.QuantumDialogue
             if (dialogueCanvas == null) return; 
 
             dialogueCanvas.enabled = isEnabled;
+
+            Debug.Log(isEnabled);
         }
 
         // phill moved these

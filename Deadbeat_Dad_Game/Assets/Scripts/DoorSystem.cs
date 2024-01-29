@@ -121,6 +121,7 @@ public class DoorSystem : MonoBehaviour
 
                 stateHandler.SetTasksVisible(false);
                 exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/jewelry_shop/Prefabs/shop/door.prefab");
+                playerTransform.gameObject.GetComponent<PlayerController>().mouse.SetForward(-180f);
             }
             else
             {
