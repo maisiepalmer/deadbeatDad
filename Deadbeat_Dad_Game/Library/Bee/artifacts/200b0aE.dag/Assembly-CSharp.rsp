@@ -394,6 +394,7 @@
 "Assets/Scripts/StateHandler.cs"
 "Assets/Scripts/VehicleController.cs"
 "Assets/Scripts/WifeDialogue.cs"
+"Assets/Scripts/WinMenu.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
