@@ -8,6 +8,9 @@ public class MouseController : MonoBehaviour
     public float lookSpeed = 10.0f;
     private Vector3 rotation;
     private bool mouseLocked = true;
+    private bool canMove = true;
+
+    public float forward = 0f;
 
     public Transform playerBody;
 
@@ -19,9 +22,29 @@ public class MouseController : MonoBehaviour
 
     void Update()
     {
-        // move 360 direction relative to mouse
-        rotation.y += Input.GetAxis("Mouse X");
-        rotation.x -= Input.GetAxis("Mouse Y");
-        playerBody.eulerAngles = (Vector2)rotation * lookSpeed;
+        if (canMove)
+        {
+            // move 360 direction relative to mouse
+            rotation.y += Input.GetAxis("Mouse X");
+            rotation.x -= Input.GetAxis("Mouse Y");
+            playerBody.eulerAngles = (Vector2)rotation * lookSpeed;
+        }
+        else
+        {
+            // move 360 direction relative to mouse
+            rotation.y = forward;
+            rotation.x = 0;
+            playerBody.eulerAngles = (Vector2)rotation;
+        }
+    }
+
+    public void CanMove(bool state)
+    {
+        canMove = state;
+    }
+
+    public void SetForward(float val)
+    {
+        forward = val;
     }
 }

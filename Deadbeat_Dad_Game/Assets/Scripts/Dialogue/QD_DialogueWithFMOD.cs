@@ -31,6 +31,8 @@ namespace QuantumTek.QuantumDialogue.Demo
 
         public FMODUnity.EventReference eventPath;
 
+        public PlayerController player;
+
         // dialogue FMOD event should trigger "programmer instrument" callback
         private FMOD.Studio.EVENT_CALLBACK callbackDelegate;
 
@@ -97,6 +99,8 @@ namespace QuantumTek.QuantumDialogue.Demo
             conversationEnded = false;
             handler.SetConversation(conversationName);
             handler.ShowDialogueCanvas(true);
+
+            player.LockMovement(true);
 
             SetText();
         }
@@ -251,6 +255,7 @@ namespace QuantumTek.QuantumDialogue.Demo
             if (handler.currentMessageInfo.ID < 0)
             {
                 conversationEnded = true;
+                player.LockMovement(false);
 
                 // Hide canvas when conversation is over
                 handler.ShowDialogueCanvas(false);

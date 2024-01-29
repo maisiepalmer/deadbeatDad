@@ -11,19 +11,21 @@ public class PlayerController : MonoBehaviour
     public float runningSpeed = 11.5f;
     public float jumpSpeed = 8.0f;
     private float gravity = 20.0f;
+    public MouseController mouse;
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
 
     [HideInInspector]
     public bool canMove = true;
+    private bool moveable = false;
 
     void Start()
     {
         DontDestroyOnLoad(gameObject);
         characterController = GetComponent<CharacterController>();
 
-        transform.position.Set(20.724f, 1.03f, 1.7792f);
+        mouse.SetForward(33.0f);
     }
 
     /* ADAPTED FROM: https://www.sharpcoderblog.com/blog/unity-3d-fps-controller 
@@ -34,6 +36,7 @@ public class PlayerController : MonoBehaviour
     */
     void Update()
     {
+
         // We are grounded, so recalculate move direction based on axes
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
@@ -56,8 +59,19 @@ public class PlayerController : MonoBehaviour
             moveDirection.y -= gravity * Time.deltaTime;
         }
 
-        // Move the controller
-        characterController.Move(moveDirection * Time.deltaTime);
+        if (!moveable)
+        {
+            // We are grounded, so recalculate move direction based on axes
+            moveDirection = Vector3.zero;
+
+            // Move the controller
+            characterController.Move(moveDirection);
+        }
+        else
+        {
+            // Move the controller
+            characterController.Move(moveDirection * Time.deltaTime);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -71,5 +85,12 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         
+    }
+
+    public void LockMovement(bool state)
+    {
+        canMove = !state;
+        moveable = !state;
+        mouse.CanMove(!state);
     }
 }
