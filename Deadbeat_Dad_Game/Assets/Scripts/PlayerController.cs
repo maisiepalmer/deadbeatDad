@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
 
     [HideInInspector]
     public bool canMove = true;
-    private bool moveable = false;
+    private bool moveable = true;
 
     void Start()
     {

@@ -34,6 +34,8 @@ namespace QuantumTek.QuantumDialogue
         [HideInInspector] public QD_Conversation currentConversation;
         [HideInInspector] public QD_MessageInfo currentMessageInfo;
 
+        public PlayerController player;
+
         // phill moved this 
         /// 
         /// For 3D first person games the mouse often hidden and locked whilst
@@ -158,7 +160,12 @@ namespace QuantumTek.QuantumDialogue
 
         // // // // // // // // // // // // // // // // // // // // // 
         //// monobehaviour methods
-        /// 
+        ///
+
+        private void Start()
+        {
+            player = FindObjectOfType<PlayerController>();
+        }
 
         // phill added this
         private void OnEnable()
@@ -234,6 +241,8 @@ namespace QuantumTek.QuantumDialogue
                 return;
             currentConversation = dialogue.Conversations[currentConversationIndex];
             currentMessageInfo = new QD_MessageInfo(currentConversation.FirstMessage, GetNextID(currentConversation.FirstMessage), QD_NodeType.Message);
+
+            player.LockMovement(true);
         }
 
         /// <summary>
@@ -300,6 +309,7 @@ namespace QuantumTek.QuantumDialogue
             if (currentMessageInfo.NextID < 0 && choice == -1)
             {
                 currentMessageInfo = new QD_MessageInfo(-1, -1, QD_NodeType.Base);
+                player.LockMovement(false);
                 return currentMessageInfo;
             }
 

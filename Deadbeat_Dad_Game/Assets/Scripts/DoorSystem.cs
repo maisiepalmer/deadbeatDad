@@ -128,5 +128,10 @@ public class DoorSystem : MonoBehaviour
                 stateHandler.TimePenalty();
             }
         }
+        else if (scene.name == "Pub")
+        {
+            playerTransform.transform.SetPositionAndRotation(loadVector[6].transform.position, loadVector[6].transform.rotation);
+            playerTransform.gameObject.GetComponent<PlayerController>().LockMovement(true);
+        }
     }
 }
