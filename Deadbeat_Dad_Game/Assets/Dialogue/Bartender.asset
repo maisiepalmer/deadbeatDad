@@ -44,7 +44,7 @@ MonoBehaviour:
     PreviousMessage: 8
     NextMessage: 10
     MessageText: It's Johnny's game tonight and you promised you would bring dinner.
-      And you still haven't bought Samantha a birthday present!
+      And you still haven't picked up Samantha's birthday cake from Sally!
     AudioPhrase: 9
   - ID: 11
     Speaker: 3

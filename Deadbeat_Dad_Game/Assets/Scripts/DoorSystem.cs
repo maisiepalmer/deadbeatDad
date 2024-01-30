@@ -46,10 +46,6 @@ public class DoorSystem : MonoBehaviour
                     {
                         SceneManager.LoadSceneAsync("FastFood", LoadSceneMode.Single);
                     }
-                    else if (hit.collider.CompareTag("Jewellery"))
-                    {
-                        SceneManager.LoadSceneAsync("Jewellery", LoadSceneMode.Single);
-                    }
                     else if (hit.collider.CompareTag("Pub"))
                     {
                         Debug.Log("I really shouldn't... I've got to stay on task!");
@@ -84,13 +80,7 @@ public class DoorSystem : MonoBehaviour
                 Debug.Log("out of fast food");
                 playerTransform.transform.SetPositionAndRotation(loadVector[3].transform.position, loadVector[3].transform.rotation);
                 prevScene = "MainScene";
-            }   
-            else if (prevScene == "Jewellery")
-            {
-                Debug.Log("out of jewellery");
-                playerTransform.transform.SetPositionAndRotation(loadVector[5].transform.position, loadVector[5].transform.rotation);
-                prevScene = "MainScene";
-            } 
+            }
 
             stateHandler.SetTasksVisible(true);
         }
@@ -112,28 +102,9 @@ public class DoorSystem : MonoBehaviour
             }
            
         }
-        else if (scene.name == "Jewellery")
-        {
-            if (!stateHandler.GetHasPresent())
-            {
-                Debug.Log("in jewellery");
-                playerTransform.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
-                prevScene = "Jewellery";
-
-                stateHandler.SetTasksVisible(false);
-                exitDoor = GameObject.FindWithTag("ExitDoor");
-                playerTransform.gameObject.GetComponent<PlayerController>().mouse.SetForward(-180f);
-                playerTransform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-            }
-            else
-            {
-                Debug.Log("I've been here already... I should go somewhere else");
-                stateHandler.TimePenalty();
-            }
-        }
         else if (scene.name == "Pub")
         {
-            playerTransform.transform.SetPositionAndRotation(loadVector[6].transform.position, loadVector[6].transform.rotation);
+            playerTransform.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
             playerTransform.gameObject.GetComponent<PlayerController>().LockMovement(true);
         }
     }

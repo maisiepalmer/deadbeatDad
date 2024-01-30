@@ -7,24 +7,25 @@
       <File FileName="Assets/Plugins/FMOD/src/EventReference.cs" />
       <File FileName="Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" />
       <File FileName="Assets/Plugins/FMOD/src/FMODEventPlayable.cs" />
-      <File FileName="Assets/Scripts/Dialogue/QD_DialogueWithFMOD.cs" />
+      <File FileName="Assets/Scripts/Dialogue/QD_DialogueWithFMOD.cs" Line="73" Column="31" />
       <File FileName="Assets/Scripts/Dialogue/QD_DialogueHandler.cs" />
       <File FileName="Assets/Scripts/Dialogue/QD_ChoiceButton.cs" />
       <File FileName="Assets/Scripts/GameOver.cs" />
       <File FileName="Assets/Scripts/WinMenu.cs" />
-      <File FileName="Assets/Scripts/StateHandler.cs" />
-      <File FileName="Assets/Scripts/DoorSystem.cs" Line="8" Column="40" />
+      <File FileName="Assets/Scripts/StateHandler.cs" Line="7" Column="41" />
+      <File FileName="Assets/Scripts/DoorSystem.cs" Line="107" Column="108" />
       <File FileName="Assets/Scripts/WifeDialogue.cs" />
-      <File FileName="Assets/Scripts/VehicleController.cs" />
+      <File FileName="Assets/Scripts/VehicleController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MainMenu.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Deadbeat_Dad_Game" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Dialogue" expanded="True" />
+                <Node name="DoorSystem.cs" selected="True" />
               </Node>
             </Node>
           </Node>
