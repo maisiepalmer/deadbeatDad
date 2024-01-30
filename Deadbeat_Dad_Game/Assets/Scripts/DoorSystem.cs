@@ -67,6 +67,8 @@ public class DoorSystem : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        playerTransform.localScale = new Vector3(1f, 2f, 1f);
+
         if (scene.name == "MainScene")
         {
             if (prevScene == "Pub")
@@ -121,6 +123,7 @@ public class DoorSystem : MonoBehaviour
                 stateHandler.SetTasksVisible(false);
                 exitDoor = GameObject.FindWithTag("ExitDoor");
                 playerTransform.gameObject.GetComponent<PlayerController>().mouse.SetForward(-180f);
+                playerTransform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
             }
             else
             {
