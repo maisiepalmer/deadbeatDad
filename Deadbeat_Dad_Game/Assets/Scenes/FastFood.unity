@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45020264, g: 0.5002383, b: 0.57539743, a: 1}
+  m_IndirectSpecularColor: {r: 0.45020276, g: 0.5002382, b: 0.57539713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -38714,8 +38714,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4128702, z: 1.8983123}
-  m_Center: {x: 0, y: 0.7064333, z: 0.4491555}
+  m_Size: {x: 1.0837835, y: 2.4128702, z: 2.360047}
+  m_Center: {x: -0.087619804, y: 0.7064333, z: 0.6800229}
 --- !u!54 &1931779071
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -41625,6 +41625,10 @@ PrefabInstance:
     - target: {fileID: 6869049504215573709, guid: 89ff244a58c1b4e40b2905013ad3b107, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8839806666603719757, guid: 89ff244a58c1b4e40b2905013ad3b107, type: 3}
+      propertyPath: m_TagString
+      value: ExitDoor
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1561753729, guid: 89ff244a58c1b4e40b2905013ad3b107, type: 3}

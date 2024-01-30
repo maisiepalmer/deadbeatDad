@@ -31,6 +31,8 @@ namespace QuantumTek.QuantumDialogue.Demo
 
         public FMODUnity.EventReference eventPath;
 
+        private bool isInRange = false;
+
         // dialogue FMOD event should trigger "programmer instrument" callback
         private FMOD.Studio.EVENT_CALLBACK callbackDelegate;
 
@@ -61,13 +63,14 @@ namespace QuantumTek.QuantumDialogue.Demo
         {
             if (collider.CompareTag("Player"))
             {
-                BeginConversation();
+                isInRange = true;
             }
         }
 
         private void OnTriggerExit(Collider other)
         {
             Reset();
+            isInRange = false;
         }
 
         private void OnEnable()
@@ -258,6 +261,14 @@ namespace QuantumTek.QuantumDialogue.Demo
                 // Hide canvas when conversation is over
                 handler.ShowDialogueCanvas(false);
                 
+            }
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.E) && isInRange)
+            {
+                BeginConversation();
             }
         }
 

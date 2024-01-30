@@ -35144,8 +35144,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.3334947, z: 1.6085994}
-  m_Center: {x: -0.000000012671871, y: 0.6667478, z: 0.3043006}
+  m_Size: {x: 0.3329319, y: 2.3334947, z: 1.8827559}
+  m_Center: {x: 0.04814826, y: 0.6667478, z: 0.4413797}
 --- !u!1001 &1566937191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47716,6 +47716,10 @@ PrefabInstance:
     - target: {fileID: 8433837743170575780, guid: 05fbd0f8d42274cffae8e34d19d271ee, type: 3}
       propertyPath: m_Name
       value: door
+      objectReference: {fileID: 0}
+    - target: {fileID: 8433837743170575780, guid: 05fbd0f8d42274cffae8e34d19d271ee, type: 3}
+      propertyPath: m_TagString
+      value: ExitDoor
       objectReference: {fileID: 0}
     - target: {fileID: 8433837743170575780, guid: 05fbd0f8d42274cffae8e34d19d271ee, type: 3}
       propertyPath: m_StaticEditorFlags

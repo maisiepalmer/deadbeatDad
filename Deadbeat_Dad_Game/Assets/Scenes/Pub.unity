@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667543, g: 0.4842716, b: 0.56452405, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427135, b: 0.56452316, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7461,11 +7461,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_TagString
-      value: Door
+      value: ExitDoor
       objectReference: {fileID: 0}
     - target: {fileID: 3255673126108304427, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_TagString
-      value: Door
+      value: ExitDoor
       objectReference: {fileID: 0}
     - target: {fileID: 3813802598777334903, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_LocalScale.x
@@ -9271,7 +9271,7 @@ Transform:
   m_GameObject: {fileID: 1283797366}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.849, y: 42.809, z: -52.628}
+  m_LocalPosition: {x: -26.849, y: 44, z: -52.628}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16105,8 +16105,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.2717034, y: 1.6138473, z: 3.585398}
-  m_Center: {x: -0.49529305, y: 0.7569237, z: 0.28650448}
+  m_Size: {x: 1.2389708, y: 1.6138473, z: 0.8462891}
+  m_Center: {x: 0.0050420854, y: 0.7569238, z: 1.6917762}
 --- !u!54 &2046615112
 Rigidbody:
   m_ObjectHideFlags: 0

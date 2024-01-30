@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using UnityEditor;
 
 public class DoorSystem : MonoBehaviour
 {
@@ -102,7 +101,7 @@ public class DoorSystem : MonoBehaviour
                 prevScene = "FastFood";
 
                 stateHandler.SetTasksVisible(false);
-                exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext/ExtInt_FFK_Entrance_02_01.prefab");
+                exitDoor = GameObject.FindWithTag("ExitDoor");
             }
             else
             {
@@ -120,7 +119,7 @@ public class DoorSystem : MonoBehaviour
                 prevScene = "Jewellery";
 
                 stateHandler.SetTasksVisible(false);
-                exitDoor = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Packages/jewelry_shop/Prefabs/shop/door.prefab");
+                exitDoor = GameObject.FindWithTag("ExitDoor");
                 playerTransform.gameObject.GetComponent<PlayerController>().mouse.SetForward(-180f);
             }
             else

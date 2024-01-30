@@ -13,6 +13,7 @@ TagManager:
   - Door
   - Pub
   - Jewellery
+  - ExitDoor
   layers:
   - Default
   - TransparentFX
