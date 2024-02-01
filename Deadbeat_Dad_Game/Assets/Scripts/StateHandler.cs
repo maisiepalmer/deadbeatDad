@@ -9,7 +9,6 @@ public class StateHandler : MonoBehaviour
     private bool isDrunk = false;
     private bool hasFood = false;
     private bool hasPresent  = false;
-    private int clock = 0;
 
     public GameObject checklist;
     public GameObject[] crossOut;
@@ -50,9 +49,19 @@ public class StateHandler : MonoBehaviour
                 Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 timerIsRunning = false;
+                // send in text
                 GameOver();
             }
         }
+    }
+
+    public void Reset()
+    {
+        timeRemaining = 300;
+        timerIsRunning = false;
+        isDrunk = false;
+        hasFood = false;
+        hasPresent  = false;
     }
 
 //---------------------------------------------------------------------------------
@@ -95,12 +104,11 @@ public class StateHandler : MonoBehaviour
         if (hasFood && hasPresent)
         {
             crossOut[2].SetActive(true);
-            // win (run dialogue wife win)
             YouWin();
         }
         else
         {
-            GameOver();
+            Divorce();
         }
     }
 
@@ -120,11 +128,16 @@ public class StateHandler : MonoBehaviour
 //---------------------------------------------------------------------------------
     public void GameOver()
     {
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadSceneAsync("GameOver");
     }
 
     public void YouWin()
     {
-        SceneManager.LoadScene("Win");
+        SceneManager.LoadSceneAsync("Win");
+    }
+
+    public void Divorce()
+    {
+        SceneManager.LoadSceneAsync("Divorce");
     }
 }

@@ -7,7 +7,6 @@ public class MouseController : MonoBehaviour
 { 
     public float lookSpeed = 10.0f;
     private Vector3 rotation;
-    private bool mouseLocked = true;
     private bool canMove = true;
 
     public float forward = 0f;

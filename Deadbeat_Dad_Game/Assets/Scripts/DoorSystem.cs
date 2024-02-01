@@ -63,8 +63,6 @@ public class DoorSystem : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        playerTransform.localScale = new Vector3(1f, 2f, 1f);
-
         if (scene.name == "MainScene")
         {
             if (prevScene == "Pub")
@@ -106,6 +104,8 @@ public class DoorSystem : MonoBehaviour
         {
             playerTransform.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
             playerTransform.gameObject.GetComponent<PlayerController>().LockMovement(true);
+            stateHandler.Reset();
+            prevScene = "Pub";
         }
     }
 }

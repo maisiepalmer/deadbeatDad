@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class WifeDialogue : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public StateHandler stateHandler;
+    bool isEntered = false;
+
     void Start()
     {
-        
+        GameObject handler = GameObject.Find("StateHandler");
+        stateHandler = handler.GetComponent<StateHandler>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E) && isEntered)
+        {
+            stateHandler.MeetWife();
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        isEntered = true;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        isEntered = false;
     }
 }
