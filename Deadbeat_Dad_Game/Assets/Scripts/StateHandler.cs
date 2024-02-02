@@ -13,6 +13,7 @@ public class StateHandler : MonoBehaviour
     public GameObject checklist;
     public GameObject[] crossOut;
     public TextMeshProUGUI time;
+    public WobbleEffect wobbleEffect;
 
     private float timeRemaining = 300;
     private bool timerIsRunning = false;
@@ -29,6 +30,8 @@ public class StateHandler : MonoBehaviour
         }
 
         SetTasksVisible(false);
+
+        wobbleEffect.StopWobble();
     }
 
     void Update()
@@ -74,7 +77,7 @@ public class StateHandler : MonoBehaviour
     public void IsDrunk()
     {
         isDrunk = true;
-        // penalty
+        wobbleEffect.StartWobble();
     }
 
     public void HasFood()

@@ -75,6 +75,8 @@ public class DoorSystem : MonoBehaviour
                 
                 stateHandler.StartTimer();
                 arrowController.SetTarget("FastFood");
+
+                stateHandler.IsDrunk();
             }    
             else if (prevScene == "FastFood")
             {

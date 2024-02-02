@@ -4306,6 +4306,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7440758859554837968, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
   m_PrefabInstance: {fileID: 642509801}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &548751773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548751761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670c4e4ade1a94611b64d446f6d6c384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wobbleEffectMaterial: {fileID: 2100000, guid: ee226b321c53346e3942394182cf3395, type: 2}
 --- !u!1001 &549802235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5029,6 +5042,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4762729779569612745, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 548751766}
+    - targetCorrespondingSourceObject: {fileID: 4762729779569612745, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 548751773}
   m_SourcePrefab: {fileID: 100100000, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
 --- !u!1 &650813019 stripped
 GameObject:
@@ -11020,6 +11036,7 @@ MonoBehaviour:
   - {fileID: 1002091277}
   - {fileID: 1753872952}
   time: {fileID: 2103396519}
+  wobbleEffect: {fileID: 548751773}
 --- !u!4 &1414950011
 Transform:
   m_ObjectHideFlags: 0
