@@ -12,12 +12,14 @@ public class DoorSystem : MonoBehaviour
     public GameObject loadPlaces;
     public Transform[] loadVector;
     public StateHandler stateHandler;
+    public ArrowController arrowController;
 
     private string prevScene = "Pub";
     
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+        DontDestroyOnLoad(arrowController.gameObject);
     }
 
     void Start()
@@ -72,15 +74,30 @@ public class DoorSystem : MonoBehaviour
                 prevScene = "MainScene";
                 
                 stateHandler.StartTimer();
+                arrowController.SetTarget("FastFood");
             }    
             else if (prevScene == "FastFood")
             {
                 Debug.Log("out of fast food");
                 playerTransform.transform.SetPositionAndRotation(loadVector[3].transform.position, loadVector[3].transform.rotation);
                 prevScene = "MainScene";
+
+                if (stateHandler.GetHasFood()) // arrow director pointing
+                {
+                    if (stateHandler.GetHasPresent())
+                        arrowController.SetTarget("Wife");
+                    else
+                        arrowController.SetTarget("Sally");
+                }
+                else
+                {
+                    arrowController.SetTarget("FastFood");
+                }
+                
             }
 
             stateHandler.SetTasksVisible(true);
+            arrowController.SetVisible(true);
         }
         else if (scene.name == "FastFood")
         {
@@ -92,13 +109,14 @@ public class DoorSystem : MonoBehaviour
 
                 stateHandler.SetTasksVisible(false);
                 exitDoor = GameObject.FindWithTag("ExitDoor");
+
+                arrowController.SetVisible(false);
             }
             else
             {
                 Debug.Log("I've been here already... I should go somewhere else");
                 stateHandler.TimePenalty();
-            }
-           
+            } 
         }
         else if (scene.name == "Pub")
         {
@@ -106,6 +124,8 @@ public class DoorSystem : MonoBehaviour
             playerTransform.gameObject.GetComponent<PlayerController>().LockMovement(true);
             stateHandler.Reset();
             prevScene = "Pub";
+            exitDoor = GameObject.FindWithTag("ExitDoor");
+            arrowController.SetVisible(false);
         }
     }
 }

@@ -28188,6 +28188,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2006320247}
     m_Modifications:
     - target: {fileID: 100000, guid: 4dc7028a3a83758439585b7c7c98cb27, type: 3}
+      propertyPath: m_Name
+      value: FastFood
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4dc7028a3a83758439585b7c7c98cb27, type: 3}
       propertyPath: m_TagString
       value: FastFood
       objectReference: {fileID: 0}
