@@ -12,8 +12,13 @@ TagManager:
   - Building
   - Door
   - Pub
-  - Jewellery
   - ExitDoor
+  - Cursor
+  - LoadPlaces
+  - Checklist
+  - State
+  - Jewellery
+  - Arrow
   layers:
   - Default
   - TransparentFX

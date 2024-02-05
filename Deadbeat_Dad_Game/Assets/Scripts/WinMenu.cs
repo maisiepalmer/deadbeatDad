@@ -7,7 +7,7 @@ public class WinMenu : MonoBehaviour
 {
     public void PlayAgain()
     {
-        SceneManager.LoadScene("Pub");
+        SceneManager.LoadSceneAsync("Pub");
     }
 
     public void QuitGame()

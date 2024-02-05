@@ -7,7 +7,7 @@ public class GameOver : MonoBehaviour
 {
     public void RestartGame()
     {
-        SceneManager.LoadScene("Pub");
+        SceneManager.LoadSceneAsync("Pub");
     }
 
     public void QuitGame()

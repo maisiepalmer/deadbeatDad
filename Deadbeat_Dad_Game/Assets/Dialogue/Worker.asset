@@ -62,7 +62,7 @@ MonoBehaviour:
     SpeakerName: Worker
     PreviousMessage: -1
     NextMessage: -1
-    MessageText: Thank you, sir
+    MessageText: Thank you, sir.
     AudioPhrase: 11
   Choices:
   - ID: 3

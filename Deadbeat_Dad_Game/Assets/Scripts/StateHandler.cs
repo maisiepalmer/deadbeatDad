@@ -8,6 +8,7 @@ public class StateHandler : MonoBehaviour
 {
     private bool hasFood = false;
     private bool hasPresent  = false;
+    private bool expositionComplete = false;
 
     public GameObject checklist;
     public GameObject[] crossOut;
@@ -17,6 +18,7 @@ public class StateHandler : MonoBehaviour
 
     private float timeRemaining = 300;
     private bool timerIsRunning = false;
+    private string reason = "";
 
 //---------------------------------------------------------------------------------
     void Start()
@@ -47,10 +49,9 @@ public class StateHandler : MonoBehaviour
             }
             else
             {
-                Debug.Log("Time has run out!");
+                reason = "Time has run out!";
                 timeRemaining = 0;
                 timerIsRunning = false;
-                // send in text
                 GameOver();
             }
         }
@@ -58,10 +59,10 @@ public class StateHandler : MonoBehaviour
 
     public void Reset()
     {
-        timeRemaining = 300;
         timerIsRunning = false;
         hasFood = false;
         hasPresent  = false;
+        timeRemaining = 300;
         SetTasksVisible(false);
     }
 
@@ -71,9 +72,18 @@ public class StateHandler : MonoBehaviour
         timerIsRunning = true;
     }
 
+    public void DestroyItAll()
+    {
+        Destroy(GameObject.FindWithTag("Player"));
+        Destroy(GameObject.FindWithTag("LoadPlaces"));
+        Destroy(GameObject.FindWithTag("Cursor"));
+
+    }
+
 //---------------------------------------------------------------------------------
     public void IsDrunk()
     {
+        wobbleEffect = GameObject.FindWithTag("MainCamera").GetComponent<WobbleEffect>();
         wobbleEffect.StartWobble();
     }
 
@@ -92,6 +102,8 @@ public class StateHandler : MonoBehaviour
     {
         hasPresent = true;
         crossOut[1].SetActive(true);
+
+        arrowController = GameObject.FindWithTag("Arrow").GetComponent<ArrowController>();
 
         if (hasFood)
             arrowController.SetTarget("Wife");
@@ -125,7 +137,40 @@ public class StateHandler : MonoBehaviour
         Debug.Log("I shouldn't have done that...");
     }
 
+    public void SetInnerMonologue(string text)
+    {
+        Debug.Log(text);
+    }
+
+    public bool GetExpositionComplete()
+    {
+        return expositionComplete;
+    }
+
+    public void SetExpositionComplete()
+    {
+        expositionComplete = true;
+    }
+
+    public void SetReason(string text)
+    {
+        reason = text;
+    }
+
+    public string GetReason()
+    {
+        return reason;
+    }
+
 //---------------------------------------------------------------------------------
+    public void StartGame()
+    {
+        expositionComplete = false;
+        SceneManager.LoadSceneAsync("Pub");
+
+        arrowController = GameObject.FindWithTag("Arrow").GetComponent<ArrowController>();
+    }
+    
     public void GameOver()
     {
         SceneManager.LoadSceneAsync("GameOver");
@@ -146,5 +191,5 @@ public class StateHandler : MonoBehaviour
     {
         if (id == 16 && choice == 1)
             IsDrunk();
-    }
+    } 
 }

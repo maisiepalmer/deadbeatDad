@@ -380,7 +380,6 @@
 "Assets/Packages/Quantum Dialogue System/Demo/Scripts/ColliderEvent.cs"
 "Assets/Packages/Quantum Dialogue System/Demo/Scripts/Rotator.cs"
 "Assets/Scripts/ArrowController.cs"
-"Assets/Scripts/CursorController.cs"
 "Assets/Scripts/Dialogue/QD_Choice.cs"
 "Assets/Scripts/Dialogue/QD_ChoiceButton.cs"
 "Assets/Scripts/Dialogue/QD_Conversation.cs"

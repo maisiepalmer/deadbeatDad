@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class DoorSystem : MonoBehaviour
 {
     public GameObject exitDoor;
-    public Transform playerTransform;
 
+    public GameObject player;
     public GameObject loadPlaces;
     public Transform[] loadVector;
     public StateHandler stateHandler;
     public ArrowController arrowController;
 
-    private string prevScene = "Pub";
+    private string prevScene = "Start";
+
+    public TextMeshProUGUI reasonText;
     
     void OnEnable()
     {
@@ -23,8 +26,7 @@ public class DoorSystem : MonoBehaviour
 
     void Start()
     {
-        DontDestroyOnLoad(loadPlaces);
-        loadVector = loadPlaces.GetComponentsInChildren<Transform>();
+        stateHandler = GameObject.FindWithTag("State").GetComponent<StateHandler>();
     }
 
     void Update()
@@ -38,8 +40,11 @@ public class DoorSystem : MonoBehaviour
                 {
                     if (hit.collider.name == exitDoor.name)
                     {
-                        SceneManager.LoadSceneAsync("MainScene");
-                    }
+                        if (!stateHandler.GetExpositionComplete())
+                            stateHandler.SetInnerMonologue("I feel like I need to speak to the bartender...");
+                        else 
+                            SceneManager.LoadSceneAsync("MainScene");
+                    }  
                 }
                 else
                 {
@@ -71,7 +76,9 @@ public class DoorSystem : MonoBehaviour
 
             if (prevScene == "Pub")
             {
-                playerTransform.transform.SetPositionAndRotation(loadVector[1].transform.position, loadVector[1].transform.rotation);
+                SetConnections();
+
+                player.transform.SetPositionAndRotation(loadVector[1].transform.position, loadVector[1].transform.rotation);
                 prevScene = "MainScene";
                 
                 stateHandler.StartTimer();
@@ -79,7 +86,7 @@ public class DoorSystem : MonoBehaviour
             }    
             else if (prevScene == "FastFood")
             {
-                playerTransform.transform.SetPositionAndRotation(loadVector[3].transform.position, loadVector[3].transform.rotation);
+                player.transform.SetPositionAndRotation(loadVector[3].transform.position, loadVector[3].transform.rotation);
                 prevScene = "MainScene";
 
                 if (stateHandler.GetHasFood()) // arrow director pointing
@@ -100,7 +107,7 @@ public class DoorSystem : MonoBehaviour
         {
             if (!stateHandler.GetHasFood())
             {
-                playerTransform.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
+                player.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
                 prevScene = "FastFood";
 
                 stateHandler.SetTasksVisible(false);
@@ -116,21 +123,45 @@ public class DoorSystem : MonoBehaviour
         }
         else if (scene.name == "Pub")
         {
-            playerTransform.gameObject.SetActive(true);
-            playerTransform.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
-            playerTransform.gameObject.GetComponent<PlayerController>().LockMovement(true);
-            stateHandler.Reset();
+            SetConnections();
+
+            player.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
+            player.GetComponent<PlayerController>().LockMovement(false);
             prevScene = "Pub";
             exitDoor = GameObject.FindWithTag("ExitDoor");
             arrowController.SetVisible(false);
         }
         else if (scene.name == "GameOver" || scene.name == "Divorce" || scene.name == "YouWin")
         {
-            Debug.Log("scene you want");
-            exitDoor = GameObject.FindWithTag("ExitDoor");
+            if (scene.name == "GameOver")
+            {
+                GameObject text = GameObject.Find("ReasonText");
+                reasonText = text.GetComponent<TextMeshProUGUI>();
+                reasonText.text = stateHandler.GetReason();
+            }
+
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            playerTransform.gameObject.SetActive(false);
+
+            stateHandler.DestroyItAll();
         }
+    }
+
+    private void SetConnections()
+    {
+        player = GameObject.FindWithTag("Player");
+        loadPlaces = GameObject.FindWithTag("LoadPlaces");
+        loadVector = loadPlaces.GetComponentsInChildren<Transform>();
+
+        if(!stateHandler)
+            stateHandler = GameObject.FindWithTag("State").GetComponent<StateHandler>();
+
+        stateHandler.Reset();
+
+        arrowController = GameObject.FindWithTag("Arrow").GetComponent<ArrowController>();
+
+        DontDestroyOnLoad(player);
+        DontDestroyOnLoad(loadPlaces);
+        DontDestroyOnLoad(GameObject.FindWithTag("Cursor"));
     }
 }

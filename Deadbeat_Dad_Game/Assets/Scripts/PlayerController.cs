@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float jumpSpeed = 8.0f;
     private float gravity = 20.0f;
     public MouseController mouse;
+    public StateHandler stateHandler;
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
@@ -22,9 +23,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
         characterController = GetComponent<CharacterController>();
-
+        stateHandler = GameObject.FindWithTag("State").GetComponent<StateHandler>();
         mouse.SetForward(33.0f);
     }
 
@@ -76,9 +76,11 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Vehicle"))
-            SceneManager.LoadSceneAsync("GameOver");
+        {
+            stateHandler.SetReason("You were hit by a car!");
+            stateHandler.GameOver();
             // play sound ?
-            // send in text
+        }   
     }
 
     private void OnTriggerEnter(Collider other)

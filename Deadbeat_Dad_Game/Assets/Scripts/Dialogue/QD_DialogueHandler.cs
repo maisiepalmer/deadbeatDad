@@ -366,6 +366,10 @@ namespace QuantumTek.QuantumDialogue
             {
                 // make a sound/ set a parameter?!
             }
+            else if (speaker == "bartender" && phraseNumberAsString == "16") // exposition
+            {
+                state.SetExpositionComplete();
+            }
         }
     }
 }
