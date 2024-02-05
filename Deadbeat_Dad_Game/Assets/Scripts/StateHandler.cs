@@ -6,7 +6,6 @@ using TMPro;
 
 public class StateHandler : MonoBehaviour
 {
-    private bool isDrunk = false;
     private bool hasFood = false;
     private bool hasPresent  = false;
 
@@ -14,6 +13,7 @@ public class StateHandler : MonoBehaviour
     public GameObject[] crossOut;
     public TextMeshProUGUI time;
     public WobbleEffect wobbleEffect;
+    public ArrowController arrowController;
 
     private float timeRemaining = 300;
     private bool timerIsRunning = false;
@@ -24,14 +24,12 @@ public class StateHandler : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(checklist);
 
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 2; i++)
         {
             crossOut[i].SetActive(false);
         }
 
         SetTasksVisible(false);
-
-        wobbleEffect.StopWobble();
     }
 
     void Update()
@@ -62,9 +60,9 @@ public class StateHandler : MonoBehaviour
     {
         timeRemaining = 300;
         timerIsRunning = false;
-        isDrunk = false;
         hasFood = false;
         hasPresent  = false;
+        SetTasksVisible(false);
     }
 
 //---------------------------------------------------------------------------------
@@ -76,7 +74,6 @@ public class StateHandler : MonoBehaviour
 //---------------------------------------------------------------------------------
     public void IsDrunk()
     {
-        isDrunk = true;
         wobbleEffect.StartWobble();
     }
 
@@ -95,6 +92,11 @@ public class StateHandler : MonoBehaviour
     {
         hasPresent = true;
         crossOut[1].SetActive(true);
+
+        if (hasFood)
+            arrowController.SetTarget("Wife");
+        else
+            arrowController.SetTarget("FastFood");
     }
 
     public bool GetHasPresent()
@@ -105,14 +107,9 @@ public class StateHandler : MonoBehaviour
     public void MeetWife()
     {
         if (hasFood && hasPresent)
-        {
-            crossOut[2].SetActive(true);
             YouWin();
-        }
         else
-        {
             Divorce();
-        }
     }
 
 //---------------------------------------------------------------------------------
@@ -142,5 +139,12 @@ public class StateHandler : MonoBehaviour
     public void Divorce()
     {
         SceneManager.LoadSceneAsync("Divorce");
+    }
+
+//---------------------------------------------------------------------------------
+    public void HandlePlayerReactions(int choice, int id)
+    {
+        if (id == 16 && choice == 1)
+            IsDrunk();
     }
 }

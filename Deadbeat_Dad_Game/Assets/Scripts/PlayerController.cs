@@ -36,7 +36,6 @@ public class PlayerController : MonoBehaviour
     */
     void Update()
     {
-
         // We are grounded, so recalculate move direction based on axes
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
@@ -77,9 +76,9 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Vehicle"))
-        {
-            SceneManager.LoadScene("GameOver");
-        }
+            SceneManager.LoadSceneAsync("GameOver");
+            // play sound ?
+            // send in text
     }
 
     private void OnTriggerEnter(Collider other)

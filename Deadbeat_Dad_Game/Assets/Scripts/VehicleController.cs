@@ -28,9 +28,7 @@ public class VehicleController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Vehicle"))
-        {
             Respawn();
-        }
     }
 
     private void Respawn()

@@ -16,18 +16,18 @@ public class WifeDialogue : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && isEntered)
-        {
             stateHandler.MeetWife();
-        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        isEntered = true;
+        if (other.CompareTag("Player"))
+            isEntered = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        isEntered = false;
+        if (other.CompareTag("Player"))
+            isEntered = false;
     }
 }

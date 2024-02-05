@@ -27,10 +27,11 @@ namespace QuantumTek.QuantumDialogue.Demo
 
         public string conversationName = "Meeting Bob";
 
-        private bool conversationEnded; // conversations without loops can 'end'
+        private bool conversationEnded = true; // conversations without loops can 'end'
 
         public FMODUnity.EventReference eventPath;
 
+        // my variables
         private bool isInRange = false;
 
         // dialogue FMOD event should trigger "programmer instrument" callback
@@ -62,20 +63,21 @@ namespace QuantumTek.QuantumDialogue.Demo
         private void OnTriggerEnter(Collider collider)
         {
             if (collider.CompareTag("Player"))
-            {
                 isInRange = true;
-            }
         }
 
         private void OnTriggerExit(Collider other)
         {
-            Reset();
-            isInRange = false;
+            if (other.CompareTag("Player"))
+            {
+                isInRange = false;
+                Reset();
+            }
         }
 
         private void OnEnable()
         {
-            Reset();
+            // Reset();
         }
 
         //////// //////// //////// //////// //////// //////// //////// ////////
@@ -340,11 +342,8 @@ namespace QuantumTek.QuantumDialogue.Demo
                     + firstWordLowercase;
 
                 FMODStartDialogueEvent(key);
+                handler.HandleReactions(speakerNameLowercaseNoSpaces, phraseNumberAsString, firstWordLowercase);
             }
         }
-
-
-
-
     }
 }

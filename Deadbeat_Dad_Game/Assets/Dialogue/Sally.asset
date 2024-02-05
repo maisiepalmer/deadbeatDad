@@ -40,7 +40,7 @@ MonoBehaviour:
     SpeakerName: Sally
     PreviousMessage: 9
     NextMessage: -1
-    MessageText: There's no need to be rude. You'' have to come back and try again
+    MessageText: There's no need to be rude. You'll have to come back and try again
       later.
     AudioPhrase: 5
   - ID: 7

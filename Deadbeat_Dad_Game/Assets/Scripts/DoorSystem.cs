@@ -19,7 +19,6 @@ public class DoorSystem : MonoBehaviour
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
-        DontDestroyOnLoad(arrowController.gameObject);
     }
 
     void Start()
@@ -39,14 +38,14 @@ public class DoorSystem : MonoBehaviour
                 {
                     if (hit.collider.name == exitDoor.name)
                     {
-                        SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Single);
+                        SceneManager.LoadSceneAsync("MainScene");
                     }
                 }
                 else
                 {
                     if (hit.collider.CompareTag("FastFood"))
                     {
-                        SceneManager.LoadSceneAsync("FastFood", LoadSceneMode.Single);
+                        SceneManager.LoadSceneAsync("FastFood");
                     }
                     else if (hit.collider.CompareTag("Pub"))
                     {
@@ -67,20 +66,19 @@ public class DoorSystem : MonoBehaviour
     {
         if (scene.name == "MainScene")
         {
+            stateHandler.SetTasksVisible(true);
+            arrowController.SetVisible(true);
+
             if (prevScene == "Pub")
             {
-                Debug.Log("out of pub");
                 playerTransform.transform.SetPositionAndRotation(loadVector[1].transform.position, loadVector[1].transform.rotation);
                 prevScene = "MainScene";
                 
                 stateHandler.StartTimer();
                 arrowController.SetTarget("FastFood");
-
-                stateHandler.IsDrunk();
             }    
             else if (prevScene == "FastFood")
             {
-                Debug.Log("out of fast food");
                 playerTransform.transform.SetPositionAndRotation(loadVector[3].transform.position, loadVector[3].transform.rotation);
                 prevScene = "MainScene";
 
@@ -97,15 +95,11 @@ public class DoorSystem : MonoBehaviour
                 }
                 
             }
-
-            stateHandler.SetTasksVisible(true);
-            arrowController.SetVisible(true);
         }
         else if (scene.name == "FastFood")
         {
             if (!stateHandler.GetHasFood())
             {
-                Debug.Log("in fast food");
                 playerTransform.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
                 prevScene = "FastFood";
 
@@ -122,12 +116,21 @@ public class DoorSystem : MonoBehaviour
         }
         else if (scene.name == "Pub")
         {
+            playerTransform.gameObject.SetActive(true);
             playerTransform.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
             playerTransform.gameObject.GetComponent<PlayerController>().LockMovement(true);
             stateHandler.Reset();
             prevScene = "Pub";
             exitDoor = GameObject.FindWithTag("ExitDoor");
             arrowController.SetVisible(false);
+        }
+        else if (scene.name == "GameOver" || scene.name == "Divorce" || scene.name == "YouWin")
+        {
+            Debug.Log("scene you want");
+            exitDoor = GameObject.FindWithTag("ExitDoor");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            playerTransform.gameObject.SetActive(false);
         }
     }
 }

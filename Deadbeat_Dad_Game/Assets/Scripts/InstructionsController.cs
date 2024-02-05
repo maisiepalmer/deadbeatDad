@@ -14,13 +14,12 @@ public class InstructionsController : MonoBehaviour
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.CompareTag("Player"))
-        {
             instructions.SetActive(true);
-        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        instructions.SetActive(false);
+        if (other.CompareTag("Player"))
+            instructions.SetActive(false);
     }
 }

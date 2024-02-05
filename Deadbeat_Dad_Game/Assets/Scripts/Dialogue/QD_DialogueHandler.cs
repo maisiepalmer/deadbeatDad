@@ -35,6 +35,7 @@ namespace QuantumTek.QuantumDialogue
         [HideInInspector] public QD_MessageInfo currentMessageInfo;
 
         public PlayerController player;
+        public StateHandler state;
 
         // phill moved this 
         /// 
@@ -76,6 +77,7 @@ namespace QuantumTek.QuantumDialogue
             if (currentController == null) return; // abort if unset
 
             currentController.Choose(choice);
+            state.HandlePlayerReactions(choice, currentMessageInfo.ID);
         }
 
         // TODO - potentially draw from FMOD callback (SOUND_PLAYED, _STOPPED)
@@ -94,8 +96,6 @@ namespace QuantumTek.QuantumDialogue
             if (dialogueCanvas == null) return; 
 
             dialogueCanvas.enabled = isEnabled;
-
-            Debug.Log(isEnabled);
         }
 
         // phill moved these
@@ -167,6 +167,7 @@ namespace QuantumTek.QuantumDialogue
         private void Start()
         {
             player = FindObjectOfType<PlayerController>();
+            state = FindObjectOfType<StateHandler>();
         }
 
         // phill added this
@@ -341,6 +342,30 @@ namespace QuantumTek.QuantumDialogue
 
             currentMessageInfo = new QD_MessageInfo(id, nextID, type);
             return currentMessageInfo;
+        }
+
+        //---------------------------------------------------------------------------------
+        // MY OWN CODE:
+        public void HandleReactions(string speaker, string phraseNumberAsString, string firstWordLowercase)
+        {
+            if (speaker == "worker" && phraseNumberAsString == "11") // success
+            {
+                state.HasFood();
+                // make a sound/ set a parameter?!
+            }
+            else if (speaker == "worker" && phraseNumberAsString == "4") // failure
+            {
+                // make a sound/ set a parameter?!
+            }
+            else if (speaker == "sally" && phraseNumberAsString == "7") // success
+            {
+                state.HasPresent();
+                // make a sound/ set a parameter?!
+            }
+            else if (speaker == "sally" && phraseNumberAsString == "5") // failure
+            {
+                // make a sound/ set a parameter?!
+            }
         }
     }
 }

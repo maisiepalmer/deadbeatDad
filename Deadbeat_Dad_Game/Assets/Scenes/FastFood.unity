@@ -16656,6 +16656,18 @@ PrefabInstance:
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}
+    - target: {fileID: 8353890382117381828, guid: e4d5294e3a00548bb837e58eda873cad, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8353890382117381828, guid: e4d5294e3a00548bb837e58eda873cad, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8353890382117381828, guid: e4d5294e3a00548bb837e58eda873cad, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8353890382117381829, guid: e4d5294e3a00548bb837e58eda873cad, type: 3}
       propertyPath: m_CullTransparentMesh
       value: 0
