@@ -16,6 +16,8 @@ public class StateHandler : MonoBehaviour
     public WobbleEffect wobbleEffect;
     public ArrowController arrowController;
 
+    public TextMeshProUGUI innerMonologue;
+
     private float timeRemaining = 300;
     private bool timerIsRunning = false;
     private string reason = "";
@@ -132,16 +134,33 @@ public class StateHandler : MonoBehaviour
 
     public void TimePenalty()
     {
-        // set inner monologue
-        timeRemaining -= 10;
-        Debug.Log("I shouldn't have done that...");
+        timeRemaining -= 1;
     }
 
     public void SetInnerMonologue(string text)
     {
-        Debug.Log(text);
+        innerMonologue.text = text;
+        StartCoroutine(FadeTextToFullAlpha());
     }
 
+    public IEnumerator FadeTextToFullAlpha()
+    {
+        innerMonologue.color = new Color(innerMonologue.color.r, innerMonologue.color.g, innerMonologue.color.b, 0);
+        while (innerMonologue.color.a < 1f)
+        {
+            innerMonologue.color = new Color(innerMonologue.color.r, innerMonologue.color.g, innerMonologue.color.b, innerMonologue.color.a + (Time.deltaTime / 2f));
+            yield return null;
+        }
+
+        innerMonologue.color = new Color(innerMonologue.color.r, innerMonologue.color.g, innerMonologue.color.b, 1);
+        while (innerMonologue.color.a > 0f)
+        {
+            innerMonologue.color = new Color(innerMonologue.color.r, innerMonologue.color.g, innerMonologue.color.b, innerMonologue.color.a - (Time.deltaTime / 2f));
+            yield return null;
+        }
+    }
+
+//---------------------------------------------------------------------------------
     public bool GetExpositionComplete()
     {
         return expositionComplete;

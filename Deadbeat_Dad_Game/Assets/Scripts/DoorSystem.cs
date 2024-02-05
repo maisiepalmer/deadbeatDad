@@ -54,12 +54,12 @@ public class DoorSystem : MonoBehaviour
                     }
                     else if (hit.collider.CompareTag("Pub"))
                     {
-                        Debug.Log("I really shouldn't... I've got to stay on task!");
+                        stateHandler.SetInnerMonologue("I really shouldn't... I've got to stay on task!");
                         stateHandler.TimePenalty();
                     }
                     else if (hit.collider.CompareTag("Building"))
                     {
-                        Debug.Log("I don't have time for this...");
+                        stateHandler.SetInnerMonologue("I don't have time to go in here...");
                         stateHandler.TimePenalty();
                     }
                 }
@@ -117,7 +117,7 @@ public class DoorSystem : MonoBehaviour
             }
             else
             {
-                Debug.Log("I've been here already... I should go somewhere else");
+                stateHandler.SetInnerMonologue("I've been here already... I should go somewhere else");
                 stateHandler.TimePenalty();
             } 
         }

@@ -58,7 +58,7 @@ MonoBehaviour:
     SpeakerName: Wife
     PreviousMessage: 11
     NextMessage: 13
-    MessageText: Be here in 30 minutes.
+    MessageText: Be here in 5 minutes.
     AudioPhrase: 12
   - ID: 14
     Speaker: 1

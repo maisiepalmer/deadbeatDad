@@ -128,7 +128,6 @@ MonoBehaviour:
   loadVector: []
   stateHandler: {fileID: 0}
   arrowController: {fileID: 0}
-  dontDestroy: {fileID: 0}
   reasonText: {fileID: 0}
 --- !u!1 &4762729779569612745
 GameObject:
