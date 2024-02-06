@@ -21,6 +21,7 @@ public class StateHandler : MonoBehaviour
     private float timeRemaining = 300;
     private bool timerIsRunning = false;
     private string reason = "";
+    bool running = false;
 
 //---------------------------------------------------------------------------------
     void Start()
@@ -140,7 +141,11 @@ public class StateHandler : MonoBehaviour
     public void SetInnerMonologue(string text)
     {
         innerMonologue.text = text;
-        StartCoroutine(FadeTextToFullAlpha());
+        
+        if(!running)
+            StartCoroutine(FadeTextToFullAlpha());
+
+        running = true;
     }
 
     public IEnumerator FadeTextToFullAlpha()
@@ -158,6 +163,8 @@ public class StateHandler : MonoBehaviour
             innerMonologue.color = new Color(innerMonologue.color.r, innerMonologue.color.g, innerMonologue.color.b, innerMonologue.color.a - (Time.deltaTime / 2f));
             yield return null;
         }
+
+        running = false;
     }
 
 //---------------------------------------------------------------------------------
@@ -186,8 +193,6 @@ public class StateHandler : MonoBehaviour
     {
         expositionComplete = false;
         SceneManager.LoadSceneAsync("Pub");
-
-        arrowController = GameObject.FindWithTag("Arrow").GetComponent<ArrowController>();
     }
     
     public void GameOver()
