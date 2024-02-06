@@ -2773,8 +2773,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 11.218784, y: 9.757901, z: 12.123772}
-  m_Center: {x: 0.034836296, y: 4.878778, z: 0.6898184}
+  m_Size: {x: 11.218784, y: 9.757901, z: 12.492699}
+  m_Center: {x: 0.034836292, y: 4.878778, z: 0.87428194}
 --- !u!114 &87090683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21938,7 +21938,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9433962, g: 0.9320279, b: 0.7965468, a: 1}
+  m_Color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
   m_Intensity: 0.7
   m_Range: 10
   m_SpotAngle: 30
@@ -21978,7 +21978,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -51960,7 +51960,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 0.7
   m_Range: 10
   m_SpotAngle: 30
@@ -52000,7 +52000,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1

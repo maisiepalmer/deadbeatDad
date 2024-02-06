@@ -50,7 +50,15 @@ public class DoorSystem : MonoBehaviour
                 {
                     if (hit.collider.CompareTag("FastFood"))
                     {
-                        SceneManager.LoadSceneAsync("FastFood");
+                        if (!stateHandler.GetHasFood())
+                        {
+                            SceneManager.LoadSceneAsync("FastFood");
+                        }
+                        else
+                        {
+                            stateHandler.SetInnerMonologue("I've been here already... I should go somewhere else");
+                            stateHandler.TimePenalty();
+                        }
                     }
                     else if (hit.collider.CompareTag("Pub"))
                     {
@@ -105,21 +113,13 @@ public class DoorSystem : MonoBehaviour
         }
         else if (scene.name == "FastFood")
         {
-            if (!stateHandler.GetHasFood())
-            {
-                player.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
-                prevScene = "FastFood";
+            player.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
+            prevScene = "FastFood";
 
-                stateHandler.SetTasksVisible(false);
-                exitDoor = GameObject.FindWithTag("ExitDoor");
+            stateHandler.SetTasksVisible(false);
+            exitDoor = GameObject.FindWithTag("ExitDoor");
 
-                arrowController.SetVisible(false);
-            }
-            else
-            {
-                stateHandler.SetInnerMonologue("I've been here already... I should go somewhere else");
-                stateHandler.TimePenalty();
-            } 
+            arrowController.SetVisible(false);
         }
         else if (scene.name == "Pub")
         {
