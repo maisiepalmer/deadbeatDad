@@ -2094,7 +2094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1365495980}
   - component: {fileID: 1365495979}
-  - component: {fileID: 1365495978}
+  - component: {fileID: 1365495981}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2102,14 +2102,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1365495978
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1365495977}
-  m_Enabled: 1
 --- !u!20 &1365495979
 Camera:
   m_ObjectHideFlags: 0
@@ -2176,6 +2168,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1365495981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365495977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1001 &1433552030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2264,6 +2269,26 @@ PrefabInstance:
       propertyPath: innerMonologue
       value: 
       objectReference: {fileID: 1433552031}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: MusicEvent.Path
+      value: event:/Music/Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: MusicEvent.Guid.Data1
+      value: 1810951094
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: MusicEvent.Guid.Data2
+      value: 1224208180
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: MusicEvent.Guid.Data3
+      value: -979837022
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: MusicEvent.Guid.Data4
+      value: -1716843898
+      objectReference: {fileID: 0}
     - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
       propertyPath: crossOut.Array.data[0]
       value: 

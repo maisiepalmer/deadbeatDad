@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{fecdfb60-5bd5-4a20-a7aa-ae31588cebf7}">
+		<property name="name">
+			<value>Music</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{cecffc83-9316-434e-877e-65eec531732f}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{36bedb81-ab56-4111-bec4-612807fa875e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d4c960c2-b68f-4143-8f73-4e4bbf4adad8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{cecffc83-9316-434e-877e-65eec531732f}">
+		<relationship name="effects">
+			<destination>{286b41b3-6464-4c96-b1d4-fb80e85259f9}</destination>
+			<destination>{7f17dcbc-c1f0-4d65-9867-31c6d4dd530c}</destination>
+			<destination>{4b70a8a4-e50f-4485-be24-07606e5100f5}</destination>
+			<destination>{38fa1458-7cb5-4430-bd08-6b5ba1128a24}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{36bedb81-ab56-4111-bec4-612807fa875e}" />
+	<object class="ThreeEQEffect" id="{286b41b3-6464-4c96-b1d4-fb80e85259f9}" />
+	<object class="TremoloEffect" id="{7f17dcbc-c1f0-4d65-9867-31c6d4dd530c}">
+		<property name="frequency">
+			<value>0.00999999978</value>
+		</property>
+		<property name="depth">
+			<value>0</value>
+		</property>
+		<property name="duty">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="ChorusEffect" id="{4b70a8a4-e50f-4485-be24-07606e5100f5}">
+		<property name="rate">
+			<value>0</value>
+		</property>
+		<property name="depth">
+			<value>0</value>
+		</property>
+		<property name="mix">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{38fa1458-7cb5-4430-bd08-6b5ba1128a24}" />
+</objects>

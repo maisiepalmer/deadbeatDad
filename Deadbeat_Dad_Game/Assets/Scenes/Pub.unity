@@ -609,6 +609,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1861001757125122, guid: 23b26e9bf2ed8a34cbba56a227adb581, type: 3}
       insertIndex: -1
       addedObject: {fileID: 831006566}
+    - targetCorrespondingSourceObject: {fileID: 1861001757125122, guid: 23b26e9bf2ed8a34cbba56a227adb581, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 831006567}
   m_SourcePrefab: {fileID: 100100000, guid: 23b26e9bf2ed8a34cbba56a227adb581, type: 3}
 --- !u!1 &151470282
 GameObject:
@@ -4184,9 +4187,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1239551683}
     - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: MusicEvent.Path
+      value: event:/Music/Main
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: arrowController
       value: 
       objectReference: {fileID: 591855923}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: MusicEvent.Guid.Data1
+      value: 1810951094
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: MusicEvent.Guid.Data2
+      value: 1224208180
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: MusicEvent.Guid.Data3
+      value: -979837022
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: MusicEvent.Guid.Data4
+      value: -1716843898
+      objectReference: {fileID: 0}
     - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: loadVector.Array.size
       value: 5
@@ -5406,6 +5429,37 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9460f8a76c2ab2e4cad543d06fd7bf86, type: 3}
+--- !u!114 &831006567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831006562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1001 &843542784
 PrefabInstance:
   m_ObjectHideFlags: 0

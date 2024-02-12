@@ -18,6 +18,11 @@ public class DoorSystem : MonoBehaviour
     private string prevScene = "Start";
 
     public TextMeshProUGUI reasonText;
+
+    //--------------------------------------------------------------------
+    public FMODUnity.EventReference MusicEvent;
+    FMOD.Studio.EventInstance music;
+    FMOD.Studio.PARAMETER_ID locationId;
     
     void OnEnable()
     {
@@ -27,6 +32,14 @@ public class DoorSystem : MonoBehaviour
     void Start()
     {
         stateHandler = GameObject.FindWithTag("State").GetComponent<StateHandler>();
+        stateHandler.IncTasks();
+
+        FMOD.Studio.EventDescription musicEventDescription;
+        music.getDescription(out musicEventDescription);
+        FMOD.Studio.PARAMETER_DESCRIPTION locationParameterDescription;
+
+        musicEventDescription.getParameterDescriptionByName("Location", out locationParameterDescription);
+        locationId = locationParameterDescription.id;
     }
 
     void Update()
@@ -79,6 +92,8 @@ public class DoorSystem : MonoBehaviour
     {
         if (scene.name == "MainScene")
         {
+            music.setParameterByID(locationId, 0);
+
             stateHandler.SetTasksVisible(true);
             arrowController.SetVisible(true);
 
@@ -114,6 +129,8 @@ public class DoorSystem : MonoBehaviour
         }
         else if (scene.name == "FastFood")
         {
+            music.setParameterByID(locationId, 2);
+
             player.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
             player.GetComponent<PlayerController>().SetMouseForward(20f);
             prevScene = "FastFood";
@@ -125,6 +142,8 @@ public class DoorSystem : MonoBehaviour
         }
         else if (scene.name == "Pub")
         {
+            music.setParameterByID(locationId, 1);
+
             SetConnections();
 
             player.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);

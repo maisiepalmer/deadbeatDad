@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8429099687795803793
+--- !u!114 &-8483285147197340782
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,9 +10,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Dialogue
+  m_Name: event:/Music/Main
   m_EditorClassIdentifier: 
-  Path: event:/Dialogue
+  Path: event:/Music/Main
+  Guid:
+    Data1: 1810951094
+    Data2: 1224208180
+    Data3: -979837022
+    Data4: -1716843898
+  Banks:
+  - {fileID: 4821503509534572120}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5915981354707575087}
+  - {fileID: 4566424952797933771}
+  - {fileID: -6640614297135625876}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 128000
+--- !u!114 &-6640614297135625876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main/Location
+  m_EditorClassIdentifier: 
+  Name: Location
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 58395605
+    data2: 1730518803
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Main
+  - Pub
+  - FastFood
+  Exists: 1
+--- !u!114 &-1455241010814984291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Dialogue
   Guid:
     Data1: 1443950597
     Data2: 1077261031
@@ -26,6 +83,33 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &-1404206689273433938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Main
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Main
+  Guid:
+    Data1: 1701837577
+    Data2: 1221972903
+    Data3: -172164176
+    Data4: 172147247
+  Banks:
+  - {fileID: 4821503509534572120}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
   Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -43,14 +127,69 @@ MonoBehaviour:
   - {fileID: 7868150274513658440}
   - {fileID: 4821503509534572120}
   EditorEvents:
-  - {fileID: -8429099687795803793}
+  - {fileID: -1455241010814984291}
+  - {fileID: -1404206689273433938}
+  - {fileID: 5438960441206323789}
+  - {fileID: -8483285147197340782}
+  - {fileID: 4205937905646373123}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4821503509534572120}
   StringsBanks:
   - {fileID: 7868150274513658440}
-  cacheTime: 638423822131452678
+  cacheTime: 638433625206844888
   cacheVersion: 131616
+--- !u!114 &4205937905646373123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/FastFood
+  m_EditorClassIdentifier: 
+  Path: snapshot:/FastFood
+  Guid:
+    Data1: 949847504
+    Data2: 1139061015
+    Data3: 1516779949
+    Data4: 1368102625
+  Banks:
+  - {fileID: 4821503509534572120}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4566424952797933771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main/TasksCompleted
+  m_EditorClassIdentifier: 
+  Name: TasksCompleted
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2954946427
+    data2: 3374391439
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &4821503509534572120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,10 +205,61 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638423822131449115
+  lastModified: 638433625206811129
   FileSizes:
   - Name: Desktop
-    Value: 1574
+    Value: 4059040
+  Exists: 1
+--- !u!114 &5438960441206323789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Pub
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Pub
+  Guid:
+    Data1: -670574010
+    Data2: 1301927219
+    Data3: -1450749568
+    Data4: 1513137254
+  Banks:
+  - {fileID: 4821503509534572120}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5915981354707575087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main/Drunkness
+  m_EditorClassIdentifier: 
+  Name: Drunkness
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2305628659
+    data2: 1500908734
+  Type: 1
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &7868150274513658440
 MonoBehaviour:
@@ -86,8 +276,8 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638423822131452678
+  lastModified: 638433625206844888
   FileSizes:
   - Name: Desktop
-    Value: 758
+    Value: 1132
   Exists: 1

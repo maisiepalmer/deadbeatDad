@@ -23,9 +23,29 @@ public class StateHandler : MonoBehaviour
     private string reason = "";
     bool running = false;
 
+    int tasks = 0;
+
+    //--------------------------------------------------------------------
+    public FMODUnity.EventReference MusicEvent;
+    FMOD.Studio.EventInstance music;
+    FMOD.Studio.PARAMETER_ID tasksCompletedId, drunkId;
+
 //---------------------------------------------------------------------------------
     void Start()
     {
+        music = FMODUnity.RuntimeManager.CreateInstance(MusicEvent);
+        music.start();
+
+        FMOD.Studio.EventDescription musicEventDescription;
+        music.getDescription(out musicEventDescription);
+        FMOD.Studio.PARAMETER_DESCRIPTION tasksParameterDescription, drunkParameterDescription;
+
+        musicEventDescription.getParameterDescriptionByName("TasksCompleted", out tasksParameterDescription);
+        tasksCompletedId = tasksParameterDescription.id;
+
+        musicEventDescription.getParameterDescriptionByName("Drunkness", out drunkParameterDescription);
+        drunkId = drunkParameterDescription.id;
+
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(checklist);
 
@@ -88,12 +108,14 @@ public class StateHandler : MonoBehaviour
     {
         wobbleEffect = GameObject.FindWithTag("MainCamera").GetComponent<WobbleEffect>();
         wobbleEffect.StartWobble();
+        music.setParameterByID(drunkId, 1);
     }
 
     public void HasFood()
     {
         hasFood = true;
         crossOut[0].SetActive(true);
+        IncTasks();
     }
 
     public bool GetHasFood()
@@ -112,6 +134,9 @@ public class StateHandler : MonoBehaviour
             arrowController.SetTarget("Wife");
         else
             arrowController.SetTarget("FastFood");
+
+
+        IncTasks();
     }
 
     public bool GetHasPresent()
@@ -203,6 +228,8 @@ public class StateHandler : MonoBehaviour
     public void YouWin()
     {
         SceneManager.LoadSceneAsync("Win");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void Divorce()
@@ -215,5 +242,12 @@ public class StateHandler : MonoBehaviour
     {
         if (id == 16 && choice == 1)
             IsDrunk();
+    } 
+
+//---------------------------------------------------------------------------------
+    public void IncTasks()
+    {
+        tasks++;
+        music.setParameterByID(tasksCompletedId, tasks);
     } 
 }
