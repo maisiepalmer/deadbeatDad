@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         stateHandler = GameObject.FindWithTag("State").GetComponent<StateHandler>();
-        mouse.SetForward(33.0f);
+        mouse.SetForward(77.0f);
     }
 
     /* ADAPTED FROM: https://www.sharpcoderblog.com/blog/unity-3d-fps-controller 
@@ -93,5 +93,10 @@ public class PlayerController : MonoBehaviour
         canMove = !state;
         moveable = !state;
         mouse.CanMove(!state);
+    }
+
+    public void SetMouseForward(float x)
+    {
+        mouse.SetForward(x);
     }
 }

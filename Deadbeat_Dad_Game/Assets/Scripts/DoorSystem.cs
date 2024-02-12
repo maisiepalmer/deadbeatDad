@@ -34,7 +34,7 @@ public class DoorSystem : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0))
         {
             RaycastHit hit;
-             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 5))
+             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 3))
             {
                 if (SceneManager.GetActiveScene().name != "MainScene")
                 {
@@ -87,6 +87,7 @@ public class DoorSystem : MonoBehaviour
                 SetConnections();
 
                 player.transform.SetPositionAndRotation(loadVector[1].transform.position, loadVector[1].transform.rotation);
+                player.GetComponent<PlayerController>().SetMouseForward(20f);
                 prevScene = "MainScene";
                 
                 stateHandler.StartTimer();
@@ -114,6 +115,7 @@ public class DoorSystem : MonoBehaviour
         else if (scene.name == "FastFood")
         {
             player.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
+            player.GetComponent<PlayerController>().SetMouseForward(20f);
             prevScene = "FastFood";
 
             stateHandler.SetTasksVisible(false);
