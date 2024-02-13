@@ -18,11 +18,6 @@ public class DoorSystem : MonoBehaviour
     private string prevScene = "Start";
 
     public TextMeshProUGUI reasonText;
-
-    //--------------------------------------------------------------------
-    public FMODUnity.EventReference MusicEvent;
-    FMOD.Studio.EventInstance music;
-    FMOD.Studio.PARAMETER_ID locationId;
     
     void OnEnable()
     {
@@ -31,15 +26,7 @@ public class DoorSystem : MonoBehaviour
 
     void Start()
     {
-        stateHandler = GameObject.FindWithTag("State").GetComponent<StateHandler>();
-        stateHandler.IncTasks();
-
-        FMOD.Studio.EventDescription musicEventDescription;
-        music.getDescription(out musicEventDescription);
-        FMOD.Studio.PARAMETER_DESCRIPTION locationParameterDescription;
-
-        musicEventDescription.getParameterDescriptionByName("Location", out locationParameterDescription);
-        locationId = locationParameterDescription.id;
+        
     }
 
     void Update()
@@ -90,17 +77,12 @@ public class DoorSystem : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        SetConnections();
+
         if (scene.name == "MainScene")
         {
-            music.setParameterByID(locationId, 0);
-
-            stateHandler.SetTasksVisible(true);
-            arrowController.SetVisible(true);
-
             if (prevScene == "Pub")
             {
-                SetConnections();
-
                 player.transform.SetPositionAndRotation(loadVector[1].transform.position, loadVector[1].transform.rotation);
                 player.GetComponent<PlayerController>().SetMouseForward(20f);
                 prevScene = "MainScene";
@@ -126,11 +108,13 @@ public class DoorSystem : MonoBehaviour
                 }
                 
             }
+
+            stateHandler.SetTasksVisible(true);
+            arrowController.SetVisible(true);
+            stateHandler.SetLocation(0);
         }
         else if (scene.name == "FastFood")
         {
-            music.setParameterByID(locationId, 2);
-
             player.transform.SetPositionAndRotation(loadVector[2].transform.position, loadVector[2].transform.rotation);
             player.GetComponent<PlayerController>().SetMouseForward(20f);
             prevScene = "FastFood";
@@ -139,18 +123,25 @@ public class DoorSystem : MonoBehaviour
             exitDoor = GameObject.FindWithTag("ExitDoor");
 
             arrowController.SetVisible(false);
+
+            stateHandler.SetLocation(2);
         }
         else if (scene.name == "Pub")
         {
-            music.setParameterByID(locationId, 1);
+            stateHandler.Reset();
+            stateHandler.IncTasks();
 
-            SetConnections();
-
+            DontDestroyOnLoad(player);
+            DontDestroyOnLoad(loadPlaces);
+            DontDestroyOnLoad(GameObject.FindWithTag("Cursor"));
+            
             player.transform.SetPositionAndRotation(loadVector[4].transform.position, loadVector[4].transform.rotation);
             player.GetComponent<PlayerController>().LockMovement(false);
             prevScene = "Pub";
             exitDoor = GameObject.FindWithTag("ExitDoor");
             arrowController.SetVisible(false);
+
+            stateHandler.SetLocation(1);
         }
         else if (scene.name == "GameOver" || scene.name == "Divorce" || scene.name == "YouWin")
         {
@@ -170,19 +161,7 @@ public class DoorSystem : MonoBehaviour
 
     private void SetConnections()
     {
-        player = GameObject.FindWithTag("Player");
-        loadPlaces = GameObject.FindWithTag("LoadPlaces");
-        loadVector = loadPlaces.GetComponentsInChildren<Transform>();
-
         if(!stateHandler)
             stateHandler = GameObject.FindWithTag("State").GetComponent<StateHandler>();
-
-        stateHandler.Reset();
-
-        arrowController = GameObject.FindWithTag("Arrow").GetComponent<ArrowController>();
-
-        DontDestroyOnLoad(player);
-        DontDestroyOnLoad(loadPlaces);
-        DontDestroyOnLoad(GameObject.FindWithTag("Cursor"));
     }
 }

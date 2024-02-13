@@ -3123,7 +3123,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.4e-44, y: 2.58e-42, z: 1.02e-43, w: 0}
+  m_BoundingSphereOverride: {x: 1.1730476e-19, y: 1.4993851e+10, z: 1.02e-43, w: 3e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3137,7 +3137,7 @@ Transform:
   m_GameObject: {fileID: 473868762}
   serializedVersion: 2
   m_LocalRotation: {x: -0.08437077, y: -0.9245253, z: 0.1250167, w: -0.35000762}
-  m_LocalPosition: {x: -0.79, y: 6.1, z: 6.57}
+  m_LocalPosition: {x: -1.64, y: 2.78, z: 7.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4181,7 +4181,7 @@ PrefabInstance:
     - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: exitDoor
       value: 
-      objectReference: {fileID: 1036004701}
+      objectReference: {fileID: 1536276933}
     - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: loadPlaces
       value: 
@@ -7022,7 +7022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3264650260439687135, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_Size.z
-      value: 2.0465152
+      value: 2.8677356
       objectReference: {fileID: 0}
     - target: {fileID: 3264650260439687135, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_Center.x
@@ -7034,7 +7034,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3264650260439687135, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_Center.z
-      value: 1.0232583
+      value: 1.4338708
       objectReference: {fileID: 0}
     - target: {fileID: 3264650260439687135, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_IsTrigger
@@ -7115,11 +7115,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1536276940}
   m_SourcePrefab: {fileID: 100100000, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
---- !u!1 &1036004701 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-  m_PrefabInstance: {fileID: 1036004700}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1041052382 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1106975915919374, guid: bb3ec41c80566144b9f5cd60ae074233, type: 3}

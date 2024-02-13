@@ -28,7 +28,7 @@ public class StateHandler : MonoBehaviour
     //--------------------------------------------------------------------
     public FMODUnity.EventReference MusicEvent;
     FMOD.Studio.EventInstance music;
-    FMOD.Studio.PARAMETER_ID tasksCompletedId, drunkId;
+    FMOD.Studio.PARAMETER_ID tasksCompletedId, drunkId, locationId;
 
 //---------------------------------------------------------------------------------
     void Start()
@@ -38,13 +38,16 @@ public class StateHandler : MonoBehaviour
 
         FMOD.Studio.EventDescription musicEventDescription;
         music.getDescription(out musicEventDescription);
-        FMOD.Studio.PARAMETER_DESCRIPTION tasksParameterDescription, drunkParameterDescription;
+        FMOD.Studio.PARAMETER_DESCRIPTION tasksParameterDescription, drunkParameterDescription, locationParameterDescription;
 
         musicEventDescription.getParameterDescriptionByName("TasksCompleted", out tasksParameterDescription);
         tasksCompletedId = tasksParameterDescription.id;
 
         musicEventDescription.getParameterDescriptionByName("Drunkness", out drunkParameterDescription);
         drunkId = drunkParameterDescription.id;
+
+        musicEventDescription.getParameterDescriptionByName("Location", out locationParameterDescription);
+        locationId = locationParameterDescription.id;
 
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(checklist);
@@ -250,4 +253,9 @@ public class StateHandler : MonoBehaviour
         tasks++;
         music.setParameterByID(tasksCompletedId, tasks);
     } 
+
+    public void SetLocation(int loc)
+    {
+        music.setParameterByID(locationId, 0);
+    }
 }
