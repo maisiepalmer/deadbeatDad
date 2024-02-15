@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d70f92c4-2517-42a6-bad8-6f5801257192}">
+		<property name="assetPath">
+			<value>suburb_03.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>19.75</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f52652eb-bfb4-4d47-a963-d238bec6efa3}</destination>
+		</relationship>
+	</object>
+</objects>

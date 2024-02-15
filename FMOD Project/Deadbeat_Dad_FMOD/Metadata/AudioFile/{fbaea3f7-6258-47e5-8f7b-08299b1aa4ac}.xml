@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fbaea3f7-6258-47e5-8f7b-08299b1aa4ac}">
+		<property name="assetPath">
+			<value>city_traffic_01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>77.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f52652eb-bfb4-4d47-a963-d238bec6efa3}</destination>
+		</relationship>
+	</object>
+</objects>

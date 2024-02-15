@@ -111,7 +111,6 @@ public class DoorSystem : MonoBehaviour
 
             stateHandler.SetTasksVisible(true);
             arrowController.SetVisible(true);
-            stateHandler.SetLocation(0);
         }
         else if (scene.name == "FastFood")
         {
@@ -123,8 +122,6 @@ public class DoorSystem : MonoBehaviour
             exitDoor = GameObject.FindWithTag("ExitDoor");
 
             arrowController.SetVisible(false);
-
-            stateHandler.SetLocation(2);
         }
         else if (scene.name == "Pub")
         {
@@ -140,8 +137,6 @@ public class DoorSystem : MonoBehaviour
             prevScene = "Pub";
             exitDoor = GameObject.FindWithTag("ExitDoor");
             arrowController.SetVisible(false);
-
-            stateHandler.SetLocation(1);
         }
         else if (scene.name == "GameOver" || scene.name == "Divorce" || scene.name == "YouWin")
         {

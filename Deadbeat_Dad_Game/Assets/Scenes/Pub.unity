@@ -4187,6 +4187,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1239551683}
     - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: AtmosEvent.Path
+      value: event:/Atmos/City
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: MusicEvent.Path
       value: event:/Music/Main
       objectReference: {fileID: 0}
@@ -4194,6 +4198,22 @@ PrefabInstance:
       propertyPath: arrowController
       value: 
       objectReference: {fileID: 591855923}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: AtmosEvent.Guid.Data1
+      value: 1356590251
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: AtmosEvent.Guid.Data2
+      value: 1076657215
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: AtmosEvent.Guid.Data3
+      value: 730154386
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: AtmosEvent.Guid.Data4
+      value: 902931909
+      objectReference: {fileID: 0}
     - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: MusicEvent.Guid.Data1
       value: 1810951094
@@ -16238,6 +16258,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 153682, guid: 48b470c6a762f60438c631f219257520, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9143394091073522691}
+    - targetCorrespondingSourceObject: {fileID: 153682, guid: 48b470c6a762f60438c631f219257520, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9143394091073522692}
   m_SourcePrefab: {fileID: 100100000, guid: 48b470c6a762f60438c631f219257520, type: 3}
 --- !u!1 &2643831506066157769 stripped
 GameObject:
@@ -16439,6 +16462,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructions: {fileID: 2961194642772876154}
+--- !u!114 &9143394091073522692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2643831506066157769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Parameter: Location
+  TriggerEvent: 1
+  Value: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

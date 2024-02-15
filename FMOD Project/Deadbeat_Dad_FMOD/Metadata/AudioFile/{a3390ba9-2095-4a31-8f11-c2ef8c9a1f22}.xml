@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a3390ba9-2095-4a31-8f11-c2ef8c9a1f22}">
+		<property name="assetPath">
+			<value>fast_food_01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>22.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f52652eb-bfb4-4d47-a963-d238bec6efa3}</destination>
+		</relationship>
+	</object>
+</objects>

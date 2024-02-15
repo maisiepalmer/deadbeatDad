@@ -28,7 +28,12 @@ public class StateHandler : MonoBehaviour
     //--------------------------------------------------------------------
     public FMODUnity.EventReference MusicEvent;
     FMOD.Studio.EventInstance music;
-    FMOD.Studio.PARAMETER_ID tasksCompletedId, drunkId, locationId;
+    FMOD.Studio.PARAMETER_ID tasksCompletedId, drunkId;
+
+    //--------------------------------------------------------------------
+    public FMODUnity.EventReference AtmosEvent;
+    FMOD.Studio.EventInstance atmos;
+    FMOD.Studio.PARAMETER_ID startedId;
 
 //---------------------------------------------------------------------------------
     void Start()
@@ -46,8 +51,15 @@ public class StateHandler : MonoBehaviour
         musicEventDescription.getParameterDescriptionByName("Drunkness", out drunkParameterDescription);
         drunkId = drunkParameterDescription.id;
 
-        musicEventDescription.getParameterDescriptionByName("Location", out locationParameterDescription);
-        locationId = locationParameterDescription.id;
+        atmos = FMODUnity.RuntimeManager.CreateInstance(AtmosEvent);
+        atmos.start();
+
+        FMOD.Studio.EventDescription atmosEventDescription;
+        atmos.getDescription(out atmosEventDescription);
+        FMOD.Studio.PARAMETER_DESCRIPTION startedParameterDescription;
+
+        atmosEventDescription.getParameterDescriptionByName("Start", out startedParameterDescription);
+        startedId = startedParameterDescription.id;
 
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(checklist);
@@ -58,6 +70,8 @@ public class StateHandler : MonoBehaviour
         }
 
         SetTasksVisible(false);
+
+        atmos.setParameterByID(startedId, 1);
     }
 
     void Update()
@@ -253,9 +267,4 @@ public class StateHandler : MonoBehaviour
         tasks++;
         music.setParameterByID(tasksCompletedId, tasks);
     } 
-
-    public void SetLocation(int loc)
-    {
-        music.setParameterByID(locationId, 0);
-    }
 }

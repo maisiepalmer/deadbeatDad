@@ -23,7 +23,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{36bedb81-ab56-4111-bec4-612807fa875e}" />
-	<object class="ThreeEQEffect" id="{286b41b3-6464-4c96-b1d4-fb80e85259f9}" />
+	<object class="ThreeEQEffect" id="{286b41b3-6464-4c96-b1d4-fb80e85259f9}">
+		<property name="crossoverSlope">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="TremoloEffect" id="{7f17dcbc-c1f0-4d65-9867-31c6d4dd530c}">
 		<property name="frequency">
 			<value>0.00999999978</value>
