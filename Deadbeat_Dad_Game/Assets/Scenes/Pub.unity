@@ -404,6 +404,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1911570729276828, guid: 4403d019e5f5a6041adc5a2b41eeb7f3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 770377265}
+    - targetCorrespondingSourceObject: {fileID: 1911570729276828, guid: 4403d019e5f5a6041adc5a2b41eeb7f3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 770377266}
   m_SourcePrefab: {fileID: 100100000, guid: 4403d019e5f5a6041adc5a2b41eeb7f3, type: 3}
 --- !u!1 &99581762 stripped
 GameObject:
@@ -2819,6 +2822,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f08f6385e9e012a4190d54dc845acd3e, type: 3}
+--- !u!114 &450831660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450831655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2143985758
+      Data2: 1237402568
+      Data3: -1993690997
+      Data4: 724383323
+    Path: event:/FX/Pub/Pool
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &458060462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4988,6 +5022,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f2ca877f547ac934c8153712d7c0e9d3, type: 3}
+--- !u!114 &770377266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770377261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1159226708
+      Data2: 1172946670
+      Data3: -2129348457
+      Data4: 444768966
+    Path: event:/FX/Pub/Darts
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &771664867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12523,6 +12588,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1764430345877316, guid: c1e94ab70bfb0154aaf730f1382be77f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 450831659}
+    - targetCorrespondingSourceObject: {fileID: 1764430345877316, guid: c1e94ab70bfb0154aaf730f1382be77f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 450831660}
   m_SourcePrefab: {fileID: 100100000, guid: c1e94ab70bfb0154aaf730f1382be77f, type: 3}
 --- !u!1 &1741408585 stripped
 GameObject:

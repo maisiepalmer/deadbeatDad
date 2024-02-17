@@ -33,7 +33,6 @@ public class StateHandler : MonoBehaviour
     //--------------------------------------------------------------------
     public FMODUnity.EventReference AtmosEvent;
     FMOD.Studio.EventInstance atmos;
-    FMOD.Studio.PARAMETER_ID startedId;
 
 //---------------------------------------------------------------------------------
     void Start()
@@ -43,23 +42,13 @@ public class StateHandler : MonoBehaviour
 
         FMOD.Studio.EventDescription musicEventDescription;
         music.getDescription(out musicEventDescription);
-        FMOD.Studio.PARAMETER_DESCRIPTION tasksParameterDescription, drunkParameterDescription, locationParameterDescription;
+        FMOD.Studio.PARAMETER_DESCRIPTION tasksParameterDescription, drunkParameterDescription;
 
         musicEventDescription.getParameterDescriptionByName("TasksCompleted", out tasksParameterDescription);
         tasksCompletedId = tasksParameterDescription.id;
 
         musicEventDescription.getParameterDescriptionByName("Drunkness", out drunkParameterDescription);
         drunkId = drunkParameterDescription.id;
-
-        atmos = FMODUnity.RuntimeManager.CreateInstance(AtmosEvent);
-        atmos.start();
-
-        FMOD.Studio.EventDescription atmosEventDescription;
-        atmos.getDescription(out atmosEventDescription);
-        FMOD.Studio.PARAMETER_DESCRIPTION startedParameterDescription;
-
-        atmosEventDescription.getParameterDescriptionByName("Start", out startedParameterDescription);
-        startedId = startedParameterDescription.id;
 
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(checklist);
@@ -70,8 +59,6 @@ public class StateHandler : MonoBehaviour
         }
 
         SetTasksVisible(false);
-
-        atmos.setParameterByID(startedId, 1);
     }
 
     void Update()
@@ -234,6 +221,10 @@ public class StateHandler : MonoBehaviour
     public void StartGame()
     {
         expositionComplete = false;
+
+        atmos = FMODUnity.RuntimeManager.CreateInstance(AtmosEvent);
+        atmos.start();
+        
         SceneManager.LoadSceneAsync("Pub");
     }
     
