@@ -162,7 +162,7 @@
 			<value>Red</value>
 		</property>
 		<property name="volume">
-			<value>-2.5</value>
+			<value>-11.5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -185,7 +185,7 @@
 			<value>2</value>
 		</property>
 		<property name="volume">
-			<value>-23.5</value>
+			<value>-25.5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -205,7 +205,7 @@
 			<value>1</value>
 		</property>
 		<property name="volume">
-			<value>3.5</value>
+			<value>2.5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -248,7 +248,7 @@
 			<value>true</value>
 		</property>
 		<property name="volume">
-			<value>-5</value>
+			<value>-20.5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -275,7 +275,7 @@
 			<value>2</value>
 		</property>
 		<property name="volume">
-			<value>-27.5</value>
+			<value>-30</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -295,7 +295,7 @@
 			<value>1</value>
 		</property>
 		<property name="volume">
-			<value>1.5</value>
+			<value>2.5</value>
 		</property>
 		<property name="polyphony">
 			<value>2</value>
@@ -341,7 +341,7 @@
 			<value>2</value>
 		</property>
 		<property name="volume">
-			<value>-21</value>
+			<value>-28</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -381,7 +381,7 @@
 			<value>2</value>
 		</property>
 		<property name="volume">
-			<value>-20.5</value>
+			<value>-30</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{bb8bc88d-2d5e-4c76-9302-de32e27a7a1d}</destination>

@@ -5,7 +5,7 @@
 			<value>Pub</value>
 		</property>
 		<relationship name="folder">
-			<destination>{5a035588-82e4-4bb9-a6ea-ec68bde18419}</destination>
+			<destination>{a7006f5e-abe2-400c-aaba-047ddb99cd67}</destination>
 		</relationship>
 	</object>
 </objects>

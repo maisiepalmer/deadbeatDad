@@ -89,6 +89,9 @@ public class DoorSystem : MonoBehaviour
                 
                 stateHandler.StartTimer();
                 arrowController.SetTarget("FastFood");
+
+                stateHandler.SetTasksVisible(true);
+                arrowController.SetVisible(true);
             }    
             else if (prevScene == "FastFood")
             {
@@ -107,10 +110,14 @@ public class DoorSystem : MonoBehaviour
                     arrowController.SetTarget("FastFood");
                 }
                 
+                stateHandler.SetTasksVisible(true);
+                arrowController.SetVisible(true);
             }
-
-            stateHandler.SetTasksVisible(true);
-            arrowController.SetVisible(true);
+            else
+            {
+                stateHandler.SetTasksVisible(true);
+                arrowController.SetVisible(true);
+            }
         }
         else if (scene.name == "FastFood")
         {

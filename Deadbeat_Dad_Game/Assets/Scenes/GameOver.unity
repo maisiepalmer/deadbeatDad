@@ -391,7 +391,7 @@ MonoBehaviour:
   CollisionTag: 
   Parameter: PlayerState
   TriggerEvent: 1
-  Value: 1
+  Value: 2
 --- !u!1 &842939276
 GameObject:
   m_ObjectHideFlags: 0
