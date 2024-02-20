@@ -122,7 +122,7 @@
 	<object class="MixerBusPanner" id="{a5267aaa-032d-4ed7-b11b-9ef2da6280d7}" />
 	<object class="SingleSound" id="{15dbf630-5508-4748-ba38-821f77cd704d}">
 		<property name="volume">
-			<value>-27.5</value>
+			<value>-24</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -135,8 +135,11 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{03c3558e-e4ec-4311-8fa1-16e0130b6ed6}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="volume">
-			<value>-28</value>
+			<value>-19</value>
 		</property>
 		<property name="looping">
 			<value>true</value>

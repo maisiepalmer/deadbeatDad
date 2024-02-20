@@ -16887,7 +16887,7 @@ MonoBehaviour:
       Data2: 1077261031
       Data3: 1721322124
       Data4: -681063869
-    Path: event:/Dialogue
+    Path: event:/Dialogue/Dialogue
 --- !u!1001 &2643831506066157768
 PrefabInstance:
   m_ObjectHideFlags: 0

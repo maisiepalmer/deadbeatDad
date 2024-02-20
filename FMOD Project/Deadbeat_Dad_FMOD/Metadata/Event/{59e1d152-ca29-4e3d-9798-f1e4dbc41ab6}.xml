@@ -137,6 +137,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{cf689d82-a2a6-470c-84f1-12e08d427aff}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="volume">
 			<value>-5.5</value>
 		</property>

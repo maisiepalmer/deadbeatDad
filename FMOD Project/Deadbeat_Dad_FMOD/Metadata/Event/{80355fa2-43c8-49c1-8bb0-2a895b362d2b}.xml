@@ -151,6 +151,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{75bac304-76ac-4024-bade-a8128e653d99}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="startOffset">
 			<value>50</value>
 		</property>

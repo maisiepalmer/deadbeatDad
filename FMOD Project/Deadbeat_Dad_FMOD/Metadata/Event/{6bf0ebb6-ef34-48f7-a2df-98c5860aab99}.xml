@@ -303,6 +303,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{9ea56c1b-a054-4fb6-99f5-8ecbd46c4391}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="start">
 			<value>98</value>
 		</property>
@@ -314,6 +317,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{a73e4609-790c-4a73-8aff-3307039a58a6}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="start">
 			<value>108</value>
 		</property>
@@ -389,6 +395,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{2b14423c-2a90-4114-9982-5867847f170c}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="start">
 			<value>98</value>
 		</property>
@@ -400,6 +409,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{8edffcea-8149-4f9b-853a-c7ebc0ac9615}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="start">
 			<value>108</value>
 		</property>
@@ -480,6 +492,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{9b7ca655-299d-42eb-a708-eb6502cd9e0d}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="start">
 			<value>98</value>
 		</property>
@@ -491,6 +506,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{8480ca6e-8be2-4fbd-8c9f-68982e9b917b}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="start">
 			<value>108</value>
 		</property>
@@ -557,6 +575,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{91ffea75-c22d-46e0-b5fa-824bb8f1eba6}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="start">
 			<value>98</value>
 		</property>
@@ -624,6 +645,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{825181c7-8c73-4b0f-a05f-4c359c701919}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>Snapshots</value>
 		</property>

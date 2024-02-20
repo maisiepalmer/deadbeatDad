@@ -39066,7 +39066,7 @@ MonoBehaviour:
       Data2: 1077261031
       Data3: 1721322124
       Data4: -681063869
-    Path: event:/Dialogue
+    Path: event:/Dialogue/Dialogue
 --- !u!65 &1931779070
 BoxCollider:
   m_ObjectHideFlags: 0
