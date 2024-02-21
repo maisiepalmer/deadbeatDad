@@ -157,7 +157,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4821503509534572120}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
@@ -239,9 +239,9 @@ MonoBehaviour:
     Data4: -1482205578
   Banks:
   - {fileID: 4821503509534572120}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -425,13 +425,13 @@ MonoBehaviour:
     Data4: 431403976
   Banks:
   - {fileID: 4821503509534572120}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 12680
 --- !u!114 &-1996070105855483977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,7 +513,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-1099111019787771481
+--- !u!114 &-1491956671785523634
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -523,9 +523,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Atmos/FastFood/Eating
+  m_Name: event:/Atmos/FastFood/Machinery
   m_EditorClassIdentifier: 
-  Path: event:/Atmos/FastFood/Eating
+  Path: event:/Atmos/FastFood/Machinery
   Guid:
     Data1: 91798937
     Data2: 1084862052
@@ -533,9 +533,9 @@ MonoBehaviour:
     Data4: 1221683322
   Banks:
   - {fileID: 4821503509534572120}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -622,7 +622,6 @@ MonoBehaviour:
   - {fileID: -104277421875744692}
   - {fileID: 2963275802675090234}
   - {fileID: -1996070105855483977}
-  - {fileID: -1099111019787771481}
   - {fileID: -5336167209404590491}
   - {fileID: -8848124053924359012}
   - {fileID: -2193635918513623029}
@@ -638,6 +637,7 @@ MonoBehaviour:
   - {fileID: 7288674248891372361}
   - {fileID: -3613549764859551976}
   - {fileID: -8230000183951542487}
+  - {fileID: -1491956671785523634}
   EditorParameters:
   - {fileID: 8565233115290817990}
   - {fileID: 148720594457775133}
@@ -645,7 +645,7 @@ MonoBehaviour:
   - {fileID: 4821503509534572120}
   StringsBanks:
   - {fileID: 7868150274513658440}
-  cacheTime: 638440463119293141
+  cacheTime: 638441198437027633
   cacheVersion: 131616
 --- !u!114 &148720594457775133
 MonoBehaviour:
@@ -867,10 +867,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638440463119264080
+  lastModified: 638441198436965431
   FileSizes:
   - Name: Desktop
-    Value: 33994848
+    Value: 49973504
   Exists: 1
 --- !u!114 &5372172629316685187
 MonoBehaviour:
@@ -995,10 +995,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638440463119293141
+  lastModified: 638441198437027633
   FileSizes:
   - Name: Desktop
-    Value: 2280
+    Value: 2282
   Exists: 1
 --- !u!114 &8216965320665330761
 MonoBehaviour:
