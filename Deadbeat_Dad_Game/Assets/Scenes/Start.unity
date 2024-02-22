@@ -2291,8 +2291,24 @@ PrefabInstance:
       value: event:/Atmos/LocationAtmos
       objectReference: {fileID: 0}
     - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: ClickEvent.Path
+      value: event:/FX/UI/Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
       propertyPath: MusicEvent.Path
       value: event:/Music/Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: FailureEvent.Path
+      value: event:/FX/UI/Failure
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: PenaltyEvent.Path
+      value: event:/FX/UI/Penalty
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: SuccessEvent.Path
+      value: event:/FX/UI/Success
       objectReference: {fileID: 0}
     - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
       propertyPath: AtmosEvent.Guid.Data1
@@ -2309,6 +2325,22 @@ PrefabInstance:
     - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
       propertyPath: AtmosEvent.Guid.Data4
       value: 902931909
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: ClickEvent.Guid.Data1
+      value: 28869087
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: ClickEvent.Guid.Data2
+      value: 1195824848
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: ClickEvent.Guid.Data3
+      value: 913538977
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: ClickEvent.Guid.Data4
+      value: 1529946792
       objectReference: {fileID: 0}
     - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
       propertyPath: MusicEvent.Guid.Data1
@@ -2334,6 +2366,54 @@ PrefabInstance:
       propertyPath: crossOut.Array.data[1]
       value: 
       objectReference: {fileID: 1115974013}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: FailureEvent.Guid.Data1
+      value: -1663778545
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: FailureEvent.Guid.Data2
+      value: 1172166594
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: FailureEvent.Guid.Data3
+      value: 1823766427
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: FailureEvent.Guid.Data4
+      value: 1161210003
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: PenaltyEvent.Guid.Data1
+      value: 1545897754
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: PenaltyEvent.Guid.Data2
+      value: 1330849413
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: PenaltyEvent.Guid.Data3
+      value: 280978621
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: PenaltyEvent.Guid.Data4
+      value: 905643408
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: SuccessEvent.Guid.Data1
+      value: 2049138631
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: SuccessEvent.Guid.Data2
+      value: 1166196726
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: SuccessEvent.Guid.Data3
+      value: -239540318
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: SuccessEvent.Guid.Data4
+      value: 625382009
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

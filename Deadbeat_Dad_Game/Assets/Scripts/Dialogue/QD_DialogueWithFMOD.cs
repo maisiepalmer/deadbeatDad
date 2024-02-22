@@ -105,6 +105,7 @@ namespace QuantumTek.QuantumDialogue.Demo
             conversationEnded = false;
             handler.SetConversation(conversationName);
             handler.ShowDialogueCanvas(true);
+            handler.PlayClick();
 
             SetText();
         }
@@ -262,7 +263,6 @@ namespace QuantumTek.QuantumDialogue.Demo
 
                 // Hide canvas when conversation is over
                 handler.ShowDialogueCanvas(false);
-                
             }
         }
 

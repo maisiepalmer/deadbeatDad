@@ -12,17 +12,6 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{13568af5-3112-4371-bf34-edba993d4fcc}">
-		<property name="parameterType">
-			<value>2</value>
-		</property>
-		<property name="maximum">
-			<value>3</value>
-		</property>
-		<property name="enumerationLabels">
-			<value>Start</value>
-			<value>Moving</value>
-			<value>Stop</value>
-		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>

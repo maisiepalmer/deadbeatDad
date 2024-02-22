@@ -34,6 +34,7 @@ namespace QuantumTek.QuantumDialogue
         [HideInInspector] public QD_Conversation currentConversation;
         [HideInInspector] public QD_MessageInfo currentMessageInfo;
 
+        // maisie's variables
         public PlayerController player;
         public StateHandler state;
 
@@ -351,25 +352,30 @@ namespace QuantumTek.QuantumDialogue
             if (speaker == "worker" && phraseNumberAsString == "11") // success
             {
                 state.HasFood();
-                // make a sound/ set a parameter?!
+                state.PlaySuccess();
             }
             else if (speaker == "worker" && phraseNumberAsString == "4") // failure
             {
-                // make a sound/ set a parameter?!
+                state.PlayFailure();
             }
             else if (speaker == "sally" && phraseNumberAsString == "7") // success
             {
                 state.HasPresent();
-                // make a sound/ set a parameter?!
+                state.PlaySuccess();
             }
             else if (speaker == "sally" && phraseNumberAsString == "5") // failure
             {
-                // make a sound/ set a parameter?!
+                state.PlayFailure();
             }
             else if (speaker == "bartender" && phraseNumberAsString == "16") // exposition
             {
                 state.SetExpositionComplete();
             }
+        }
+
+        public void PlayClick()
+        {
+            state.PlayClick();
         }
     }
 }

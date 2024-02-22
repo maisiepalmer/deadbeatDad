@@ -34,6 +34,10 @@ public class StateHandler : MonoBehaviour
     public FMODUnity.EventReference AtmosEvent;
     FMOD.Studio.EventInstance atmos;
 
+    //--------------------------------------------------------------------
+    public FMODUnity.EventReference SuccessEvent, FailureEvent, PenaltyEvent, ClickEvent;
+    FMOD.Studio.EventInstance success, failure, penalty, click;
+
 //---------------------------------------------------------------------------------
     void Start()
     {
@@ -169,6 +173,7 @@ public class StateHandler : MonoBehaviour
 
     public void SetInnerMonologue(string text)
     {
+        PlayPenalty();
         innerMonologue.text = text;
         
         if(!running)
@@ -217,6 +222,30 @@ public class StateHandler : MonoBehaviour
         return reason;
     }
 
+    public void PlaySuccess()
+    {
+        success = FMODUnity.RuntimeManager.CreateInstance(SuccessEvent);
+        success.start();
+    }
+
+    public void PlayFailure()
+    {
+        failure = FMODUnity.RuntimeManager.CreateInstance(FailureEvent);
+        failure.start();
+    }
+
+    public void PlayPenalty()
+    {
+        penalty = FMODUnity.RuntimeManager.CreateInstance(PenaltyEvent);
+        penalty.start();
+    }
+
+    public void PlayClick()
+    {
+        click = FMODUnity.RuntimeManager.CreateInstance(ClickEvent);
+        click.start();
+    }
+
 //---------------------------------------------------------------------------------
     public void StartGame()
     {
@@ -248,6 +277,8 @@ public class StateHandler : MonoBehaviour
 //---------------------------------------------------------------------------------
     public void HandlePlayerReactions(int choice, int id)
     {
+        PlayClick();
+
         if (id == 16 && choice == 1)
             IsDrunk();
     } 

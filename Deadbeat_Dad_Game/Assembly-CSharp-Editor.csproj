@@ -321,34 +321,34 @@
         <HintPath>/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -741,91 +741,91 @@
         <HintPath>/Applications/Unity/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Volumes/DataDrive/Shared/Maisie_Palmer/Deadbeat_Dad/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Volumes/DataDrive/Shared/Maisie Palmer/DDG/Deadbeat_Dad_Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

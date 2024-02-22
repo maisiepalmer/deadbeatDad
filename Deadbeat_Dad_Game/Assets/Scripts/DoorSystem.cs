@@ -41,9 +41,14 @@ public class DoorSystem : MonoBehaviour
                     if (hit.collider.name == exitDoor.name)
                     {
                         if (!stateHandler.GetExpositionComplete())
+                        {
                             stateHandler.SetInnerMonologue("I feel like I need to speak to the bartender...");
+                        }
                         else 
+                        {
+                            stateHandler.PlayClick();
                             SceneManager.LoadSceneAsync("MainScene");
+                        }     
                     }  
                 }
                 else
@@ -52,6 +57,7 @@ public class DoorSystem : MonoBehaviour
                     {
                         if (!stateHandler.GetHasFood())
                         {
+                            stateHandler.PlayClick();
                             SceneManager.LoadSceneAsync("FastFood");
                         }
                         else

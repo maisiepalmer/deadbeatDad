@@ -5,7 +5,7 @@
 			<value>DrinksMachine</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2f2d87fc-cf0d-41a0-9945-92d8b4c3f862}</destination>
@@ -165,6 +165,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{8e0cd238-e763-43d6-92fe-5421d94a18dc}">
 		<relationship name="effects">
+			<destination>{3c744520-80f5-4010-bd58-ab3e45702d00}</destination>
 			<destination>{5bc3edd8-1966-4cfc-b7f8-955132a20ad9}</destination>
 		</relationship>
 	</object>
@@ -190,6 +191,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{004b9571-044a-4ce7-bfde-a9cab8c0da40}" />
+	<object class="SpatialiserEffect" id="{3c744520-80f5-4010-bd58-ab3e45702d00}">
+		<property name="maximumDistance">
+			<value>7.5999999</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{5bc3edd8-1966-4cfc-b7f8-955132a20ad9}" />
 	<object class="AutomationPoint" id="{867b1586-d1f9-43c9-9360-31d0be9f9292}">
 		<property name="position">
