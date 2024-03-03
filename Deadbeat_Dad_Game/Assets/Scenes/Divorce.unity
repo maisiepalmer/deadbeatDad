@@ -1059,6 +1059,7 @@ GameObject:
   - component: {fileID: 1843702089}
   - component: {fileID: 1843702088}
   - component: {fileID: 1843702093}
+  - component: {fileID: 1843702094}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1182,6 +1183,37 @@ MonoBehaviour:
   Parameter: PlayerState
   TriggerEvent: 1
   Value: 2
+--- !u!114 &1843702094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843702087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -374265343
+      Data2: 1181339602
+      Data3: 1090472124
+      Data4: 826346891
+    Path: event:/Dialogue/Divorce
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2052938592
 GameObject:
   m_ObjectHideFlags: 0
