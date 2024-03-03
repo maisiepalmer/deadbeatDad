@@ -2244,6 +2244,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -5841375293765127602, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -4633,7 +4637,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4519694763772431307, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -4705,6 +4710,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -8849907043990458948, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
       propertyPath: m_Name
       value: Vehicle_Bus_color02 (1)
@@ -7114,7 +7123,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3597460619799454596, guid: d20839e362efa3d4baa3d2ce1b4f2df4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -8157,6 +8167,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6013072323489245838, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8805,6 +8819,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -5841375293765127602, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
       propertyPath: m_Name
       value: Vehicle_Ambulance (2)
@@ -9407,6 +9425,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: b0ad868427d8c8a4b86144f9786776d3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197922465716916513, guid: b0ad868427d8c8a4b86144f9786776d3, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11131,7 +11153,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -12280,6 +12303,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 4028263163925983870, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12293,6 +12320,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 519100564}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 519100567}
   m_SourcePrefab: {fileID: 100100000, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
 --- !u!1001 &355488847
 PrefabInstance:
@@ -12534,7 +12564,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -13600,6 +13631,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 05aec82adc02f16409639716322b1673, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -14204,6 +14239,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
       propertyPath: m_Name
       value: Vehicle_SUV_color01 (1)
@@ -14643,7 +14682,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -15040,6 +15080,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 993432d7809c9bf489a5a96006618fef, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007772280443014479, guid: 993432d7809c9bf489a5a96006618fef, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15909,6 +15953,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028263163925983870, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18432,6 +18480,39 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &519100567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519100559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2044538126
+      Data2: 1082622122
+      Data3: -1393314371
+      Data4: -2107019430
+    Path: event:/FX/Vehicle/Engine
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params:
+  - Name: Size
+    Value: 2
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &520415886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22705,6 +22786,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -8849907043990458948, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -22970,6 +23055,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -23734,6 +23823,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: f269a0a343ed94c4e908a388c940ea06, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300571128430438897, guid: f269a0a343ed94c4e908a388c940ea06, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24820,6 +24913,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 81835658bbd378143a0f525b8552f557, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046850892156721253, guid: 81835658bbd378143a0f525b8552f557, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26094,7 +26191,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -26210,7 +26308,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2046850892156721253, guid: 81835658bbd378143a0f525b8552f557, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -26327,6 +26426,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -3939223697506349933, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -28081,7 +28184,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2046850892156721253, guid: 81835658bbd378143a0f525b8552f557, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -28568,7 +28672,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8197922465716916513, guid: b0ad868427d8c8a4b86144f9786776d3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -29418,6 +29523,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31310,7 +31419,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2654203720482203702, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -32237,7 +32347,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7007772280443014479, guid: 993432d7809c9bf489a5a96006618fef, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -33456,7 +33567,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -37156,7 +37268,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6153332473378170168, guid: 00d77ce56096de34eb6645947a0f8925, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -37567,7 +37680,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -37717,7 +37831,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -38437,7 +38552,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2654203720482203702, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -39754,6 +39870,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 05aec82adc02f16409639716322b1673, type: 3}
       propertyPath: m_Name
       value: Vehicle_Taxi (1)
@@ -40024,6 +40144,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
       propertyPath: m_Name
       value: Vehicle_Pick up Truck_color01 (1)
@@ -40485,7 +40609,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4519694763772431307, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -40893,7 +41018,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4519694763772431307, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -41404,6 +41530,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -7391087315363548144, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -41585,6 +41715,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41912,6 +42046,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
       propertyPath: m_Name
       value: Vehicle_SUV_color01 (2)
@@ -42793,6 +42931,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e218686c5655fad46a02ebfb004972ee, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080012519222136133, guid: e218686c5655fad46a02ebfb004972ee, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46558,6 +46700,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -46871,7 +47017,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -47299,7 +47446,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -47565,6 +47713,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 00d77ce56096de34eb6645947a0f8925, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153332473378170168, guid: 00d77ce56096de34eb6645947a0f8925, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48659,7 +48811,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -49467,7 +49620,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -51780,6 +51934,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 05aec82adc02f16409639716322b1673, type: 3}
       propertyPath: m_Name
       value: Vehicle_Taxi (3)
@@ -51878,7 +52036,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -52986,6 +53145,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -5841375293765127602, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
       propertyPath: m_Name
       value: Vehicle_Ambulance (1)
@@ -54457,6 +54620,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -3597460619799454596, guid: d20839e362efa3d4baa3d2ce1b4f2df4, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d20839e362efa3d4baa3d2ce1b4f2df4, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -55423,6 +55590,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 6fa2aa0a1d56aba4a8884471618de9e4, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068399385534847197, guid: 6fa2aa0a1d56aba4a8884471618de9e4, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57780,7 +57951,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6153332473378170168, guid: 00d77ce56096de34eb6645947a0f8925, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -59394,7 +59566,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -61226,6 +61399,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -7391087315363548144, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
       propertyPath: m_Name
       value: Vehicle_Container_color01 (1)
@@ -61327,6 +61504,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 6fa2aa0a1d56aba4a8884471618de9e4, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068399385534847197, guid: 6fa2aa0a1d56aba4a8884471618de9e4, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -62322,6 +62503,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -4519694763772431307, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -65546,6 +65731,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6013072323489245838, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66578,6 +66767,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -7222969831210132850, guid: 9500f0cdde0097a4aac35ced7c1935d7, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9500f0cdde0097a4aac35ced7c1935d7, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -68197,7 +68390,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -70193,6 +70387,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -2654203720482203702, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -71908,7 +72106,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -73231,7 +73430,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -76408,6 +76608,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 7080012519222136133, guid: e218686c5655fad46a02ebfb004972ee, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78302,7 +78506,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6153332473378170168, guid: 00d77ce56096de34eb6645947a0f8925, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -80313,6 +80518,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
+    - target: {fileID: -3939223697506349933, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
       propertyPath: m_Name
       value: Vehicle_Police Car (2)

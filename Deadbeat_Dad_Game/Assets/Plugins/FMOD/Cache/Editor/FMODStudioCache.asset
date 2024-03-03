@@ -128,14 +128,14 @@ MonoBehaviour:
     Data4: -2107019430
   Banks:
   - {fileID: 4821503509534572120}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: 3874643396121098364}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  MinDistance: 3
+  MaxDistance: 9
+  Length: 2000
 --- !u!114 &-6406468710973692151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,33 +178,6 @@ MonoBehaviour:
     Data2: 1296737727
     Data3: -478564464
     Data4: 827744216
-  Banks:
-  - {fileID: 4821503509534572120}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4394802447015073465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/FX/Player/Groans
-  m_EditorClassIdentifier: 
-  Path: event:/FX/Player/Groans
-  Guid:
-    Data1: 1083563229
-    Data2: 1188048308
-    Data3: -116045403
-    Data4: -491488640
   Banks:
   - {fileID: 4821503509534572120}
   IsStream: 0
@@ -545,7 +518,6 @@ MonoBehaviour:
   - {fileID: -3635460051085030969}
   - {fileID: -635520654434401996}
   - {fileID: -1306816379789725024}
-  - {fileID: -4394802447015073465}
   - {fileID: 1365925760373447900}
   - {fileID: 6833229705806984286}
   - {fileID: -7315708778261288802}
@@ -559,7 +531,7 @@ MonoBehaviour:
   - {fileID: 4821503509534572120}
   StringsBanks:
   - {fileID: 7868150274513658440}
-  cacheTime: 638450883817260436
+  cacheTime: 638450958624952971
   cacheVersion: 131616
 --- !u!114 &1038076880852280087
 MonoBehaviour:
@@ -758,17 +730,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Engine/State
+  m_Name: parameter:/Engine/Size
   m_EditorClassIdentifier: 
-  Name: State
+  Name: Size
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 3750707920
     data2: 3054615117
-  Type: 0
+  Type: 1
   IsGlobal: 0
   Labels: []
   Exists: 1
@@ -889,10 +861,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638450883817214945
+  lastModified: 638450958624915151
   FileSizes:
   - Name: Desktop
-    Value: 50718880
+    Value: 51614112
   Exists: 1
 --- !u!114 &4970913399634126438
 MonoBehaviour:
@@ -1038,10 +1010,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638450883817260436
+  lastModified: 638450958624952971
   FileSizes:
   - Name: Desktop
-    Value: 2430
+    Value: 2436
   Exists: 1
 --- !u!114 &8114288000418997141
 MonoBehaviour:
