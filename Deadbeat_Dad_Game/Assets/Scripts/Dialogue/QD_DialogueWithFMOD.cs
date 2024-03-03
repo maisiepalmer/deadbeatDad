@@ -211,16 +211,16 @@ namespace QuantumTek.QuantumDialogue.Demo
                 // TODO - potentially interact with 'handler.canAdvance
                 //        to en/disable "click to continue" behaviour
                 
-                //case FMOD.Studio.EVENT_CALLBACK_TYPE.SOUND_PLAYED:
-                //{
-                //    Debug.Log("FMOD sound played");
+                // case FMOD.Studio.EVENT_CALLBACK_TYPE.SOUND_PLAYED:
+                // {
+                //     Debug.Log("FMOD sound played");
                 //    break;
-                //}
-                //case FMOD.Studio.EVENT_CALLBACK_TYPE.SOUND_STOPPED:
-                //{
+                // }
+                // case FMOD.Studio.EVENT_CALLBACK_TYPE.SOUND_STOPPED:
+                // {
                 //    Debug.Log("FMOD sound stopped");
                 //    break;
-                //}
+                // }
             }
             return FMOD.RESULT.OK;
         }

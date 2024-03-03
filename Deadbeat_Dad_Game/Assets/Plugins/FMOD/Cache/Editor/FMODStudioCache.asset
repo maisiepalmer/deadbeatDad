@@ -235,7 +235,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4821503509534572120}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -289,9 +289,10 @@ MonoBehaviour:
   Banks:
   - {fileID: 4821503509534572120}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 2026276769778821366}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -552,11 +553,12 @@ MonoBehaviour:
   EditorParameters:
   - {fileID: -131906888842802256}
   - {fileID: 4279192903766037144}
+  - {fileID: 7625801623192965425}
   MasterBanks:
   - {fileID: 4821503509534572120}
   StringsBanks:
   - {fileID: 7868150274513658440}
-  cacheTime: 638442008455935120
+  cacheTime: 638450865653003201
   cacheVersion: 131616
 --- !u!114 &1038076880852280087
 MonoBehaviour:
@@ -660,6 +662,30 @@ MonoBehaviour:
     data1: 58395605
     data2: 1730518803
   Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2026276769778821366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dialogue/SoundPlaying
+  m_EditorClassIdentifier: 
+  Name: SoundPlaying
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3788458222
+    data2: 2970487019
+  Type: 1
   IsGlobal: 1
   Labels: []
   Exists: 1
@@ -886,10 +912,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638442008455874230
+  lastModified: 638450865652965524
   FileSizes:
   - Name: Desktop
-    Value: 50156992
+    Value: 50678048
   Exists: 1
 --- !u!114 &4970913399634126438
 MonoBehaviour:
@@ -945,6 +971,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7625801623192965425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SoundPlaying
+  m_EditorClassIdentifier: 
+  Name: SoundPlaying
+  StudioPath: parameter:/SoundPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3788458222
+    data2: 2970487019
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7685546591403602321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -984,10 +1034,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638442008455935120
+  lastModified: 638450865653003201
   FileSizes:
   - Name: Desktop
-    Value: 2282
+    Value: 2336
   Exists: 1
 --- !u!114 &8114288000418997141
 MonoBehaviour:

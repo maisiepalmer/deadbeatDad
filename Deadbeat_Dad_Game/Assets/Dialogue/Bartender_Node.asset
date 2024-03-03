@@ -631,8 +631,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 3944.9663
-      y: 628.6057
+      x: 3732.9663
+      y: 638.6057
       width: 200
       height: 175
     Inputs:
@@ -670,9 +670,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 1
       Connections:
-        keys: 0d000000
+        keys: 0e000000
         values:
-        - Array: 00000000
+        - Array: 01000000
     AllowedInputs:
     - InputType: 3
       InputID: 0
@@ -723,57 +723,6 @@ MonoBehaviour:
       InputID: 5
       OutputType: 3
       OutputID: 1
-  - ID: 13
-    Type: 4
-    Window:
-      serializedVersion: 2
-      x: 3591.8792
-      y: 626.6057
-      width: 300
-      height: 125
-    Inputs:
-    - ID: 0
-      Name: Previous Messages
-      Type: 0
-      Y: 7.5
-      AllowMultipleConnections: 0
-      Connections:
-        keys: 0c000000
-        values:
-        - Array: 01000000
-    Outputs:
-    - ID: 0
-      Name: Choice 1
-      Type: 1
-      Y: 45
-      AllowMultipleConnections: 0
-      Connections:
-        keys: 0e000000
-        values:
-        - Array: 01000000
-    - ID: 1
-      Name: Choice 2
-      Type: 1
-      Y: 75
-      AllowMultipleConnections: 0
-      Connections:
-        keys: 0e000000
-        values:
-        - Array: 01000000
-    AllowedInputs:
-    - InputType: 3
-      InputID: 1
-      OutputType: 4
-      OutputID: 0
-    AllowedOutputs:
-    - InputType: 3
-      InputID: 1
-      OutputType: 4
-      OutputID: 0
-    - InputType: 3
-      InputID: 1
-      OutputType: 4
-      OutputID: 1
   - ID: 14
     Type: 3
     Window:
@@ -798,9 +747,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 1
       Connections:
-        keys: 0d000000
+        keys: 0c000000
         values:
-        - Array: 0000000001000000
+        - Array: 01000000
     Outputs:
     - ID: 0
       Name: Speaker
@@ -1571,8 +1520,8 @@ MonoBehaviour:
       Speaker: 3
       SpeakerName: Wife
       PreviousMessage: 11
-      NextMessage: 13
-      MessageText: Be here in 30 minutes.
+      NextMessage: 14
+      MessageText: Be here in 30 minutes. *Hang up*
       AudioPhrase: 12
   - ID: 14
     Type: 3
@@ -1670,7 +1619,7 @@ MonoBehaviour:
       ID: 14
       Speaker: 1
       SpeakerName: Bartender
-      PreviousMessage: 13
+      PreviousMessage: 12
       NextMessage: 15
       MessageText: Need a drink?
       AudioPhrase: 14
@@ -1918,44 +1867,6 @@ MonoBehaviour:
       - Of course, I still will!
       - Oh ****, how am I gonna do all that?!
       NextMessages: 0c0000000b000000
-  - ID: 13
-    Type: 2
-    Window:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 300
-      height: 65
-    Inputs:
-    - ID: 0
-      Name: Previous Messages
-      Type: 0
-      Y: 7.5
-      AllowMultipleConnections: 0
-      Connections:
-        keys: 
-        values: []
-    Outputs: []
-    AllowedInputs:
-    - InputType: 3
-      InputID: 1
-      OutputType: 4
-      OutputID: 0
-    AllowedOutputs:
-    - InputType: 3
-      InputID: 1
-      OutputType: 4
-      OutputID: 0
-    - InputType: 3
-      InputID: 1
-      OutputType: 4
-      OutputID: 1
-    Data:
-      ID: 13
-      Choices:
-      - Of course, my love.
-      - '*Hang up*'
-      NextMessages: 0e0000000e000000
   - ID: 15
     Type: 2
     Window:

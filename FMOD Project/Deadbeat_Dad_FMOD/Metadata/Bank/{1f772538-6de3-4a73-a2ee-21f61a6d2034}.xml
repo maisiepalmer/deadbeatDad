@@ -10,5 +10,16 @@
 		<relationship name="folder">
 			<destination>{9b5d4ad8-a094-497f-9fb9-11d8b29e45d3}</destination>
 		</relationship>
+		<relationship name="audioTable">
+			<destination>{bde83855-91be-4b8b-b8f6-599869fc0509}</destination>
+		</relationship>
+	</object>
+	<object class="AudioTable" id="{bde83855-91be-4b8b-b8f6-599869fc0509}">
+		<property name="name">
+			<value>Dialogue_Table</value>
+		</property>
+		<property name="sourceDirectory">
+			<value>../../../DIALOGUE_TABLE</value>
+		</property>
 	</object>
 </objects>

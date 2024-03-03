@@ -83,8 +83,8 @@ namespace QuantumTek.QuantumDialogue
 
         // TODO - potentially draw from FMOD callback (SOUND_PLAYED, _STOPPED)
         //        to en/disable "click to continue" behaviour
-        //[HideInInspector]
-        //public bool canAdvance = true; 
+        // [HideInInspector]
+        // public bool canAdvance = true; 
 
         // phill moved this
         [Header("TODO - hide from inspector - autoset in code")]

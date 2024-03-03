@@ -44,7 +44,7 @@ MonoBehaviour:
     PreviousMessage: 8
     NextMessage: 10
     MessageText: It's Johnny's game tonight and you promised you would bring dinner.
-      And you still haven't picked up Samantha's birthday cake from Sally!
+      And you still haven't bought Samantha a birthday present!
     AudioPhrase: 9
   - ID: 11
     Speaker: 3
@@ -57,13 +57,13 @@ MonoBehaviour:
     Speaker: 3
     SpeakerName: Wife
     PreviousMessage: 11
-    NextMessage: 13
-    MessageText: Be here in 5 minutes.
+    NextMessage: 14
+    MessageText: Be here in 5 minutes. *Hang up*
     AudioPhrase: 12
   - ID: 14
     Speaker: 1
     SpeakerName: Bartender
-    PreviousMessage: 13
+    PreviousMessage: 12
     NextMessage: 15
     MessageText: Need a drink?
     AudioPhrase: 14
@@ -90,11 +90,6 @@ MonoBehaviour:
     - Of course, I still will!
     - Oh ****, how am I gonna do all that?!
     NextMessages: 0c0000000b000000
-  - ID: 13
-    Choices:
-    - Of course, my love.
-    - '*Hang up*'
-    NextMessages: 0e0000000e000000
   - ID: 15
     Choices:
     - No thanks, mate. I'd better be off without.
