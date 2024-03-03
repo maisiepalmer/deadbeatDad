@@ -27,6 +27,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-8252836642053923769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicLevel
+  m_EditorClassIdentifier: 
+  Name: MusicLevel
+  StudioPath: parameter:/Options/MusicLevel
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1220781300
+    data2: 3917906812
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7705684012295177839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +160,30 @@ MonoBehaviour:
   MinDistance: 3
   MaxDistance: 9
   Length: 2000
+--- !u!114 &-6879408038335631653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DialogueLevel
+  m_EditorClassIdentifier: 
+  Name: DialogueLevel
+  StudioPath: parameter:/Options/DialogueLevel
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2401922797
+    data2: 2484403916
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6406468710973692151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -526,12 +574,14 @@ MonoBehaviour:
   EditorParameters:
   - {fileID: -131906888842802256}
   - {fileID: 4279192903766037144}
-  - {fileID: 7625801623192965425}
+  - {fileID: -6879408038335631653}
+  - {fileID: -8252836642053923769}
+  - {fileID: 2240052035008071347}
   MasterBanks:
   - {fileID: 4821503509534572120}
   StringsBanks:
   - {fileID: 7868150274513658440}
-  cacheTime: 638450958624952971
+  cacheTime: 638450984692159722
   cacheVersion: 131616
 --- !u!114 &1038076880852280087
 MonoBehaviour:
@@ -669,6 +719,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 120000
+--- !u!114 &2240052035008071347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FXLevel
+  m_EditorClassIdentifier: 
+  Name: FXLevel
+  StudioPath: parameter:/Options/FXLevel
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2556157522
+    data2: 3257183858
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3414229804549271315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -861,10 +935,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638450958624915151
+  lastModified: 638450984692049110
   FileSizes:
   - Name: Desktop
-    Value: 51614112
+    Value: 51616320
   Exists: 1
 --- !u!114 &4970913399634126438
 MonoBehaviour:
@@ -947,30 +1021,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &7625801623192965425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/SoundPlaying
-  m_EditorClassIdentifier: 
-  Name: SoundPlaying
-  StudioPath: parameter:/SoundPlaying
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3788458222
-    data2: 2970487019
-  Type: 1
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &7685546591403602321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1010,10 +1060,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638450958624952971
+  lastModified: 638450984692159722
   FileSizes:
   - Name: Desktop
-    Value: 2436
+    Value: 2826
   Exists: 1
 --- !u!114 &8114288000418997141
 MonoBehaviour:

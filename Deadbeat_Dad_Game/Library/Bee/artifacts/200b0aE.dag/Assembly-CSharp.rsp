@@ -399,6 +399,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/StateHandler.cs"
 "Assets/Scripts/VehicleController.cs"
+"Assets/Scripts/VolumeOptions.cs"
 "Assets/Scripts/WifeDialogue.cs"
 "Assets/Scripts/WinMenu.cs"
 "Assets/Scripts/WobbleEffect.cs"

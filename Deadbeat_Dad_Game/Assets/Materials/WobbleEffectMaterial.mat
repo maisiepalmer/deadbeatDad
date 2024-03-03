@@ -79,7 +79,7 @@ Material:
     - _ZWrite: 1
     - _amplitude: 0
     - _frequency: 4
-    - _shift: 1.2703435
+    - _shift: 2.7342257
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

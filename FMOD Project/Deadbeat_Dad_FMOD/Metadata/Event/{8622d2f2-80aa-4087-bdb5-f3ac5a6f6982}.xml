@@ -66,7 +66,7 @@
 			<destination>{20488a94-9e96-4182-b324-2891d1736783}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{d4c960c2-b68f-4143-8f73-4e4bbf4adad8}</destination>
+			<destination>{ee6bc681-5524-4394-a52f-19e7f5cfd879}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d0d3ca38-4fdb-49ed-8e04-56fc27f477e0}">
@@ -80,7 +80,7 @@
 			<value>3</value>
 		</property>
 		<property name="maximumDistance">
-			<value>9</value>
+			<value>9.60000038</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{863bbc98-8c1c-437d-801e-f387aeff9590}" />
@@ -472,9 +472,9 @@
 			<destination>{a13fc9af-2256-4cbd-9b4d-3269395dd09e}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{b525ef39-8694-481c-8b80-3fe9b6b0188f}</destination>
 			<destination>{23315bc7-8d94-4369-9c83-13c1390f2595}</destination>
 			<destination>{1f563f14-8fe3-4058-93c7-d8415d68acae}</destination>
+			<destination>{90dcc8a1-9f16-4fe0-9fc7-4f886e6aad4f}</destination>
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{b2a2e71e-0cb0-4e78-8316-85c8c430334f}">
@@ -485,7 +485,7 @@
 			<value>3</value>
 		</property>
 		<property name="maximumDistance">
-			<value>9</value>
+			<value>9.60000038</value>
 		</property>
 		<property name="soundSize">
 			<value>2.20000005</value>
@@ -540,14 +540,6 @@
 	</object>
 	<object class="MixerBusFader" id="{7d8e67a5-ee11-472e-9b45-2db9d2730639}" />
 	<object class="MixerBusFader" id="{3cbb76f5-0929-4dcb-bb73-6d2837e917a8}" />
-	<object class="AutomationPoint" id="{b525ef39-8694-481c-8b80-3fe9b6b0188f}">
-		<property name="position">
-			<value>20</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{23315bc7-8d94-4369-9c83-13c1390f2595}">
 		<property name="position">
 			<value>3</value>
@@ -564,7 +556,15 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.176263377</value>
+			<value>-0.000604792498</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{90dcc8a1-9f16-4fe0-9fc7-4f886e6aad4f}">
+		<property name="position">
+			<value>20</value>
+		</property>
+		<property name="value">
+			<value>-56</value>
 		</property>
 	</object>
 	<object class="Automator" id="{77da76a1-594e-4ea3-9b32-050e92e0462d}">
