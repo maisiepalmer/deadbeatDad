@@ -433,7 +433,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999998, y: 0.20000005, z: 4}
@@ -1801,7 +1801,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000045, z: 10}
@@ -2245,8 +2245,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1821923786}
     m_Modifications:
     - target: {fileID: -5841375293765127602, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: PlayEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5841375293765127602, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5841375293765127602, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5841375293765127602, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
       propertyPath: m_TagString
@@ -2284,7 +2296,56 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: PlayEvent
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: StopEvent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: TriggerOnce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: CollisionTag
+      value: Vehicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/FX/Vehicle/Crash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -212091596
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1306797118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -922005624
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1115313510
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Size
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -2297,6 +2358,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2027713526}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2027713529}
   m_SourcePrefab: {fileID: 100100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
 --- !u!1001 &73134002
 PrefabInstance:
@@ -2758,7 +2822,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 4ddf9dbec6534a14a9612193ee06f4d2, type: 3}
---- !u!65 &87090682
+--- !u!114 &87090683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87090677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d5dcd3c2ad4401ca7c5dfd2944eec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instructions: {fileID: 2021400690}
+--- !u!65 &87090684
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2773,25 +2850,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 11.218784, y: 9.757901, z: 12.492699}
-  m_Center: {x: 0.034836292, y: 4.878778, z: 0.87428194}
---- !u!114 &87090683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87090677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0d5dcd3c2ad4401ca7c5dfd2944eec2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  instructions: {fileID: 2021400690}
+  m_Size: {x: 11.218784, y: 9.757901, z: 10.353148}
+  m_Center: {x: 0.03483629, y: 4.878778, z: -0.19549295}
 --- !u!1001 &94469451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2998,7 +3062,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -3261,7 +3325,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -4416,7 +4480,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -4713,6 +4777,14 @@ PrefabInstance:
     - target: {fileID: -8849907043990458948, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8849907043990458948, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8849907043990458948, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
       propertyPath: m_Name
@@ -5772,6 +5844,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &170159040
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5788,11 +5868,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9580617, y: 2.433641, z: 6.3205414}
-  m_Center: {x: -0.0064122668, y: 1.2162137, z: -0.19318244}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &170159041
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6102,7 +6182,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -6416,6 +6496,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 1
 --- !u!65 &183821823
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6432,11 +6520,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.933593, y: 2.9494567, z: 6.808762}
-  m_Center: {x: -0.0010515451, y: 1.4745896, z: 0.052737713}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!54 &183821824
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6464,6 +6552,37 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &183821825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183821817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1986670120
+      Data2: 1296737727
+      Data3: -478564464
+      Data4: 827744216
+    Path: event:/FX/Vehicle/Siren
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 750
 --- !u!1 &185027308 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
@@ -6674,7 +6793,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -7042,7 +7161,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 27.002438, y: 0.20000176, z: 39.999996}
@@ -7214,7 +7333,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -7456,6 +7575,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &222069016
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7472,11 +7599,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007776, y: 2.2749863, z: 5.965742}
-  m_Center: {x: -0.0009114742, y: 1.132328, z: 0.13397205}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &222069017
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7530,7 +7657,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -8170,6 +8297,14 @@ PrefabInstance:
     - target: {fileID: 6013072323489245838, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013072323489245838, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013072323489245838, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8863,7 +8998,60 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: PlayEvent
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: StopEvent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: TriggerOnce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: CollisionTag
+      value: Vehicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/FX/Vehicle/Crash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -212091596
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1306797118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -922005624
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1115313510
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Size
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: Params.Array.data[0].Value
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -8876,6 +9064,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 183821822}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 183821825}
   m_SourcePrefab: {fileID: 100100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
 --- !u!1001 &260412541
 PrefabInstance:
@@ -9118,6 +9309,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 2
 --- !u!65 &262969591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9134,11 +9333,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6267588, y: 3.3933127, z: 9.100351}
-  m_Center: {x: 0.008355975, y: 1.693602, z: -0.08280444}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!54 &262969592
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9430,6 +9629,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8197922465716916513, guid: b0ad868427d8c8a4b86144f9786776d3, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197922465716916513, guid: b0ad868427d8c8a4b86144f9786776d3, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9650,7 +9857,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -10130,6 +10337,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &280326388
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10146,11 +10361,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9580617, y: 2.317875, z: 6.320542}
-  m_Center: {x: 0.0017961261, y: 1.1553164, z: -0.19318268}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &280326389
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10178,6 +10393,39 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &280326390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280326382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Vehicle
+  EventReference:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params:
+  - Name: Size
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &280379254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10324,7 +10572,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 10, y: 0.0000004371139, z: 10}
@@ -10355,7 +10603,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -10546,7 +10794,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -10968,7 +11216,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -11622,7 +11870,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -12307,6 +12555,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4028263163925983870, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028263163925983870, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12320,9 +12576,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 519100564}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 519100567}
   m_SourcePrefab: {fileID: 100100000, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
 --- !u!1001 &355488847
 PrefabInstance:
@@ -12823,7 +13076,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -13554,7 +13807,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -13634,6 +13887,14 @@ PrefabInstance:
     - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 05aec82adc02f16409639716322b1673, type: 3}
       propertyPath: m_TagString
@@ -14243,6 +14504,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
       propertyPath: m_Name
       value: Vehicle_SUV_color01 (1)
@@ -14506,6 +14775,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 1
 --- !u!65 &415460590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14522,11 +14799,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 3.5785658, z: 9.302495}
-  m_Center: {x: -0.0013978481, y: 1.784227, z: -0.050180912}
+  m_Size: {x: 3.3341293, y: 3.5785656, z: 9.681164}
+  m_Center: {x: 0.07790756, y: 2, z: 0.34736824}
 --- !u!54 &415460591
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15085,6 +15362,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7007772280443014479, guid: 993432d7809c9bf489a5a96006618fef, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007772280443014479, guid: 993432d7809c9bf489a5a96006618fef, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15605,7 +15890,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.0000008742278, z: 20}
@@ -15743,6 +16028,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 2
 --- !u!65 &443354933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15759,11 +16052,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6267579, y: 4.161127, z: 9.088188}
-  m_Center: {x: -0.0047360654, y: 2.0722384, z: 0.029732224}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!54 &443354934
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15901,7 +16194,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000045, z: 9.999999}
@@ -15957,6 +16250,14 @@ PrefabInstance:
     - target: {fileID: 4028263163925983870, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028263163925983870, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028263163925983870, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16490,7 +16791,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000085, z: 19.999998}
@@ -17856,7 +18157,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999998, y: 0.20000005, z: 4}
@@ -18432,6 +18733,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 2
 --- !u!65 &519100565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18448,11 +18757,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6267583, y: 3.3933127, z: 9.10035}
-  m_Center: {x: 0.008348345, y: 1.693602, z: -0.082804434}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!54 &519100566
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18480,39 +18789,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &519100567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519100559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -2044538126
-      Data2: 1082622122
-      Data3: -1393314371
-      Data4: -2107019430
-    Path: event:/FX/Vehicle/Engine
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params:
-  - Name: Size
-    Value: 2
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &520415886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19079,7 +19355,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.0000008742278, z: 20}
@@ -19286,7 +19562,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -19703,7 +19979,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -19934,7 +20210,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -20029,7 +20305,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -20216,7 +20492,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -20651,7 +20927,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -21222,7 +21498,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.00000087422785, z: 20}
@@ -21678,7 +21954,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -21769,7 +22045,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -21963,6 +22239,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &611176642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21979,11 +22263,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007771, y: 2.2749863, z: 5.9657416}
-  m_Center: {x: -0.0009076594, y: 1.132328, z: 0.13397203}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &611176643
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22378,6 +22662,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &618893246
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22394,11 +22686,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9580617, y: 2.433641, z: 6.3205414}
-  m_Center: {x: -0.0064160815, y: 1.2162137, z: -0.19318244}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &618893247
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22790,6 +23082,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8849907043990458948, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8849907043990458948, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -23059,6 +23359,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -23271,7 +23579,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -23828,6 +24136,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4300571128430438897, guid: f269a0a343ed94c4e908a388c940ea06, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300571128430438897, guid: f269a0a343ed94c4e908a388c940ea06, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24224,7 +24540,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -24578,6 +24894,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 2
 --- !u!65 &676717833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24594,11 +24918,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6267579, y: 4.161127, z: 9.088188}
-  m_Center: {x: -0.00474441, y: 2.0722384, z: 0.029732224}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!54 &676717834
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24918,6 +25242,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2046850892156721253, guid: 81835658bbd378143a0f525b8552f557, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046850892156721253, guid: 81835658bbd378143a0f525b8552f557, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24958,7 +25290,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.0000008742278, z: 20}
@@ -25781,7 +26113,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -26430,6 +26762,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3939223697506349933, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3939223697506349933, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -26466,7 +26806,60 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: PlayEvent
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: StopEvent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: TriggerOnce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: CollisionTag
+      value: Vehicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/FX/Vehicle/Crash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -212091596
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1306797118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -922005624
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1115313510
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Size
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: Params.Array.data[0].Value
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -26479,6 +26872,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2053281424}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2053281427}
   m_SourcePrefab: {fileID: 100100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
 --- !u!1 &731004386 stripped
 GameObject:
@@ -26626,7 +27022,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -26973,7 +27369,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -27340,7 +27736,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -28135,7 +28531,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -28271,7 +28667,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -28386,7 +28782,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -28454,7 +28850,7 @@ PrefabInstance:
       addedObject: {fileID: 87090683}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 4dc7028a3a83758439585b7c7c98cb27, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 87090682}
+      addedObject: {fileID: 87090684}
   m_SourcePrefab: {fileID: 100100000, guid: 4dc7028a3a83758439585b7c7c98cb27, type: 3}
 --- !u!1 &799980596 stripped
 GameObject:
@@ -28739,7 +29135,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999998, y: 0.20000005, z: 4}
@@ -28897,6 +29293,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &812810657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28913,11 +29317,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007771, y: 2.2749863, z: 5.9657416}
-  m_Center: {x: -0.00091218937, y: 1.132328, z: 0.1339644}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &812810658
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29355,7 +29759,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999998, y: 0.20000005, z: 4}
@@ -29528,6 +29932,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29578,7 +29990,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -30152,6 +30564,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &845566877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30168,11 +30588,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007774, y: 2.2749152, z: 5.7322326}
-  m_Center: {x: -0.09074437, y: 1.1287856, z: 0.09188258}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &845566878
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30330,7 +30750,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -30929,7 +31349,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -31983,7 +32403,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -32130,7 +32550,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -32632,6 +33052,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &916771950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32648,11 +33076,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9580615, y: 2.1952403, z: 6.3205414}
-  m_Center: {x: -0.0029785032, y: 1.0939842, z: -0.19415745}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &916771951
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32906,7 +33334,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -33202,7 +33630,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -34415,7 +34843,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -35100,7 +35528,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -35287,7 +35715,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -35718,6 +36146,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 2
 --- !u!65 &1008293045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35734,11 +36170,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6267583, y: 4.161127, z: 9.088189}
-  m_Center: {x: -0.004736781, y: 2.0722384, z: 0.029732227}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!54 &1008293046
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36176,7 +36612,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -36674,6 +37110,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1032405345
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36690,11 +37134,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007779, y: 2.2749152, z: 5.732233}
-  m_Center: {x: -0.090735555, y: 1.1287856, z: 0.09187877}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1032405346
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37355,7 +37799,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -39193,7 +39637,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -39288,7 +39732,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -39771,7 +40215,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -39873,6 +40317,14 @@ PrefabInstance:
     - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 05aec82adc02f16409639716322b1673, type: 3}
       propertyPath: m_Name
@@ -40148,6 +40600,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
       propertyPath: m_Name
       value: Vehicle_Pick up Truck_color01 (1)
@@ -40336,7 +40796,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -41517,7 +41977,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000045, z: 9.999999}
@@ -41533,6 +41993,14 @@ PrefabInstance:
     - target: {fileID: -7391087315363548144, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7391087315363548144, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7391087315363548144, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
       propertyPath: m_TagString
@@ -41719,6 +42187,14 @@ PrefabInstance:
     - target: {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3724842331434303410, guid: 81c050d9e127fdd45af1f6b8da476b2b, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42049,6 +42525,14 @@ PrefabInstance:
     - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -667998790704860002, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 288b117258616aa4f928ba6f91dc47c3, type: 3}
       propertyPath: m_Name
@@ -42458,7 +42942,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -42936,6 +43420,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7080012519222136133, guid: e218686c5655fad46a02ebfb004972ee, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080012519222136133, guid: e218686c5655fad46a02ebfb004972ee, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43112,7 +43604,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -43311,7 +43803,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000085, z: 20}
@@ -43342,7 +43834,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.0000008742278, z: 20}
@@ -43616,6 +44108,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 1
 --- !u!65 &1218194072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43632,11 +44132,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6946042, y: 3.5785658, z: 9.302494}
-  m_Center: {x: -0.0014131068, y: 1.784227, z: -0.050186627}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!54 &1218194073
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -43705,6 +44205,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1220683917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43721,11 +44229,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007774, y: 2.2749152, z: 5.7322326}
-  m_Center: {x: -0.090737455, y: 1.1287856, z: 0.091886394}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1220683918
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -44191,7 +44699,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -45289,6 +45797,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1258067925
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45305,11 +45821,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007774, y: 2.2749152, z: 5.7322326}
-  m_Center: {x: -0.090737455, y: 1.1287856, z: 0.09189402}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1258067926
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -45363,7 +45879,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -46704,6 +47220,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -172470018328190622, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -47052,7 +47576,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.0000008742278, z: 20}
@@ -47214,6 +47738,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 1
 --- !u!65 &1297931384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47230,11 +47762,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6946042, y: 3.5785658, z: 9.302494}
-  m_Center: {x: -0.0013983249, y: 1.784227, z: -0.050182812}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!54 &1297931385
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -47601,7 +48133,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -47717,6 +48249,14 @@ PrefabInstance:
     - target: {fileID: 6153332473378170168, guid: 00d77ce56096de34eb6645947a0f8925, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153332473378170168, guid: 00d77ce56096de34eb6645947a0f8925, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153332473378170168, guid: 00d77ce56096de34eb6645947a0f8925, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48086,7 +48626,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -48117,7 +48657,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000045, z: 10}
@@ -48383,6 +48923,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1324784565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48399,11 +48947,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9335928, y: 2.9494567, z: 6.808761}
-  m_Center: {x: -0.0010591744, y: 1.4745896, z: 0.05273389}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!54 &1324784566
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -48431,6 +48979,37 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &1324784567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324784559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1986670120
+      Data2: 1296737727
+      Data3: -478564464
+      Data4: 827744216
+    Path: event:/FX/Vehicle/Siren
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 750
 --- !u!1001 &1325538411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49670,6 +50249,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1369736050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49686,11 +50273,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9580617, y: 2.1952403, z: 6.3205423}
-  m_Center: {x: -0.0029785037, y: 1.0939842, z: -0.19415748}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1369736051
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49874,7 +50461,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -50237,7 +50824,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -50720,7 +51307,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -50766,6 +51353,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1389828128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50782,11 +51377,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9580615, y: 2.1952403, z: 6.3205414}
-  m_Center: {x: -0.0029785032, y: 1.0939842, z: -0.19416508}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1389828129
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -51921,7 +52516,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -51937,6 +52532,14 @@ PrefabInstance:
     - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5955912118993622798, guid: 05aec82adc02f16409639716322b1673, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 05aec82adc02f16409639716322b1673, type: 3}
       propertyPath: m_Name
@@ -52605,6 +53208,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1420974981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52621,11 +53232,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9580615, y: 2.1952403, z: 6.3205414}
-  m_Center: {x: -0.0029861326, y: 1.0939842, z: -0.19415745}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1420974982
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -53189,7 +53800,60 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: PlayEvent
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: StopEvent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: TriggerOnce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: CollisionTag
+      value: Vehicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/FX/Vehicle/Crash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -212091596
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1306797118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -922005624
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1115313510
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Size
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      propertyPath: Params.Array.data[0].Value
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7337983835676147274, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -53202,6 +53866,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1324784564}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1324784567}
   m_SourcePrefab: {fileID: 100100000, guid: 9b25e71fd5b7ac6469539d930c6dc2e6, type: 3}
 --- !u!1001 &1438189181
 PrefabInstance:
@@ -53964,6 +54631,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1452750655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53980,11 +54655,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007774, y: 2.2749152, z: 5.7322326}
-  m_Center: {x: -0.090745084, y: 1.1287856, z: 0.091878764}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1452750656
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -54623,6 +55298,14 @@ PrefabInstance:
     - target: {fileID: -3597460619799454596, guid: d20839e362efa3d4baa3d2ce1b4f2df4, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3597460619799454596, guid: d20839e362efa3d4baa3d2ce1b4f2df4, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3597460619799454596, guid: d20839e362efa3d4baa3d2ce1b4f2df4, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d20839e362efa3d4baa3d2ce1b4f2df4, type: 3}
       propertyPath: m_TagString
@@ -55595,6 +56278,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8068399385534847197, guid: 6fa2aa0a1d56aba4a8884471618de9e4, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068399385534847197, guid: 6fa2aa0a1d56aba4a8884471618de9e4, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55667,7 +56358,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -55797,6 +56488,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 2
 --- !u!65 &1501352420
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55813,11 +56512,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6267579, y: 4.161127, z: 9.088188}
-  m_Center: {x: -0.0047372575, y: 2.0722384, z: 0.029732224}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!54 &1501352421
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -56192,7 +56891,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -56561,6 +57260,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1523057150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56577,11 +57284,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007771, y: 2.2749863, z: 5.9657416}
-  m_Center: {x: -0.0009109973, y: 1.132328, z: 0.1339873}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1523057151
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -57034,6 +57741,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 3
 --- !u!65 &1539623669
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57050,11 +57765,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6267583, y: 3.3933127, z: 9.10035}
-  m_Center: {x: 0.008355974, y: 1.693602, z: -0.082804434}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!54 &1539623670
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -57160,7 +57875,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000045, z: 9.999999}
@@ -57247,7 +57962,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -57310,7 +58025,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -58138,7 +58853,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -58675,7 +59390,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -58874,7 +59589,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -59601,7 +60316,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.0000008742278, z: 20}
@@ -61403,6 +62118,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7391087315363548144, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7391087315363548144, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 979de0ac65f6d2b48a89e9088986637f, type: 3}
       propertyPath: m_Name
       value: Vehicle_Container_color01 (1)
@@ -61508,6 +62231,14 @@ PrefabInstance:
     - target: {fileID: 8068399385534847197, guid: 6fa2aa0a1d56aba4a8884471618de9e4, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068399385534847197, guid: 6fa2aa0a1d56aba4a8884471618de9e4, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068399385534847197, guid: 6fa2aa0a1d56aba4a8884471618de9e4, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -62507,6 +63238,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4519694763772431307, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4519694763772431307, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -63245,7 +63984,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -63360,7 +64099,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -63643,7 +64382,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -63674,7 +64413,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -64289,7 +65028,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -64584,6 +65323,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 2
 --- !u!65 &1748636257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64600,11 +65347,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6267583, y: 3.3933127, z: 9.10035}
-  m_Center: {x: 0.008348345, y: 1.693602, z: -0.08281397}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!54 &1748636258
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -64690,7 +65437,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -64809,7 +65556,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -64988,7 +65735,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -65331,7 +66078,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -65542,7 +66289,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.0000008742278, z: 20}
@@ -65735,6 +66482,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6013072323489245838, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013072323489245838, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65790,6 +66545,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 1
 --- !u!65 &1783450810
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65806,11 +66569,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6946042, y: 3.5785658, z: 9.302494}
-  m_Center: {x: -0.001397848, y: 1.784227, z: -0.050180905}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!54 &1783450811
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -66340,6 +67103,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &1792687736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66356,11 +67127,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9580617, y: 2.433641, z: 6.3205414}
-  m_Center: {x: -0.006408452, y: 1.2162137, z: -0.19318244}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1792687737
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -66550,7 +67321,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -66771,6 +67542,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7222969831210132850, guid: 9500f0cdde0097a4aac35ced7c1935d7, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7222969831210132850, guid: 9500f0cdde0097a4aac35ced7c1935d7, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9500f0cdde0097a4aac35ced7c1935d7, type: 3}
       propertyPath: m_TagString
       value: Vehicle
@@ -66847,7 +67626,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -67977,7 +68756,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -68457,7 +69236,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -68628,7 +69407,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -68706,6 +69485,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 2
 --- !u!65 &1854468995
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68722,11 +69509,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6267579, y: 4.161127, z: 9.088188}
-  m_Center: {x: -0.0047520394, y: 2.0722384, z: 0.029724594}
+  m_Size: {x: 3.6267579, y: 4.161127, z: 9.160471}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!54 &1854468996
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -68948,7 +69735,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.0000008742278, z: 20}
@@ -69095,7 +69882,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -69282,7 +70069,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999998, y: 0.20000005, z: 4}
@@ -70130,7 +70917,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000045, z: 9.999999}
@@ -70390,6 +71177,14 @@ PrefabInstance:
     - target: {fileID: -2654203720482203702, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
       propertyPath: AllowFadeout
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2654203720482203702, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2654203720482203702, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
       propertyPath: m_TagString
@@ -71096,7 +71891,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -71159,7 +71954,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999995, y: 0.20000005, z: 3.9999995}
@@ -72057,7 +72852,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -72598,7 +73393,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -72685,7 +73480,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -75139,7 +75934,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -75234,7 +76029,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -75572,7 +76367,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -75603,7 +76398,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.35999998, y: 0.20000005, z: 4}
@@ -76029,6 +76824,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 1
 --- !u!65 &2027713527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76045,11 +76848,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.933593, y: 2.9494567, z: 6.808762}
-  m_Center: {x: -0.0010515451, y: 1.4745896, z: 0.052737713}
+  m_Size: {x: 4.060443, y: 2.9494567, z: 7.5479555}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!54 &2027713528
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -76077,6 +76880,37 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &2027713529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027713521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1986670120
+      Data2: 1296737727
+      Data3: -478564464
+      Data4: 827744216
+    Path: event:/FX/Vehicle/Siren
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 750
 --- !u!1001 &2027829704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76612,6 +77446,14 @@ PrefabInstance:
       propertyPath: AllowFadeout
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7080012519222136133, guid: e218686c5655fad46a02ebfb004972ee, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080012519222136133, guid: e218686c5655fad46a02ebfb004972ee, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -76820,7 +77662,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.00000087422785, z: 20}
@@ -77210,6 +78052,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &2053281425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77226,11 +78076,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.9580617, y: 2.317875, z: 6.320542}
-  m_Center: {x: 0.0017918346, y: 1.1553164, z: -0.19318268}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &2053281426
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -77258,6 +78108,37 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &2053281427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053281419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1986670120
+      Data2: 1296737727
+      Data3: -478564464
+      Data4: 827744216
+    Path: event:/FX/Vehicle/Siren
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 750
 --- !u!1001 &2053577299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77986,7 +78867,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 20, y: 0.20000087, z: 20}
@@ -78069,7 +78950,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -78792,6 +79673,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 2
 --- !u!65 &2092734393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78808,11 +79697,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.6267588, y: 3.3933127, z: 9.100351}
-  m_Center: {x: 0.008355975, y: 1.693602, z: -0.08280444}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!54 &2092734394
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -79150,7 +80039,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -79556,6 +80445,14 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  CrashEvent:
+    Guid:
+      Data1: -212091596
+      Data2: 1306797118
+      Data3: -922005624
+      Data4: 1115313510
+    Path: event:/FX/Vehicle/Crash
+  size: 0
 --- !u!65 &2121973537
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79572,11 +80469,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.1007771, y: 2.2749863, z: 5.9657416}
-  m_Center: {x: -0.0009114741, y: 1.132328, z: 0.13397203}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &2121973538
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -80421,7 +81318,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 19.999998, y: 0.20000087, z: 19.999998}
@@ -80562,7 +81459,56 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: PlayEvent
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: StopEvent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: TriggerOnce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: CollisionTag
+      value: Vehicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/FX/Vehicle/Crash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -212091596
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1306797118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -922005624
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1115313510
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Size
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: Params.Array.data[0].Value
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7348048209874539359, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -80575,6 +81521,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 280326387}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 280326390}
   m_SourcePrefab: {fileID: 100100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
 --- !u!1 &2146852803 stripped
 GameObject:

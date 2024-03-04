@@ -108,6 +108,9 @@
 		<property name="startOffset">
 			<value>6.5</value>
 		</property>
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{0d4bb207-305f-49d3-aa45-6c4af8db16e3}</destination>
 			<destination>{bb3c3c06-7933-49eb-88c0-5d84e1728f18}</destination>

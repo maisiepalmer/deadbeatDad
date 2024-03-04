@@ -2845,6 +2845,10 @@ PrefabInstance:
       value: event:/FX/UI/Click
       objectReference: {fileID: 0}
     - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: CrashEvent.Path
+      value: event:/FX/Vehicle/Crash
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
       propertyPath: MusicEvent.Path
       value: event:/Music/Main
       objectReference: {fileID: 0}
@@ -2891,6 +2895,22 @@ PrefabInstance:
     - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
       propertyPath: ClickEvent.Guid.Data4
       value: 1529946792
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: CrashEvent.Guid.Data1
+      value: -212091596
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: CrashEvent.Guid.Data2
+      value: 1306797118
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: CrashEvent.Guid.Data3
+      value: -922005624
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
+      propertyPath: CrashEvent.Guid.Data4
+      value: 1115313510
       objectReference: {fileID: 0}
     - target: {fileID: 9014537951951727945, guid: 01434f9069f4e4168a13ee79cc9a9260, type: 3}
       propertyPath: MusicEvent.Guid.Data1

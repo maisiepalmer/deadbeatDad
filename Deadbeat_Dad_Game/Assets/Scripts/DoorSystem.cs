@@ -18,6 +18,10 @@ public class DoorSystem : MonoBehaviour
     private string prevScene = "Start";
 
     public TextMeshProUGUI reasonText;
+
+    //--------------------------------------------------------------------
+    public FMODUnity.EventReference CrashEvent;
+    FMOD.Studio.EventInstance crash;
     
     void OnEnable()
     {
@@ -40,15 +44,15 @@ public class DoorSystem : MonoBehaviour
                 {
                     if (hit.collider.name == exitDoor.name)
                     {
-                        if (!stateHandler.GetExpositionComplete())
-                        {
-                            stateHandler.SetInnerMonologue("I feel like I need to speak to the bartender...");
-                        }
-                        else 
-                        {
+                        // if (!stateHandler.GetExpositionComplete())
+                        // {
+                        //     stateHandler.SetInnerMonologue("I feel like I need to speak to the bartender...");
+                        // }
+                        // else 
+                        // {
                             stateHandler.PlayClick();
                             SceneManager.LoadSceneAsync("MainScene");
-                        }     
+                        // }     
                     }  
                 }
                 else
@@ -158,6 +162,9 @@ public class DoorSystem : MonoBehaviour
                 GameObject text = GameObject.Find("ReasonText");
                 reasonText = text.GetComponent<TextMeshProUGUI>();
                 reasonText.text = stateHandler.GetReason();
+
+                if (reasonText.text == "You were hit by a car!")
+                    FMODUnity.RuntimeManager.PlayOneShotAttached(CrashEvent,  GameObject.Find("Main Camera"));
             }
 
             Cursor.lockState = CursorLockMode.None;

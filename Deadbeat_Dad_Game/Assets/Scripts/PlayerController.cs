@@ -79,7 +79,6 @@ public class PlayerController : MonoBehaviour
         {
             stateHandler.SetReason("You were hit by a car!");
             stateHandler.GameOver();
-            // play sound ?
         }   
     }
 

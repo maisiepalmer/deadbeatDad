@@ -68,13 +68,16 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{dac3b6c4-13ca-4e1a-84f2-bd3db2b27084}">
 		<property name="maxVoices">
-			<value>10</value>
+			<value>5</value>
 		</property>
 		<property name="voiceStealing">
 			<value>4</value>
 		</property>
 		<property name="priority">
-			<value>3</value>
+			<value>4</value>
+		</property>
+		<property name="maximumDistance">
+			<value>55</value>
 		</property>
 		<property name="triggerCooldown">
 			<value>520</value>
@@ -163,6 +166,9 @@
 		<property name="length">
 			<value>2</value>
 		</property>
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{b3bedaf5-2e83-4263-93cd-9b2ae60bdb00}</destination>
 		</relationship>
@@ -196,11 +202,17 @@
 		<property name="isAsync">
 			<value>true</value>
 		</property>
-		<property name="start">
-			<value>1.90625</value>
-		</property>
 		<property name="length">
 			<value>1.3125</value>
+		</property>
+		<property name="delayType">
+			<value>0</value>
+		</property>
+		<property name="minimumTimeDelay">
+			<value>1400</value>
+		</property>
+		<property name="maximumTimeDelay">
+			<value>1400</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{f78fdfdf-7ef4-40cc-91f7-1e27b290638b}</destination>
@@ -385,10 +397,13 @@
 		<property name="value">
 			<value>3.81469727e-06</value>
 		</property>
+		<property name="curveShape">
+			<value>-0.599279165</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{cc515b21-770a-4e49-9f59-1ef19c27b665}">
 		<property name="position">
-			<value>20</value>
+			<value>50</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -472,7 +487,7 @@
 	</object>
 	<object class="AutomationPoint" id="{10058f1e-74e7-47f4-af7e-9816f7cb3d7c}">
 		<property name="position">
-			<value>0.049261083743842367</value>
+			<value>0.082101806239737285</value>
 		</property>
 		<property name="value">
 			<value>3.81469727e-06</value>
@@ -480,7 +495,7 @@
 	</object>
 	<object class="AutomationPoint" id="{4623aa67-aa6a-452d-b813-8b5a6c136e40}">
 		<property name="position">
-			<value>20</value>
+			<value>33.333333333333329</value>
 		</property>
 		<property name="value">
 			<value>-80</value>

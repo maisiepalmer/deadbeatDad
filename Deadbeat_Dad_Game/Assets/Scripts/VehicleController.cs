@@ -1,12 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.Runtime.InteropServices;
 
 public class VehicleController : MonoBehaviour
 {
     private Rigidbody controller;
     public float speed = 0f;
     public GameObject[] respawnPoints;
+
+    //FMOD---------------------------------------------------------
+        public FMODUnity.EventReference CrashEvent;
+        FMOD.Studio.EventInstance crash;
+        public int size = 0;
+        private IEnumerator coroutine;
+        private bool crashed = false;
+    //-------------------------------------------------------------
 
     private void Start()
     {
@@ -15,8 +25,17 @@ public class VehicleController : MonoBehaviour
 
     void Update()
     {
-        Vector3 frameMovement = CheckAndGetMovement();
-        gameObject.transform.Translate(frameMovement, Space.World);
+        if (!crashed)
+        {
+            Vector3 frameMovement = CheckAndGetMovement();
+            gameObject.transform.Translate(frameMovement, Space.World);
+            controller.freezeRotation = false;
+        }
+        else
+        {
+            controller.velocity = Vector3.zero;
+            controller.freezeRotation = true;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -28,18 +47,24 @@ public class VehicleController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Vehicle"))
-            Respawn();
+        {
+            crash = FMODUnity.RuntimeManager.CreateInstance(CrashEvent);
+            crash.start();
+            crash.release();
+            StartCoroutine(WaitAndRespawn());
+        }
     }
 
     private void Respawn()
     {
         // randomly pick from a table of road starts
-        int randZone = Random.Range(0, respawnPoints.Length);
+        int randZone = UnityEngine.Random.Range(0, respawnPoints.Length);
 
         transform.position = respawnPoints[randZone].transform.position;
         transform.rotation = respawnPoints[randZone].transform.rotation;
 
         controller.velocity = Vector3.zero;
+        crashed = false;
     }
 
     private Vector3 CheckAndGetMovement()
@@ -55,5 +80,12 @@ public class VehicleController : MonoBehaviour
         return (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 20)) ?
                                                                                                             (hit.collider.CompareTag("Vehicle")) ? Vector3.zero : movement
                                                                                                                  : movement;
+    }
+
+    private IEnumerator WaitAndRespawn()
+    {
+        crashed = true;
+        yield return new WaitForSeconds(3.0f);
+        Respawn();
     }
 }

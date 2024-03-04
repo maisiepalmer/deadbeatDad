@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-8448545002563548457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Player/Hits
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Player/Hits
+  Guid:
+    Data1: -1417026383
+    Data2: 1150011448
+    Data3: 78907317
+    Data4: -662020877
+  Banks:
+  - {fileID: 4821503509534572120}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2218
 --- !u!114 &-8252836642053923769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,33 +132,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-7385707701277683868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/FX/Player/Hit
-  m_EditorClassIdentifier: 
-  Path: event:/FX/Player/Hit
-  Guid:
-    Data1: -1417026383
-    Data2: 1150011448
-    Data3: 78907317
-    Data4: -662020877
-  Banks:
-  - {fileID: 4821503509534572120}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-7315708778261288802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: 3874643396121098364}
   MinDistance: 3
-  MaxDistance: 9
+  MaxDistance: 9.6
   Length: 2000
 --- !u!114 &-6879408038335631653
 MonoBehaviour:
@@ -228,12 +228,12 @@ MonoBehaviour:
     Data4: 827744216
   Banks:
   - {fileID: 4821503509534572120}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 750
   Length: 0
 --- !u!114 &-4383555060616988056
 MonoBehaviour:
@@ -369,33 +369,6 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
---- !u!114 &-1306816379789725024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/FX/Vehicle/RoadRage
-  m_EditorClassIdentifier: 
-  Path: event:/FX/Vehicle/RoadRage
-  Guid:
-    Data1: -1295318575
-    Data2: 1311996680
-    Data3: 473606535
-    Data4: 1531004273
-  Banks:
-  - {fileID: 4821503509534572120}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
   Length: 0
 --- !u!114 &-1072735037026932929
 MonoBehaviour:
@@ -559,18 +532,18 @@ MonoBehaviour:
   - {fileID: -3012893576770524701}
   - {fileID: -4383555060616988056}
   - {fileID: 8114288000418997141}
-  - {fileID: -7385707701277683868}
   - {fileID: 8871348884607493301}
   - {fileID: 2091660255847948623}
   - {fileID: -9009281680243412310}
   - {fileID: -3635460051085030969}
   - {fileID: -635520654434401996}
-  - {fileID: -1306816379789725024}
   - {fileID: 1365925760373447900}
   - {fileID: 6833229705806984286}
   - {fileID: -7315708778261288802}
   - {fileID: 6533459631769379834}
   - {fileID: 9136172777724814401}
+  - {fileID: -8448545002563548457}
+  - {fileID: 3935177727905751006}
   EditorParameters:
   - {fileID: -131906888842802256}
   - {fileID: 4279192903766037144}
@@ -581,7 +554,7 @@ MonoBehaviour:
   - {fileID: 4821503509534572120}
   StringsBanks:
   - {fileID: 7868150274513658440}
-  cacheTime: 638450984692159722
+  cacheTime: 638451770447384991
   cacheVersion: 131616
 --- !u!114 &1038076880852280087
 MonoBehaviour:
@@ -663,7 +636,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2500
 --- !u!114 &1701605055824987674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,12 +737,37 @@ MonoBehaviour:
   Banks:
   - {fileID: 4821503509534572120}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 3441460349716277792}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2000
+--- !u!114 &3441460349716277792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Crash/Size
+  m_EditorClassIdentifier: 
+  Name: Size
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3750707920
+    data2: 3054615117
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3867961966652454106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -818,6 +816,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3935177727905751006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/GameOver
+  m_EditorClassIdentifier: 
+  Path: snapshot:/GameOver
+  Guid:
+    Data1: -705537989
+    Data2: 1303865415
+    Data3: -1878797382
+    Data4: 1072717005
+  Banks:
+  - {fileID: 4821503509534572120}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &4001871541538590884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -935,10 +960,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638450984692049110
+  lastModified: 638451770447342903
   FileSizes:
   - Name: Desktop
-    Value: 51616320
+    Value: 52745312
   Exists: 1
 --- !u!114 &4970913399634126438
 MonoBehaviour:
@@ -993,7 +1018,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2000
 --- !u!114 &6833229705806984286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1020,7 +1045,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1000
 --- !u!114 &7685546591403602321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,10 +1085,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Deadbeat_Dad_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638450984692159722
+  lastModified: 638451770447384991
   FileSizes:
   - Name: Desktop
-    Value: 2826
+    Value: 2828
   Exists: 1
 --- !u!114 &8114288000418997141
 MonoBehaviour:
@@ -1174,4 +1199,4 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2000

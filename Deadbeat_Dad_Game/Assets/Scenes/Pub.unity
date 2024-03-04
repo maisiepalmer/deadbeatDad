@@ -4225,6 +4225,10 @@ PrefabInstance:
       value: event:/Atmos/City
       objectReference: {fileID: 0}
     - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: CrashEvent.Path
+      value: event:/FX/Vehicle/Crash
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: MusicEvent.Path
       value: event:/Music/Main
       objectReference: {fileID: 0}
@@ -4247,6 +4251,22 @@ PrefabInstance:
     - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: AtmosEvent.Guid.Data4
       value: 902931909
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: CrashEvent.Guid.Data1
+      value: -212091596
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: CrashEvent.Guid.Data2
+      value: 1306797118
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: CrashEvent.Guid.Data3
+      value: -922005624
+      objectReference: {fileID: 0}
+    - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: CrashEvent.Guid.Data4
+      value: 1115313510
       objectReference: {fileID: 0}
     - target: {fileID: -6755315721568852723, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: MusicEvent.Guid.Data1
@@ -4388,6 +4408,12 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2341601490115551455, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 591855927}
+    - targetCorrespondingSourceObject: {fileID: 2341601490115551455, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 591855928}
     - targetCorrespondingSourceObject: {fileID: 4762729779569612745, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 591855926}
@@ -4437,6 +4463,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wobbleEffectMaterial: {fileID: 2100000, guid: ee226b321c53346e3942394182cf3395, type: 2}
+--- !u!65 &591855927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591855922}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &591855928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591855922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1417026383
+      Data2: 1150011448
+      Data3: 78907317
+      Data4: -662020877
+    Path: event:/FX/Player/Hits
+  Event: 
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &616738415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1503644632027450, guid: d1f7dae51c185be4c95fe1b16de0fcf6, type: 3}

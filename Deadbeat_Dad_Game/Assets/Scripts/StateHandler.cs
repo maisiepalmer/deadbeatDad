@@ -25,7 +25,7 @@ public class StateHandler : MonoBehaviour
 
     int tasks = 0;
 
-    //--------------------------------------------------------------------
+//FMOD---------------------------------------------------------
     public FMODUnity.EventReference MusicEvent;
     FMOD.Studio.EventInstance music;
     FMOD.Studio.PARAMETER_ID tasksCompletedId, drunkId;
@@ -37,6 +37,7 @@ public class StateHandler : MonoBehaviour
     //--------------------------------------------------------------------
     public FMODUnity.EventReference SuccessEvent, FailureEvent, PenaltyEvent, ClickEvent;
     FMOD.Studio.EventInstance success, failure, penalty, click;
+//-------------------------------------------------------------
 
 //---------------------------------------------------------------------------------
     void Start()
