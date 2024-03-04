@@ -2,9 +2,9 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Mixer" id="{9e167fe5-7f50-43d5-ba01-a40305136075}">
 		<relationship name="vca">
-			<destination>{b7a3ef0d-c8ec-4eb9-9e28-ee5a5eb956cd}</destination>
-			<destination>{f77d1ec7-1259-43b0-b9d4-d3b101a684c6}</destination>
 			<destination>{b9bf5f03-c1a4-4459-95f2-82de7fa1cdfa}</destination>
+			<destination>{f77d1ec7-1259-43b0-b9d4-d3b101a684c6}</destination>
+			<destination>{b7a3ef0d-c8ec-4eb9-9e28-ee5a5eb956cd}</destination>
 		</relationship>
 	</object>
 </objects>
