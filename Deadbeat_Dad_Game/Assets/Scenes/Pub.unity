@@ -4406,7 +4406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8190220565440037261, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.294
       objectReference: {fileID: 0}
     - target: {fileID: 8190220565440037261, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17144,6 +17144,9 @@ PrefabInstance:
       addedObject: {fileID: 9143394091073522692}
     - targetCorrespondingSourceObject: {fileID: 153682, guid: 48b470c6a762f60438c631f219257520, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 9143394091073522696}
+    - targetCorrespondingSourceObject: {fileID: 153682, guid: 48b470c6a762f60438c631f219257520, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 9143394091073522695}
     - targetCorrespondingSourceObject: {fileID: 137502, guid: 48b470c6a762f60438c631f219257520, type: 3}
       insertIndex: -1
@@ -17387,6 +17390,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: 91028badc63f59f43a9c5bda64fbd608, type: 3}
+--- !u!114 &9143394091073522696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2643831506066157769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Parameter: Terrain
+  TriggerEvent: 1
+  Value: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -91,6 +91,8 @@ public class DoorSystem : MonoBehaviour
 
         if (scene.name == "MainScene")
         {
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Terrain", 0);
+
             if (prevScene == "Pub")
             {
                 player.transform.SetPositionAndRotation(loadVector[1].transform.position, loadVector[1].transform.rotation);

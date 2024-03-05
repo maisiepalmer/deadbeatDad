@@ -408,10 +408,10 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -705537989
-      Data2: 1303865415
-      Data3: -1878797382
-      Data4: 1072717005
+      Data1: 967753531
+      Data2: 1145556333
+      Data3: 1042273713
+      Data4: -9225845
     Path: snapshot:/GameOver
   Event: 
   PlayEvent: 1
