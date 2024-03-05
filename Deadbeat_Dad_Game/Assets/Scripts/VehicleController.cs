@@ -9,13 +9,12 @@ public class VehicleController : MonoBehaviour
     private Rigidbody controller;
     public float speed = 0f;
     public GameObject[] respawnPoints;
+    public GameObject crashObject;
 
     //FMOD---------------------------------------------------------
         public FMODUnity.EventReference CrashEvent;
         FMOD.Studio.EventInstance crash;
         public int size = 0;
-        private IEnumerator coroutine;
-        private bool crashed = false;
     //-------------------------------------------------------------
 
     private void Start()
@@ -25,17 +24,9 @@ public class VehicleController : MonoBehaviour
 
     void Update()
     {
-        if (!crashed)
-        {
-            Vector3 frameMovement = CheckAndGetMovement();
-            gameObject.transform.Translate(frameMovement, Space.World);
-            controller.freezeRotation = false;
-        }
-        else
-        {
-            controller.velocity = Vector3.zero;
-            controller.freezeRotation = true;
-        }
+        Vector3 frameMovement = CheckAndGetMovement();
+        gameObject.transform.Translate(frameMovement, Space.World);
+        controller.freezeRotation = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -48,10 +39,10 @@ public class VehicleController : MonoBehaviour
     {
         if (collision.collider.CompareTag("Vehicle"))
         {
-            crash = FMODUnity.RuntimeManager.CreateInstance(CrashEvent);
-            crash.start();
-            crash.release();
-            StartCoroutine(WaitAndRespawn());
+            Vector3 collisionPoint = collision.GetContact(0).point;
+            GameObject copy = Instantiate(crashObject, collisionPoint, new Quaternion(0, 0, 0, 1));
+            Respawn();
+            Destroy(copy, 5.0f);
         }
     }
 
@@ -64,7 +55,6 @@ public class VehicleController : MonoBehaviour
         transform.rotation = respawnPoints[randZone].transform.rotation;
 
         controller.velocity = Vector3.zero;
-        crashed = false;
     }
 
     private Vector3 CheckAndGetMovement()
@@ -80,12 +70,5 @@ public class VehicleController : MonoBehaviour
         return (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 20)) ?
                                                                                                             (hit.collider.CompareTag("Vehicle")) ? Vector3.zero : movement
                                                                                                                  : movement;
-    }
-
-    private IEnumerator WaitAndRespawn()
-    {
-        crashed = true;
-        yield return new WaitForSeconds(3.0f);
-        Respawn();
     }
 }

@@ -166,6 +166,9 @@
 		<relationship name="automators">
 			<destination>{81a32189-97c1-4cb0-a313-f294e717adbd}</destination>
 		</relationship>
+		<relationship name="modulators">
+			<destination>{e00efe01-9f24-4cf4-8ca8-8276477652d3}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{ff766a9e-b08c-4d2b-b487-7dcc753c9087}</destination>
 		</relationship>
@@ -368,6 +371,23 @@
 			<destination>{143b1c08-2e66-4549-b4aa-312cfdd9903b}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{e00efe01-9f24-4cf4-8ca8-8276477652d3}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>2400</value>
+		</property>
+		<property name="releaseTime">
+			<value>5600</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{ff766a9e-b08c-4d2b-b487-7dcc753c9087}">
 		<relationship name="effects">
 			<destination>{b2a2e71e-0cb0-4e78-8316-85c8c430334f}</destination>
@@ -542,15 +562,15 @@
 	<object class="MixerBusFader" id="{3cbb76f5-0929-4dcb-bb73-6d2837e917a8}" />
 	<object class="AutomationPoint" id="{23315bc7-8d94-4369-9c83-13c1390f2595}">
 		<property name="position">
-			<value>5</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{1f563f14-8fe3-4058-93c7-d8415d68acae}">
 		<property name="position">
-			<value>5.0000347222222219</value>
+			<value>7.5000520833333333</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -561,7 +581,7 @@
 	</object>
 	<object class="AutomationPoint" id="{90dcc8a1-9f16-4fe0-9fc7-4f886e6aad4f}">
 		<property name="position">
-			<value>33.333333333333329</value>
+			<value>49.999999999999986</value>
 		</property>
 		<property name="value">
 			<value>-56</value>

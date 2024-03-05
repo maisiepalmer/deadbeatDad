@@ -17,6 +17,12 @@ public class PlayerController : MonoBehaviour
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
 
+    public FMODUnity.EventReference FootstepsEvent;
+    public FMODUnity.EventReference EffortsEvent;
+    float timer = 0.0f;
+    [SerializeField]
+    float footstepSpeed = 0.5f;
+
     [HideInInspector]
     public bool canMove = true;
     private bool moveable = true;
@@ -33,6 +39,7 @@ public class PlayerController : MonoBehaviour
     - Unneded code blocks removed
     - Neatened and tidied up
     - Extra parameters added where needed
+    - FMOD integration
     */
     void Update()
     {
@@ -42,6 +49,7 @@ public class PlayerController : MonoBehaviour
 
         // Press Left Shift to run
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
+        footstepSpeed = isRunning ? 0.3f : 0.5f;
 
         float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
         float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
@@ -70,6 +78,27 @@ public class PlayerController : MonoBehaviour
         {
             // Move the controller
             characterController.Move(moveDirection * Time.deltaTime);
+
+            // FMOD - play footstep
+            if(characterController.velocity != Vector3.zero)
+            {
+                if (characterController.isGrounded)
+                {
+                    if (timer > footstepSpeed)
+                    {
+                        PlayFootstep();
+                        timer = 0.0f;
+                    }
+
+                    timer += Time.deltaTime;
+                }
+                else
+                {
+                    Scene scene = SceneManager.GetActiveScene();
+                    if (!(scene.name == "GameOver" || scene.name == "Divorce" || scene.name == "YouWin"))
+                        PlayEffort();
+                }
+            }
         }
     }
 
@@ -97,5 +126,21 @@ public class PlayerController : MonoBehaviour
     public void SetMouseForward(float x)
     {
         mouse.SetForward(x);
+    }
+
+    private void PlayFootstep() 
+    {
+        FMOD.Studio.EventInstance foosteps = FMODUnity.RuntimeManager.CreateInstance(FootstepsEvent);
+        foosteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+        foosteps.start();
+        foosteps.release();
+    }
+
+    private void PlayEffort() 
+    {
+        FMOD.Studio.EventInstance effort = FMODUnity.RuntimeManager.CreateInstance(EffortsEvent);
+        effort.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+        effort.start();
+        effort.release();
     }
 }

@@ -4312,6 +4312,46 @@ PrefabInstance:
       propertyPath: mouse
       value: 
       objectReference: {fileID: 591855924}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: EffortsEvent.Path
+      value: event:/FX/Player/Efforts
+      objectReference: {fileID: 0}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: FootstepsEvent.Path
+      value: event:/FX/Player/Footsteps
+      objectReference: {fileID: 0}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: EffortsEvent.Guid.Data1
+      value: 1803331735
+      objectReference: {fileID: 0}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: EffortsEvent.Guid.Data2
+      value: 1252378134
+      objectReference: {fileID: 0}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: EffortsEvent.Guid.Data3
+      value: -153014118
+      objectReference: {fileID: 0}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: EffortsEvent.Guid.Data4
+      value: 1686810544
+      objectReference: {fileID: 0}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: FootstepsEvent.Guid.Data1
+      value: -985387025
+      objectReference: {fileID: 0}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: FootstepsEvent.Guid.Data2
+      value: 1257598489
+      objectReference: {fileID: 0}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: FootstepsEvent.Guid.Data3
+      value: 2032862091
+      objectReference: {fileID: 0}
+    - target: {fileID: 589234388828837203, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      propertyPath: FootstepsEvent.Guid.Data4
+      value: -260247998
+      objectReference: {fileID: 0}
     - target: {fileID: 2341601490115551455, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       propertyPath: m_Name
       value: BA_First Person Player
@@ -4414,6 +4454,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2341601490115551455, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 591855928}
+    - targetCorrespondingSourceObject: {fileID: 2341601490115551455, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 591855929}
     - targetCorrespondingSourceObject: {fileID: 4762729779569612745, guid: 0cdbf720bd6804908a17117db22800c6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 591855926}
@@ -4515,6 +4558,37 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &591855929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591855922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1 &616738415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1503644632027450, guid: d1f7dae51c185be4c95fe1b16de0fcf6, type: 3}

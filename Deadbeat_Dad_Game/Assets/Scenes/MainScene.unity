@@ -5844,6 +5844,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -6496,6 +6497,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -7575,6 +7577,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -9309,6 +9312,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -10337,6 +10341,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -14775,6 +14780,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -16028,6 +16034,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -18733,6 +18740,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -22239,6 +22247,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -22662,6 +22671,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -24894,6 +24904,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -29293,6 +29304,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -30564,6 +30576,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -33052,6 +33065,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -36146,6 +36160,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -37110,6 +37125,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -44108,6 +44124,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -44205,6 +44222,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -45797,6 +45815,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -47738,6 +47757,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -48923,6 +48943,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -50249,6 +50270,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -51353,6 +51375,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -53208,6 +53231,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -54631,6 +54655,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -56488,6 +56513,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -57260,6 +57286,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -57741,6 +57768,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -65323,6 +65351,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -66545,6 +66574,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -67103,6 +67133,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -69485,6 +69516,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -76824,6 +76856,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -78052,6 +78085,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -79673,6 +79707,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596
@@ -80445,6 +80480,7 @@ MonoBehaviour:
   - {fileID: 1658785243}
   - {fileID: 829322771}
   - {fileID: 1578501489}
+  crashObject: {fileID: 6970242609952529434, guid: 19a6a1d1d540741f3918cbaecfe17c6b, type: 3}
   CrashEvent:
     Guid:
       Data1: -212091596

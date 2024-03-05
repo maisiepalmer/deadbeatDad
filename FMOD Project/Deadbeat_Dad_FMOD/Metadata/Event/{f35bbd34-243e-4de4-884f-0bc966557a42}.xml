@@ -67,13 +67,7 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{dac3b6c4-13ca-4e1a-84f2-bd3db2b27084}">
-		<property name="maxVoices">
-			<value>5</value>
-		</property>
 		<property name="voiceStealing">
-			<value>4</value>
-		</property>
-		<property name="priority">
 			<value>4</value>
 		</property>
 		<property name="maximumDistance">
@@ -167,7 +161,7 @@
 			<value>2</value>
 		</property>
 		<property name="volume">
-			<value>-5</value>
+			<value>-11.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{b3bedaf5-2e83-4263-93cd-9b2ae60bdb00}</destination>
@@ -213,6 +207,9 @@
 		</property>
 		<property name="maximumTimeDelay">
 			<value>1400</value>
+		</property>
+		<property name="volume">
+			<value>3.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{f78fdfdf-7ef4-40cc-91f7-1e27b290638b}</destination>
@@ -271,6 +268,9 @@
 		</property>
 	</object>
 	<object class="SingleSound" id="{0719b03c-f236-43f6-9e3e-11c71788490b}">
+		<property name="startOffset">
+			<value>21</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{46feec81-4084-464f-8177-38c95d9b927f}</destination>
 		</relationship>
@@ -281,6 +281,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{33601bdb-75f6-486b-99d0-c3c3c9b36337}">
+		<property name="startOffset">
+			<value>12</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{256668b7-3e97-4bc0-98be-64a4b9e48577}</destination>
 		</relationship>
@@ -362,7 +365,7 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{a75b5abc-8319-4c8b-af3f-e2ba9b07e167}</destination>
-			<destination>{cc515b21-770a-4e49-9f59-1ef19c27b665}</destination>
+			<destination>{3a1aa15f-8d0d-4bc7-a5bf-fff96ad89a2f}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{ad89d85c-ff1a-4dd8-aeb4-1720726bd7bc}">
@@ -398,15 +401,15 @@
 			<value>3.81469727e-06</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.599279165</value>
+			<value>0.366785079</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{cc515b21-770a-4e49-9f59-1ef19c27b665}">
+	<object class="AutomationPoint" id="{3a1aa15f-8d0d-4bc7-a5bf-fff96ad89a2f}">
 		<property name="position">
-			<value>50</value>
+			<value>75</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-52</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{5cbeceec-50d5-45bf-bd1f-f1aa5a256462}">
@@ -487,7 +490,7 @@
 	</object>
 	<object class="AutomationPoint" id="{10058f1e-74e7-47f4-af7e-9816f7cb3d7c}">
 		<property name="position">
-			<value>0.082101806239737285</value>
+			<value>0.12315270935960593</value>
 		</property>
 		<property name="value">
 			<value>3.81469727e-06</value>
@@ -495,10 +498,10 @@
 	</object>
 	<object class="AutomationPoint" id="{4623aa67-aa6a-452d-b813-8b5a6c136e40}">
 		<property name="position">
-			<value>33.333333333333329</value>
+			<value>75</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-58</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{059e4d5b-4f07-4bb9-8be2-5676851943f1}">
