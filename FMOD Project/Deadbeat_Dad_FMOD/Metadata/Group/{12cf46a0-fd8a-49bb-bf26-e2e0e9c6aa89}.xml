@@ -23,7 +23,7 @@
 	<object class="MixerBusPanner" id="{9953fde4-2657-4b96-a835-cfd91ac4ddb8}" />
 	<object class="CompressorEffect" id="{bda1a28f-9134-4620-8979-ef96fe0fdafb}">
 		<property name="threshold">
-			<value>-24</value>
+			<value>-31</value>
 		</property>
 		<property name="ratio">
 			<value>1.25</value>
