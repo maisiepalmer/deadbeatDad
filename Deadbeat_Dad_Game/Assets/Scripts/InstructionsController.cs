@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/* ORIGINAL SCRIPT
+- Makes the instruction text appear above character's heads and on doors when the player enters their trigger zone.
+*/
 public class InstructionsController : MonoBehaviour
 {
     public GameObject instructions;

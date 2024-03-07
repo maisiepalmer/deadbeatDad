@@ -7,6 +7,7 @@
 		<relationship name="items">
 			<destination>{68f911ec-8c2d-4c2c-9c1d-e202e2eb8fed}</destination>
 			<destination>{e3f0518f-875f-49dd-b3ce-247a89a52fbe}</destination>
+			<destination>{83f97c95-ebf0-455d-98a5-ad885e2195a4}</destination>
 		</relationship>
 	</object>
 	<object class="Tag" id="{68f911ec-8c2d-4c2c-9c1d-e202e2eb8fed}">
@@ -17,6 +18,11 @@
 	<object class="Tag" id="{e3f0518f-875f-49dd-b3ce-247a89a52fbe}">
 		<property name="name">
 			<value>placeholder</value>
+		</property>
+	</object>
+	<object class="Tag" id="{83f97c95-ebf0-455d-98a5-ad885e2195a4}">
+		<property name="name">
+			<value>s</value>
 		</property>
 	</object>
 </objects>

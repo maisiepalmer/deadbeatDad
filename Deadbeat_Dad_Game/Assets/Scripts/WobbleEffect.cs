@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Taken from: https://www.youtube.com/watch?v=yG4dYBfeC0g
+/* ADAPTED FROM: https://www.youtube.com/watch?v=yG4dYBfeC0g
+- Sets the wobble effect when drunk mode is on.
+*/
 public class WobbleEffect : MonoBehaviour
 {
     public Material wobbleEffectMaterial;

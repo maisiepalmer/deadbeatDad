@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+/* ORIGINAL SCRIPT
+- Controls the player transform object as scenes are changed.
+*/
 public class DoorSystem : MonoBehaviour
 {
     public GameObject exitDoor;
@@ -19,9 +22,10 @@ public class DoorSystem : MonoBehaviour
 
     public TextMeshProUGUI reasonText;
 
-    //--------------------------------------------------------------------
+    //FMOD---------------------------------------------------------
     public FMODUnity.EventReference CrashEvent;
     FMOD.Studio.EventInstance crash;
+    //-------------------------------------------------------------
     
     void OnEnable()
     {
@@ -44,15 +48,15 @@ public class DoorSystem : MonoBehaviour
                 {
                     if (hit.collider.name == exitDoor.name)
                     {
-                        // if (!stateHandler.GetExpositionComplete())
-                        // {
-                        //     stateHandler.SetInnerMonologue("I feel like I need to speak to the bartender...");
-                        // }
-                        // else 
-                        // {
+                        if (!stateHandler.GetExpositionComplete())
+                        {
+                            stateHandler.SetInnerMonologue("I feel like I need to speak to the bartender...");
+                        }
+                        else 
+                        {
                             stateHandler.PlayClick();
                             SceneManager.LoadSceneAsync("MainScene");
-                        // }     
+                        }     
                     }  
                 }
                 else

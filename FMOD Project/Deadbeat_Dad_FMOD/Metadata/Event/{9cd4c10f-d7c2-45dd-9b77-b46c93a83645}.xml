@@ -10,6 +10,9 @@
 		<relationship name="folder">
 			<destination>{eaf240e4-4d0e-4874-9ca1-736d794240aa}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{83f97c95-ebf0-455d-98a5-ad885e2195a4}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{356982fe-8ec0-40af-a2a7-8dca702da469}</destination>
 		</relationship>
@@ -63,6 +66,12 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="priority">
+			<value>3</value>
+		</property>
+		<property name="triggerCooldown">
+			<value>760</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{648e8f9c-6fad-4c43-a648-b3a6adf43164}" />
 	<object class="Timeline" id="{9f9810e2-2376-4182-b3aa-f04229a0408d}">
@@ -105,7 +114,7 @@
 	<object class="MixerBusPanner" id="{724ed400-0310-4859-a42d-922c7b654015}" />
 	<object class="MultiSound" id="{9a6ed36f-a708-46a7-acb5-f6441fbdca2f}">
 		<property name="volume">
-			<value>-8.5</value>
+			<value>-0.5</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -134,16 +143,25 @@
 		</property>
 	</object>
 	<object class="SingleSound" id="{cace4380-fe74-47c3-a846-513e6447950d}">
+		<property name="volume">
+			<value>-13</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{0404f89c-6c8b-45ee-9a42-c3718529c386}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{27cb5200-37b9-4e6d-a1fa-7bfdbc6966c0}">
+		<property name="volume">
+			<value>-10.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{dea18ed9-e920-49ec-9723-0476a07f96f6}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d107ce29-1292-4333-bde8-8c3442761dfc}">
+		<property name="volume">
+			<value>-9.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{bb0022c6-5f37-4e58-8ebd-75c08ebb8d8d}</destination>
 		</relationship>

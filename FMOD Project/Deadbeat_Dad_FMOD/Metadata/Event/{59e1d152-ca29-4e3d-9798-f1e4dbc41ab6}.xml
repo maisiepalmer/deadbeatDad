@@ -30,6 +30,7 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{eadb0557-c9b3-4eed-9d7e-8c0bff7f30b7}</destination>
+			<destination>{e6272b38-518e-4995-b887-0b9c793126a2}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{1f772538-6de3-4a73-a2ee-21f61a6d2034}</destination>
@@ -73,6 +74,11 @@
 	<object class="ActionSheet" id="{eadb0557-c9b3-4eed-9d7e-8c0bff7f30b7}">
 		<relationship name="modules">
 			<destination>{4b89a959-b69e-4c3e-ae77-eb25859f6f1f}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{e6272b38-518e-4995-b887-0b9c793126a2}">
+		<relationship name="preset">
+			<destination>{a13fc9af-2256-4cbd-9b4d-3269395dd09e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1f463f41-c591-43fc-b1c6-ef34d064cf09}">
@@ -264,10 +270,10 @@
 	</object>
 	<object class="AutomationPoint" id="{e9770ae6-13c6-4f9b-9b1b-e94192c6f4c7}">
 		<property name="position">
-			<value>49.929378531073439</value>
+			<value>28</value>
 		</property>
 		<property name="value">
-			<value>-41.9565887</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c3b6e7ee-9ae9-48d1-b3a9-b6475d85cb76}">
@@ -278,12 +284,12 @@
 			<value>-10</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.883388221</value>
+			<value>-1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9d7e0bfd-d366-4b90-9391-15a957326b68}">
 		<property name="position">
-			<value>49.646892655367232</value>
+			<value>28</value>
 		</property>
 		<property name="value">
 			<value>-80</value>

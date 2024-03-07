@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/* ORIGINAL SCRIPT
+- Quits the game when the button is pressed.
+*/
 public class WinMenu : MonoBehaviour
 {
-    public void PlayAgain()
-    {
-        SceneManager.LoadSceneAsync("Pub");
-    }
-
     public void QuitGame()
     {
         Debug.Log("Quit");

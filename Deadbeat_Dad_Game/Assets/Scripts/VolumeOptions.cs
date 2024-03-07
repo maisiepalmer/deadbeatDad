@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/* ORIGINAL SCRIPT
+- Takes the user input from the sliders and sets the corresponding VCA in FMOD.
+*/
 public class VolumeOptions : MonoBehaviour
 {
     public Slider VO, Mus, FX;

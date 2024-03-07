@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/* My own code to make movement and camera follow the mouse */
+/* ORIGINAL SCRIPT
+- Makes player movement and the camera follow the mouse position.
+*/
 public class MouseController : MonoBehaviour
 { 
     public float lookSpeed = 10.0f;

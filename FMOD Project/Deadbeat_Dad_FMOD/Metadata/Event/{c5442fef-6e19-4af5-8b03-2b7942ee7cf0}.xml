@@ -65,7 +65,7 @@
 			<value>12</value>
 		</property>
 		<property name="priority">
-			<value>3</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{8cd44f15-9a6c-457f-a094-fed937b6d1d9}" />
@@ -236,7 +236,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{01c8d21e-8b9b-45d8-a616-09594cf03733}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-8.5</value>
 		</property>
 		<property name="name">
 			<value>Steps</value>

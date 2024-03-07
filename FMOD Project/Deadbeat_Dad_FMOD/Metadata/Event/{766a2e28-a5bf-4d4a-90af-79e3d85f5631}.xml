@@ -5,7 +5,7 @@
 			<value>Siren</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3ee2b5fb-c405-49d3-a1e6-64350b46dbf5}</destination>
@@ -165,6 +165,7 @@
 			<destination>{e0343286-83d5-447c-82af-f4372558f14d}</destination>
 			<destination>{85cd62cf-4d85-4777-9199-e58e14fee6e1}</destination>
 			<destination>{b16fa5fb-c558-4e8c-920a-550132676e6f}</destination>
+			<destination>{da63aabe-ea5e-4fce-bfd0-fb71ec0511a9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{34deb45a-3f0e-4302-9427-ecee5d3dbb1c}" />
@@ -210,6 +211,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{b16fa5fb-c558-4e8c-920a-550132676e6f}" />
+	<object class="SpatialiserEffect" id="{da63aabe-ea5e-4fce-bfd0-fb71ec0511a9}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+		<property name="maximumDistance">
+			<value>750</value>
+		</property>
+	</object>
 	<object class="ADSRModulator" id="{ca9ed0a3-c79a-4418-890f-df7fb96cb0d6}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>

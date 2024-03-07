@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+/* ORIGINAL SCRIPT
+- Sets and gets the player's progress to determine the outcome of the game.
+- Handles the timer.
+- Displays warning messages and progress on the main canvas.
+*/
 public class StateHandler : MonoBehaviour
 {
     private bool hasFood = false;
@@ -25,7 +30,7 @@ public class StateHandler : MonoBehaviour
 
     int tasks = 0;
 
-//FMOD---------------------------------------------------------
+    //FMOD---------------------------------------------------------
     public FMODUnity.EventReference MusicEvent;
     FMOD.Studio.EventInstance music;
     FMOD.Studio.PARAMETER_ID tasksCompletedId, drunkId;
@@ -37,7 +42,7 @@ public class StateHandler : MonoBehaviour
     //--------------------------------------------------------------------
     public FMODUnity.EventReference SuccessEvent, FailureEvent, PenaltyEvent, ClickEvent;
     FMOD.Studio.EventInstance success, failure, penalty, click;
-//-------------------------------------------------------------
+    //-------------------------------------------------------------
 
 //---------------------------------------------------------------------------------
     void Start()

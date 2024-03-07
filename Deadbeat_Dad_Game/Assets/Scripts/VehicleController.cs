@@ -4,6 +4,11 @@ using UnityEngine;
 using System;
 using System.Runtime.InteropServices;
 
+/* ORIGINAL SCRIPT
+- Moves the vehicles forward along a straight path.
+- Detects crashes and respawns in dedicated respawn points.
+- Attempts to yield for other vehicles using raycasters.
+*/
 public class VehicleController : MonoBehaviour
 {
     private Rigidbody controller;
@@ -22,11 +27,10 @@ public class VehicleController : MonoBehaviour
         controller = GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Vector3 frameMovement = CheckAndGetMovement();
         gameObject.transform.Translate(frameMovement, Space.World);
-        controller.freezeRotation = false;
     }
 
     private void OnTriggerEnter(Collider other)

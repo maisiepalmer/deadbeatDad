@@ -64,7 +64,11 @@
 			<destination>{4adaffb0-2448-4ed4-a089-44aaf88504be}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{33f86ff6-08b5-492c-83da-aa88e2cce551}" />
+	<object class="EventAutomatableProperties" id="{33f86ff6-08b5-492c-83da-aa88e2cce551}">
+		<property name="priority">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{4355beb2-900a-467f-8e36-91f252f511de}" />
 	<object class="Timeline" id="{d3761b24-ca68-47a4-9140-11c324c9d02a}">
 		<property name="isProxyEnabled">
@@ -186,6 +190,7 @@
 		<relationship name="automationPoints">
 			<destination>{833fc20b-8e31-4b27-bf7f-fa5870f54057}</destination>
 			<destination>{b968bd28-ebfc-4ff1-b9d3-597f0d55fef7}</destination>
+			<destination>{a52083b8-844e-45e7-84e3-4171f94baecc}</destination>
 		</relationship>
 	</object>
 	<object class="ThreeEQEffect" id="{cf0309d9-cd43-4b9b-9ef2-ad1fbc7efd34}">
@@ -238,10 +243,10 @@
 			<value>0.082101806239737271</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>2.5</value>
 		</property>
 		<property name="curveShape">
-			<value>0.416248053</value>
+			<value>0.0724154711</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{b968bd28-ebfc-4ff1-b9d3-597f0d55fef7}">
@@ -250,6 +255,14 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{a52083b8-844e-45e7-84e3-4171f94baecc}">
+		<property name="position">
+			<value>40.51724061677097</value>
+		</property>
+		<property name="value">
+			<value>-18.7681026</value>
 		</property>
 	</object>
 	<object class="Automator" id="{47891f13-868d-448c-a6b2-e18180c046c9}">
@@ -271,10 +284,10 @@
 	</object>
 	<object class="AutomationPoint" id="{e9f8e980-5167-4734-9129-176042c06060}">
 		<property name="position">
-			<value>37</value>
+			<value>40</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-4</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.442068964</value>

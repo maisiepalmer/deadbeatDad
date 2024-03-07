@@ -5,7 +5,7 @@
 			<value>Crash</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3ee2b5fb-c405-49d3-a1e6-64350b46dbf5}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{dac3b6c4-13ca-4e1a-84f2-bd3db2b27084}">
 		<property name="maxVoices">
-			<value>8</value>
+			<value>20</value>
 		</property>
 		<property name="voiceStealing">
 			<value>4</value>
@@ -258,6 +258,7 @@
 			<destination>{4994f366-c81b-46ba-ad5e-2e9de890451e}</destination>
 			<destination>{a7d87660-bc6c-49de-baa7-21e0cdd5603e}</destination>
 			<destination>{93abf7cb-54d1-4b18-83df-ce110534a74b}</destination>
+			<destination>{a4f32674-0cc9-4d64-8a4d-e4a47353533a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{da416d16-a33c-4a44-aaad-acdfdf29fe74}" />
@@ -389,6 +390,14 @@
 	</object>
 	<object class="DistortionEffect" id="{a7d87660-bc6c-49de-baa7-21e0cdd5603e}" />
 	<object class="MixerBusFader" id="{93abf7cb-54d1-4b18-83df-ce110534a74b}" />
+	<object class="SpatialiserEffect" id="{a4f32674-0cc9-4d64-8a4d-e4a47353533a}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+		<property name="maximumDistance">
+			<value>55</value>
+		</property>
+	</object>
 	<object class="DistortionEffect" id="{fd6a4cbf-c972-4049-9210-981d6f7cd4e8}">
 		<relationship name="automators">
 			<destination>{748333e8-1a46-49fb-b89c-073c63db297d}</destination>

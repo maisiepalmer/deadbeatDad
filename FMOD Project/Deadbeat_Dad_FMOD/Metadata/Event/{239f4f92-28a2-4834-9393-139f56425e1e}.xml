@@ -30,6 +30,7 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{d35c98e5-7253-4d97-8e71-b7bb5d04e5df}</destination>
+			<destination>{4ba8cbf5-5e08-4bb3-8dc7-99fff1524408}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{1f772538-6de3-4a73-a2ee-21f61a6d2034}</destination>
@@ -64,7 +65,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{da97f1aa-e6f4-40a2-a7d5-aa114bc4775b}">
 		<property name="priority">
-			<value>0</value>
+			<value>3</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{67d4e307-d79d-4d16-acd4-04ca5afac00c}" />
@@ -76,6 +77,11 @@
 	<object class="ActionSheet" id="{d35c98e5-7253-4d97-8e71-b7bb5d04e5df}">
 		<relationship name="modules">
 			<destination>{64b404cf-92a7-4cef-afe3-4fefd573174e}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{4ba8cbf5-5e08-4bb3-8dc7-99fff1524408}">
+		<relationship name="preset">
+			<destination>{a13fc9af-2256-4cbd-9b4d-3269395dd09e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a3b91131-d6a3-42b9-a0de-913f4ea7e06b}">
@@ -116,6 +122,9 @@
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
 		</property>
+		<relationship name="automationCurves">
+			<destination>{ce962b05-9ab6-4d05-972b-68684b25e54a}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{cb8a4e23-2f57-476f-b9ca-51ebeb336fa8}">
 		<relationship name="effects">
@@ -156,6 +165,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2b0add3a-cb02-4643-8aaf-eeb6aa3d1abd}" />
+	<object class="AutomationCurve" id="{ce962b05-9ab6-4d05-972b-68684b25e54a}">
+		<relationship name="parameter">
+			<destination>{a13fc9af-2256-4cbd-9b4d-3269395dd09e}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{8f0ccd54-28c8-4932-b6ea-1cac0e64d5d0}</destination>
+			<destination>{1d19a144-7bf3-4623-8a43-50aa5fa12eff}</destination>
+		</relationship>
+	</object>
 	<object class="SpatialiserEffect" id="{f4b706fd-b81c-4343-ae86-572c30d4b441}">
 		<property name="distanceRolloffType">
 			<value>4</value>
@@ -190,6 +208,25 @@
 			<value>-80</value>
 		</property>
 		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{8f0ccd54-28c8-4932-b6ea-1cac0e64d5d0}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+		<property name="curveShape">
+			<value>0.192728937</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{1d19a144-7bf3-4623-8a43-50aa5fa12eff}">
+		<property name="position">
+			<value>75</value>
+		</property>
+		<property name="value">
 			<value>-80</value>
 		</property>
 	</object>

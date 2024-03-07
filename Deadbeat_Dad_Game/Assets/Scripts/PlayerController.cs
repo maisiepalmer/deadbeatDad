@@ -4,6 +4,13 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
+/* ADAPTED FROM: https://www.sharpcoderblog.com/blog/unity-3d-fps-controller 
+    With alterations:
+    - Unneded code blocks removed
+    - Neatened and tidied up
+    - Extra parameters added where needed
+    - FMOD integration
+*/
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerController : MonoBehaviour
 {
@@ -17,11 +24,13 @@ public class PlayerController : MonoBehaviour
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
 
+    //FMOD---------------------------------------------------------
     public FMODUnity.EventReference FootstepsEvent;
     public FMODUnity.EventReference EffortsEvent;
     float timer = 0.0f;
     [SerializeField]
     float footstepSpeed = 0.5f;
+    //-------------------------------------------------------------
 
     [HideInInspector]
     public bool canMove = true;
@@ -34,13 +43,6 @@ public class PlayerController : MonoBehaviour
         mouse.SetForward(77.0f);
     }
 
-    /* ADAPTED FROM: https://www.sharpcoderblog.com/blog/unity-3d-fps-controller 
-    With alterations:
-    - Unneded code blocks removed
-    - Neatened and tidied up
-    - Extra parameters added where needed
-    - FMOD integration
-    */
     void Update()
     {
         // We are grounded, so recalculate move direction based on axes

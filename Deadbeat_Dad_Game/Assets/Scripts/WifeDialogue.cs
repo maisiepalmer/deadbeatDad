@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/* ORIGINAL SCRIPT
+- Prepares the state handler for when the user will interract with the wife.
+*/
 public class WifeDialogue : MonoBehaviour
 {
     public StateHandler stateHandler;

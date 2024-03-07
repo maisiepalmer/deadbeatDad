@@ -5689,7 +5689,7 @@ MonoBehaviour:
       Data2: 1312672297
       Data3: -453928809
       Data4: -1239759653
-    Path: event:/FX/Pub/Jukebox
+    Path: event:/Atmos/Pub/Jukebox
   Event: 
   PlayEvent: 1
   StopEvent: 2

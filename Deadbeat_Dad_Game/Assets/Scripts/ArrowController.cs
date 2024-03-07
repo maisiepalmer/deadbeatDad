@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/* ORIGINAL SCRIPT
+- Controls the arrow that constantly poinst towards a given target.
+*/
 public class ArrowController : MonoBehaviour
 {
     public GameObject target;
