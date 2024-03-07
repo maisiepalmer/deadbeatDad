@@ -12,7 +12,7 @@
 
 ![Screenshot 2024-03-03 at 19 05 08](https://github.com/maisiepalmer/deadbeatDad/assets/91949439/b00c3afb-4b73-42e1-aad8-b64842be3267)
 
-5. If there is no dialogue, head to [Banks > Master > Dialogue_Table] and check the [Source Direcory] is set to your newly unzipped *DIALOGUE_TABLE*.
+5. If there is no dialogue, head to [Banks > Master > Dialogue_Table] and check the [Source Directory] is set to your newly unzipped *DIALOGUE_TABLE*.
 
 ![Screenshot 2024-03-03 at 19 08 48](https://github.com/maisiepalmer/deadbeatDad/assets/91949439/331b16de-a4ee-4327-a394-4a5388e51261)
 
