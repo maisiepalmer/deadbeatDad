@@ -40578,6 +40578,9 @@ PrefabInstance:
       addedObject: {fileID: 1931779070}
     - targetCorrespondingSourceObject: {fileID: 183828, guid: 5f6cbb0f4dd572e47ab1ee6c2a3a36d1, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1931779075}
+    - targetCorrespondingSourceObject: {fileID: 183828, guid: 5f6cbb0f4dd572e47ab1ee6c2a3a36d1, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1931779069}
     - targetCorrespondingSourceObject: {fileID: 183828, guid: 5f6cbb0f4dd572e47ab1ee6c2a3a36d1, type: 3}
       insertIndex: -1
@@ -40588,9 +40591,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 183828, guid: 5f6cbb0f4dd572e47ab1ee6c2a3a36d1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1931779074}
-    - targetCorrespondingSourceObject: {fileID: 183828, guid: 5f6cbb0f4dd572e47ab1ee6c2a3a36d1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1931779075}
   m_SourcePrefab: {fileID: 100100000, guid: 5f6cbb0f4dd572e47ab1ee6c2a3a36d1, type: 3}
 --- !u!1 &1931779068 stripped
 GameObject:
@@ -40734,7 +40734,7 @@ MonoBehaviour:
     Path: snapshot:/FastFood
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0

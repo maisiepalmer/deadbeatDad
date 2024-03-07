@@ -66,21 +66,17 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="voiceStealing">
+			<value>1</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{0767a9c9-8806-42ae-b117-9c8e37dc521d}" />
 	<object class="GroupTrack" id="{e6b89408-bb54-425d-a14c-b823a6f51e79}">
-		<relationship name="modules">
-			<destination>{fe803f26-06c9-4302-ba65-df4da83fea57}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{5aefe00f-f261-4325-ab8b-7ea8cffd8156}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{15a9f49d-a6d4-4a38-b8a3-586401a1315b}">
-		<relationship name="modules">
-			<destination>{fe803f26-06c9-4302-ba65-df4da83fea57}</destination>
-		</relationship>
-	</object>
+	<object class="Timeline" id="{15a9f49d-a6d4-4a38-b8a3-586401a1315b}" />
 	<object class="ActionSheet" id="{e937f26f-0bbc-483b-a29f-71fac9f57cd4}">
 		<relationship name="modules">
 			<destination>{feb6264f-d767-49b7-9785-cf5f97573758}</destination>
@@ -108,14 +104,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2137fbec-b48d-40c5-b5aa-e9267761061a}" />
-	<object class="SnapshotModule" id="{fe803f26-06c9-4302-ba65-df4da83fea57}">
-		<property name="length">
-			<value>2</value>
-		</property>
-		<relationship name="event">
-			<destination>{d5f2583b-6847-4db7-bad3-0390cd5cf03f}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{5aefe00f-f261-4325-ab8b-7ea8cffd8156}">
 		<property name="name">
 			<value>GameOver</value>

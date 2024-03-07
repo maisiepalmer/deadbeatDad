@@ -66,8 +66,11 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="voiceStealing">
+			<value>1</value>
+		</property>
 		<property name="priority">
-			<value>3</value>
+			<value>4</value>
 		</property>
 		<property name="triggerCooldown">
 			<value>760</value>
@@ -113,9 +116,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{724ed400-0310-4859-a42d-922c7b654015}" />
 	<object class="MultiSound" id="{9a6ed36f-a708-46a7-acb5-f6441fbdca2f}">
-		<property name="volume">
-			<value>-0.5</value>
-		</property>
 		<property name="playlistMode">
 			<value>1</value>
 		</property>

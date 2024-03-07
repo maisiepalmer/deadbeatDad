@@ -66,8 +66,14 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8e9f9704-19a0-4ecd-8911-75c159220ae4}">
+		<property name="maxVoices">
+			<value>4</value>
+		</property>
+		<property name="voiceStealing">
+			<value>2</value>
+		</property>
 		<property name="priority">
-			<value>0</value>
+			<value>3</value>
 		</property>
 		<property name="dopplerEnabled">
 			<value>true</value>
@@ -170,9 +176,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{34deb45a-3f0e-4302-9427-ecee5d3dbb1c}" />
 	<object class="SingleSound" id="{bc6a6ec9-7d9f-4478-8fd4-966db177bdbf}">
-		<property name="volume">
-			<value>-6</value>
-		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>

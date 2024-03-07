@@ -82,6 +82,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="voiceStealing">
+			<value>1</value>
+		</property>
 		<property name="priority">
 			<value>4</value>
 		</property>
@@ -220,7 +223,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{80b40274-e65e-4cb3-9577-447dcfbfd0d5}">
 		<property name="volume">
-			<value>-20.5</value>
+			<value>-12</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6a2a565c-1470-446c-b43b-6814e0032a2c}</destination>
@@ -615,6 +618,12 @@
 		<property name="length">
 			<value>96</value>
 		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{21cc7452-daea-43cc-a004-cbad9d167fdf}</destination>
 		</relationship>
@@ -626,6 +635,12 @@
 		<property name="length">
 			<value>96</value>
 		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{0112f818-4847-480b-907f-7e8c03447740}</destination>
 		</relationship>
@@ -636,6 +651,12 @@
 	<object class="SnapshotModule" id="{974d6bfd-1cea-4255-be71-03c75b172560}">
 		<property name="length">
 			<value>96</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+		<property name="maxVoices">
+			<value>1</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{4d9ab1d4-fc5b-45b3-bb10-5c6a90caac18}</destination>
