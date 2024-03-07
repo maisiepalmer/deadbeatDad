@@ -16,7 +16,7 @@
 
 ![Screenshot 2024-03-03 at 19 08 48](https://github.com/maisiepalmer/deadbeatDad/assets/91949439/331b16de-a4ee-4327-a394-4a5388e51261)
 
-5. Have fun!
+6. Have fun!
 
 # Game Synopsis
 You play as an absentee parent, waking up after another night getting smashed at the pub. What’s this? Your wife’s calling… and she doesn’t sound happy. Your job is to run all her errands in time for your son’s big game tonight. Be careful: some of the people in this town like to talk a lot, and the road rage on some of these people is crazy! 
